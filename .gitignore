@@ -1,6 +1,7 @@
 .gradle
 build/
 local.properties
+node_modules/
 !gradle/wrapper/gradle-wrapper.jar
 .kotlin
 

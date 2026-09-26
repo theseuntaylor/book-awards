@@ -47,6 +47,20 @@ moving it to a bundled JSON/CSV resource file parsed with `kotlinx-serialization
 `Award`, `NominationStatus`, and `Nomination` types in `Models.kt` are already shaped for
 that.
 
+## Design seed
+
+The theme is derived from the 64-character hex string in `design/seed`:
+
+- Characters 1–6 are the M3 seed color. It runs through Material's tonal spot algorithm to produce the light and dark color schemes.
+
+To change the design, edit the seed and regenerate:
+
+```
+cd design && npm install && npm run generate
+```
+
+This rewrites `theme/Color.kt`. Don't edit that file by hand.
+
 ## Award scope
 
 Currently modeled: Booker Prize, Pulitzer Prize for Fiction, National Book Award for Fiction
