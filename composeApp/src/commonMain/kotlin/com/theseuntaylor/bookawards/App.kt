@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
+import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
@@ -27,11 +28,12 @@ import com.theseuntaylor.bookawards.data.Nomination
 import com.theseuntaylor.bookawards.data.filterByAwards
 import com.theseuntaylor.bookawards.data.sampleNominations
 import com.theseuntaylor.bookawards.data.toggle
+import com.theseuntaylor.bookawards.theme.BookAwardsTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun App() {
-    MaterialTheme {
+fun App(dynamicColorScheme: ColorScheme? = null) {
+    BookAwardsTheme(dynamicColorScheme) {
         var selectedAwards by remember { mutableStateOf(Award.entries.toSet()) }
 
         val visibleNominations = sampleNominations.filterByAwards(selectedAwards)
