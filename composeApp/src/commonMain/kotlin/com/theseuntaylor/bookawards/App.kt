@@ -151,7 +151,7 @@ private fun NominationList(
 private fun YearHeader(year: Int) {
     Text(
         text = year.toString(),
-        style = MaterialTheme.typography.titleMedium,
+        style = MaterialTheme.typography.headlineSmall,
         color = MaterialTheme.colorScheme.primary,
         modifier = Modifier
             .fillMaxWidth()
