@@ -23,7 +23,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.theseuntaylor.bookawards.data.Award
 import com.theseuntaylor.bookawards.data.Nomination
+import com.theseuntaylor.bookawards.data.filterByAwards
 import com.theseuntaylor.bookawards.data.sampleNominations
+import com.theseuntaylor.bookawards.data.toggle
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -31,9 +33,7 @@ fun App() {
     MaterialTheme {
         var selectedAwards by remember { mutableStateOf(Award.entries.toSet()) }
 
-        val visibleNominations = sampleNominations
-            .filter { it.award in selectedAwards }
-            .sortedWith(compareByDescending<Nomination> { it.year }.thenBy { it.award.displayName })
+        val visibleNominations = sampleNominations.filterByAwards(selectedAwards)
 
         Scaffold(
             topBar = { TopAppBar(title = { Text("Book Awards") }) }
@@ -41,13 +41,7 @@ fun App() {
             Column(modifier = Modifier.padding(padding)) {
                 AwardFilterRow(
                     selectedAwards = selectedAwards,
-                    onToggle = { award ->
-                        selectedAwards = if (award in selectedAwards) {
-                            selectedAwards - award
-                        } else {
-                            selectedAwards + award
-                        }
-                    }
+                    onToggle = { award -> selectedAwards = selectedAwards.toggle(award) }
                 )
                 NominationList(visibleNominations)
             }
