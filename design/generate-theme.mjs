@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { argbFromHex, Hct, MaterialDynamicColors, SchemeTonalSpot } from '@material/material-color-utilities';
@@ -10,6 +10,18 @@ if (!/^[0-9a-f]{64}$/.test(seed)) {
 }
 
 const seedColor = `#${seed.slice(0, 6)}`;
+
+// Order matters: the seed indexes into these lists, so reordering changes the design.
+const headingFonts = [
+  'Lora', 'Merriweather', 'Playfair Display', 'Source Serif 4',
+  'Crimson Pro', 'Fraunces', 'EB Garamond', 'Newsreader',
+];
+const bodyFonts = [
+  'Inter', 'Source Sans 3', 'Nunito Sans', 'Work Sans',
+  'IBM Plex Sans', 'DM Sans', 'Figtree', 'Manrope',
+];
+const headingFont = headingFonts[parseInt(seed.slice(6, 8), 16) % headingFonts.length];
+const bodyFont = bodyFonts[parseInt(seed.slice(8, 10), 16) % bodyFonts.length];
 
 const colorRoles = [
   'primary', 'onPrimary', 'primaryContainer', 'onPrimaryContainer', 'inversePrimary',
@@ -51,3 +63,26 @@ ${colorSchemeArgs(true)}
 
 writeFileSync(join(root, 'composeApp/src/commonMain/kotlin/com/theseuntaylor/bookawards/theme/Color.kt'), colorKt);
 console.log(`Seed color ${seedColor} -> Color.kt`);
+
+// M3's type scale only uses regular (400) and medium (500).
+const fontWeights = { regular: 400, medium: 500 };
+const fontDir = join(root, 'composeApp/src/commonMain/composeResources/font');
+mkdirSync(fontDir, { recursive: true });
+
+async function downloadFont(family, role) {
+  const weights = Object.values(fontWeights).join(';');
+  const cssUrl = `https://fonts.googleapis.com/css2?family=${family.replaceAll(' ', '+')}:wght@${weights}`;
+  // A non-browser user agent makes Google Fonts serve static TTF files.
+  const css = await (await fetch(cssUrl, { headers: { 'User-Agent': 'book-awards-generator' } })).text();
+  for (const [name, weight] of Object.entries(fontWeights)) {
+    const block = css.split('@font-face').find((b) => b.includes(`font-weight: ${weight};`));
+    const url = block?.match(/url\((https:[^)]+\.ttf)\)/)?.[1];
+    if (!url) throw new Error(`No ${weight} TTF for ${family}`);
+    const bytes = Buffer.from(await (await fetch(url)).arrayBuffer());
+    writeFileSync(join(fontDir, `${role}_${name}.ttf`), bytes);
+  }
+  console.log(`${role} font: ${family}`);
+}
+
+await downloadFont(headingFont, 'heading');
+await downloadFont(bodyFont, 'body');

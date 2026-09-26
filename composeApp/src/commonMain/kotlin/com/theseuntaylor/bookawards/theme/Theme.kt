@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 fun BookAwardsTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = if (isSystemInDarkTheme()) DarkColorScheme else LightColorScheme,
+        typography = bookAwardsTypography(),
         content = content
     )
 }

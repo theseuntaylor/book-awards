@@ -52,6 +52,8 @@ that.
 The theme is derived from the 64-character hex string in `design/seed`:
 
 - Characters 1–6 are the M3 seed color. It runs through Material's tonal spot algorithm to produce the light and dark color schemes.
+- Characters 7–8 pick the heading font (display, headline, and title roles) from a fixed list of serif fonts in `design/generate-theme.mjs`.
+- Characters 9–10 pick the body font (body and label roles) from a fixed list of sans-serif fonts.
 
 To change the design, edit the seed and regenerate:
 
@@ -59,7 +61,7 @@ To change the design, edit the seed and regenerate:
 cd design && npm install && npm run generate
 ```
 
-This rewrites `theme/Color.kt`. Don't edit that file by hand.
+This rewrites `theme/Color.kt` and the font files in `composeResources/font/`. Don't edit those by hand.
 
 ## Award scope
 
