@@ -1,5 +1,6 @@
 package com.theseuntaylor.bookawards
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -75,17 +76,34 @@ private fun NominationList(nominations: List<Nomination>) {
         contentPadding = PaddingValues(16.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        items(nominations) { nomination ->
-            NominationCard(nomination)
+        nominations.groupBy { it.year }.forEach { (year, nominationsForYear) ->
+            stickyHeader(key = year) {
+                YearHeader(year)
+            }
+            items(nominationsForYear) { nomination ->
+                NominationCard(nomination)
+            }
         }
     }
+}
+
+@Composable
+private fun YearHeader(year: Int) {
+    Text(
+        text = year.toString(),
+        style = MaterialTheme.typography.titleLarge,
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(MaterialTheme.colorScheme.background)
+            .padding(vertical = 8.dp)
+    )
 }
 
 @Composable
 private fun NominationCard(nomination: Nomination) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(modifier = Modifier.padding(12.dp)) {
-            Text("${nomination.year} · ${nomination.award.displayName}", style = MaterialTheme.typography.labelMedium)
+            Text(nomination.award.displayName, style = MaterialTheme.typography.labelMedium)
             Text(nomination.title, style = MaterialTheme.typography.titleMedium)
             Text(nomination.author, style = MaterialTheme.typography.bodyMedium)
             Text(nomination.status.label, style = MaterialTheme.typography.labelSmall)
