@@ -6,9 +6,11 @@ android-compileSdk = "36"
 android-targetSdk = "36"
 android-minSdk = "26"
 androidx-activityCompose = "1.11.0"
+compose-materialIcons = "1.7.3"
 
 [libraries]
-kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+compose-material-icons-core = { module = "org.jetbrains.compose.material:material-icons-core", version.ref = "compose-materialIcons" }
+kotlin-test ={ module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 
 [plugins]
