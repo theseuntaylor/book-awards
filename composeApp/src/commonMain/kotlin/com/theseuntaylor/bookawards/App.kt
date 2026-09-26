@@ -15,12 +15,12 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Done
-import androidx.compose.material3.Card
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -39,6 +39,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.theseuntaylor.bookawards.data.Award
 import com.theseuntaylor.bookawards.data.Nomination
+import com.theseuntaylor.bookawards.data.NominationStatus
 import com.theseuntaylor.bookawards.data.filterByAwards
 import com.theseuntaylor.bookawards.data.sampleNominations
 import com.theseuntaylor.bookawards.data.toggle
@@ -134,15 +135,14 @@ private fun NominationList(
 ) {
     LazyColumn(
         modifier = modifier,
-        contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 16.dp + bottomInset),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+        contentPadding = PaddingValues(bottom = 16.dp + bottomInset)
     ) {
         nominations.groupBy { it.year }.forEach { (year, nominationsForYear) ->
             stickyHeader(key = year) {
                 YearHeader(year)
             }
             items(nominationsForYear) { nomination ->
-                NominationCard(nomination)
+                NominationListItem(nomination)
             }
         }
     }
@@ -152,22 +152,28 @@ private fun NominationList(
 private fun YearHeader(year: Int) {
     Text(
         text = year.toString(),
-        style = MaterialTheme.typography.titleLarge,
+        style = MaterialTheme.typography.titleMedium,
+        color = MaterialTheme.colorScheme.primary,
         modifier = Modifier
             .fillMaxWidth()
-            .background(MaterialTheme.colorScheme.background)
-            .padding(vertical = 8.dp)
+            .background(MaterialTheme.colorScheme.surface)
+            .padding(horizontal = 16.dp, vertical = 12.dp)
     )
 }
 
 @Composable
-private fun NominationCard(nomination: Nomination) {
-    Card(modifier = Modifier.fillMaxWidth()) {
-        Column(modifier = Modifier.padding(12.dp)) {
-            Text(nomination.award.displayName, style = MaterialTheme.typography.labelMedium)
-            Text(nomination.title, style = MaterialTheme.typography.titleMedium)
-            Text(nomination.author, style = MaterialTheme.typography.bodyMedium)
-            Text(nomination.status.label, style = MaterialTheme.typography.labelSmall)
+private fun NominationListItem(nomination: Nomination) {
+    val isWinner = nomination.status == NominationStatus.WINNER
+    ListItem(
+        overlineContent = { Text(nomination.award.displayName) },
+        headlineContent = { Text(nomination.title) },
+        supportingContent = { Text(nomination.author) },
+        trailingContent = {
+            Text(
+                text = nomination.status.label,
+                style = MaterialTheme.typography.labelMedium,
+                color = if (isWinner) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
+            )
         }
-    }
+    )
 }
