@@ -1,0 +1,27 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin
+
+### IntelliJ IDEA / Android Studio ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+
+### Xcode ###
+iosApp/**/xcuserdata/
+iosApp/**/*.xcworkspace/xcuserdata/
+iosApp/build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+### macOS ###
+.DS_Store
