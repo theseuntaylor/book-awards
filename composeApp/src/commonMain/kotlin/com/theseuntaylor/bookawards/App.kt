@@ -1,5 +1,6 @@
 package com.theseuntaylor.bookawards
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -22,14 +23,19 @@ import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.theseuntaylor.bookawards.data.Award
 import com.theseuntaylor.bookawards.data.Nomination
@@ -45,17 +51,42 @@ fun App(dynamicColorScheme: ColorScheme? = null) {
         var selectedAwards by remember { mutableStateOf(Award.entries.toSet()) }
 
         val visibleNominations = sampleNominations.filterByAwards(selectedAwards)
+        val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
+        val barColor by animateColorAsState(
+            if (scrollBehavior.state.overlappedFraction > 0.01f) {
+                MaterialTheme.colorScheme.surfaceContainer
+            } else {
+                MaterialTheme.colorScheme.surface
+            }
+        )
 
         Scaffold(
-            topBar = { TopAppBar(title = { Text("Book Awards") }) }
-        ) { padding ->
-            Column(modifier = Modifier.padding(padding)) {
-                AwardFilterRow(
-                    selectedAwards = selectedAwards,
-                    onToggle = { award -> selectedAwards = selectedAwards.toggle(award) }
-                )
-                NominationList(visibleNominations)
+            modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
+            topBar = {
+                // The chips live in the bar's surface so both change color together on scroll.
+                Surface(color = barColor) {
+                    Column {
+                        TopAppBar(
+                            title = { Text("Book Awards") },
+                            scrollBehavior = scrollBehavior,
+                            colors = TopAppBarDefaults.topAppBarColors(
+                                containerColor = Color.Transparent,
+                                scrolledContainerColor = Color.Transparent
+                            )
+                        )
+                        AwardFilterRow(
+                            selectedAwards = selectedAwards,
+                            onToggle = { award -> selectedAwards = selectedAwards.toggle(award) }
+                        )
+                    }
+                }
             }
+        ) { padding ->
+            NominationList(
+                nominations = visibleNominations,
+                modifier = Modifier.padding(top = padding.calculateTopPadding()),
+                bottomInset = padding.calculateBottomPadding()
+            )
         }
     }
 }
@@ -96,9 +127,14 @@ private fun AwardFilterRow(
 }
 
 @Composable
-private fun NominationList(nominations: List<Nomination>) {
+private fun NominationList(
+    nominations: List<Nomination>,
+    modifier: Modifier = Modifier,
+    bottomInset: Dp = 0.dp
+) {
     LazyColumn(
-        contentPadding = PaddingValues(16.dp),
+        modifier = modifier,
+        contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 16.dp + bottomInset),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         nominations.groupBy { it.year }.forEach { (year, nominationsForYear) ->
