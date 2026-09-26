@@ -67,7 +67,9 @@ console.log(`Seed color ${seedColor} -> Color.kt`);
 // M3's type scale only uses regular (400) and medium (500).
 const fontWeights = { regular: 400, medium: 500 };
 const fontDir = join(root, 'composeApp/src/commonMain/composeResources/font');
+const licenseDir = join(root, 'composeApp/src/commonMain/composeResources/files/font-licenses');
 mkdirSync(fontDir, { recursive: true });
+mkdirSync(licenseDir, { recursive: true });
 
 async function downloadFont(family, role) {
   const weights = Object.values(fontWeights).join(';');
@@ -81,6 +83,11 @@ async function downloadFont(family, role) {
     const bytes = Buffer.from(await (await fetch(url)).arrayBuffer());
     writeFileSync(join(fontDir, `${role}_${name}.ttf`), bytes);
   }
+  // The SIL Open Font License requires its text to ship with the font files.
+  const licenseUrl = `https://raw.githubusercontent.com/google/fonts/main/ofl/${family.replaceAll(' ', '').toLowerCase()}/OFL.txt`;
+  const license = await fetch(licenseUrl);
+  if (!license.ok) throw new Error(`No OFL license found for ${family}`);
+  writeFileSync(join(licenseDir, `${role}-OFL.txt`), await license.text());
   console.log(`${role} font: ${family}`);
 }
 
