@@ -20,7 +20,8 @@ internal fun NominationList(
     readingStatuses: Map<String, ReadingStatus>,
     onOpenNomination: (Nomination) -> Unit,
     modifier: Modifier = Modifier,
-    bottomInset: Dp = 0.dp
+    bottomInset: Dp = 0.dp,
+    footer: (@Composable () -> Unit)? = null
 ) {
     val listState = rememberLazyListState()
     val atTop by remember { derivedStateOf { listState.firstVisibleItemIndex == 0 && listState.firstVisibleItemScrollOffset == 0 } }
@@ -45,5 +46,6 @@ internal fun NominationList(
                 )
             }
         }
+        if (footer != null) item(key = "footer") { footer() }
     }
 }

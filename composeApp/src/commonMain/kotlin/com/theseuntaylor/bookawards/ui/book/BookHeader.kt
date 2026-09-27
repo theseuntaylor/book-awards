@@ -31,7 +31,8 @@ internal fun BookHeader(nomination: Nomination, bookInfo: BookInfoState) {
                 .clip(MaterialTheme.shapes.small)
                 .background(MaterialTheme.colorScheme.surfaceVariant)
         ) {
-            info?.coverUrl?.let { url ->
+            // The stored cover shows at once; the lookup only fills in books the pipeline found no cover for.
+            (nomination.coverLargeUrl ?: info?.coverUrl)?.let { url ->
                 AsyncImage(
                     model = url,
                     contentDescription = "Cover of ${nomination.title}",
