@@ -1,4 +1,4 @@
-package com.theseuntaylor.bookawards.ui.list
+package com.theseuntaylor.bookawards.ui.common
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
