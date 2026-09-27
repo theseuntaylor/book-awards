@@ -1,0 +1,110 @@
+{
+  "remove": [
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2020,
+      "wikidataId": "Q1784288",
+      "reason": "Invisible Man won in 1953, not 2020.",
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2024,
+      "wikidataId": "Q123280652",
+      "reason": "Blackouts won in 2023. The 2024 winner is James.",
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1939,
+      "wikidataId": "Q215983",
+      "reason": "An early booksellers' award (1935-1941), not the National Book Award for Fiction that began in 1950.",
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction"
+    }
+  ],
+  "update": [
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "wikidataId": "Q1784288",
+      "set": { "status": "WINNER" },
+      "reason": "Invisible Man won in 1953; Wikidata records it only as a nominee.",
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "wikidataId": "Q122864671",
+      "set": { "status": "SHORTLIST" },
+      "reason": "If I Survive You was shortlisted; Wikidata has no nomination level.",
+      "source": "https://en.wikipedia.org/wiki/2023_Booker_Prize"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "wikidataId": "Q116776970",
+      "set": { "status": "SHORTLIST" },
+      "reason": "This Other Eden was shortlisted; Wikidata has no nomination level.",
+      "source": "https://en.wikipedia.org/wiki/2023_Booker_Prize"
+    }
+  ],
+  "add": [
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2017,
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction",
+      "nominations": [
+        { "title": "Sing, Unburied, Sing", "author": "Jesmyn Ward", "status": "WINNER", "wikidataId": "Q42530254" }
+      ]
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction",
+      "nominations": [
+        { "title": "The Friend", "author": "Sigrid Nunez", "status": "WINNER", "wikidataId": "Q58692425" }
+      ]
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2021,
+      "source": "https://en.wikipedia.org/wiki/National_Book_Award_for_Fiction",
+      "nominations": [
+        { "title": "Hell of a Book", "author": "Jason Mott", "status": "WINNER", "wikidataId": "Q111661684" }
+      ]
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "source": "https://en.wikipedia.org/wiki/2023_Booker_Prize",
+      "nominations": [
+        { "title": "A Spell of Good Things", "author": "Ayọ̀bámi Adébáyọ̀", "status": "LONGLIST" },
+        { "title": "Old God's Time", "author": "Sebastian Barry", "status": "LONGLIST" },
+        { "title": "The House of Doors", "author": "Tan Twan Eng", "status": "LONGLIST" },
+        { "title": "How to Build a Boat", "author": "Elaine Feeney", "status": "LONGLIST" },
+        { "title": "Pearl", "author": "Siân Hughes", "status": "LONGLIST" },
+        { "title": "All the Little Bird-Hearts", "author": "Viktoria Lloyd-Barlow", "status": "LONGLIST" },
+        { "title": "In Ascension", "author": "Martin MacInnes", "status": "LONGLIST" }
+      ]
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "source": "https://en.wikipedia.org/wiki/2024_Booker_Prize",
+      "nominations": [
+        { "title": "James", "author": "Percival Everett", "status": "SHORTLIST" },
+        { "title": "Creation Lake", "author": "Rachel Kushner", "status": "SHORTLIST" },
+        { "title": "Held", "author": "Anne Michaels", "status": "SHORTLIST" },
+        { "title": "Stone Yard Devotional", "author": "Charlotte Wood", "status": "SHORTLIST" },
+        { "title": "The Safekeep", "author": "Yael van der Wouden", "status": "SHORTLIST" },
+        { "title": "Wild Houses", "author": "Colin Barrett", "status": "LONGLIST" },
+        { "title": "Headshot", "author": "Rita Bullwinkel", "status": "LONGLIST" },
+        { "title": "My Friends", "author": "Hisham Matar", "status": "LONGLIST" },
+        { "title": "This Strange Eventful History", "author": "Claire Messud", "status": "LONGLIST" },
+        { "title": "Wandering Stars", "author": "Tommy Orange", "status": "LONGLIST" },
+        { "title": "Enlightenment", "author": "Sarah Perry", "status": "LONGLIST" },
+        { "title": "Playground", "author": "Richard Powers", "status": "LONGLIST" }
+      ]
+    }
+  ]
+}

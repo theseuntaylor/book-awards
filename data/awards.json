@@ -1,0 +1,5828 @@
+{
+  "nominations": [
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Flesh",
+      "author": "David Szalay",
+      "status": "WINNER",
+      "wikidataId": "Q134600232"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Audition",
+      "author": "Katie Kitamura",
+      "status": "SHORTLIST",
+      "wikidataId": "Q132861298"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Flashlight",
+      "author": "Susan Choi",
+      "status": "SHORTLIST",
+      "wikidataId": "Q134884449"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "The Land in Winter",
+      "author": "Andrew Miller",
+      "status": "SHORTLIST",
+      "wikidataId": "Q136341300"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "The Loneliness of Sonia and Sunny",
+      "author": "Kiran Desai",
+      "status": "SHORTLIST",
+      "wikidataId": "Q133812579"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "The Rest of Our Lives",
+      "author": "Benjamin Markovits",
+      "status": "SHORTLIST",
+      "wikidataId": "Q136335010"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Endling",
+      "author": "Maria Reva",
+      "status": "LONGLIST",
+      "wikidataId": "Q136148308"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Love Forms",
+      "author": "Claire Adam",
+      "status": "LONGLIST",
+      "wikidataId": "Q135679611"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Misinterpretation",
+      "author": "Ledia Xhoga",
+      "status": "LONGLIST",
+      "wikidataId": "Q136352404"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "One Boat",
+      "author": "Jonathan Buckley",
+      "status": "LONGLIST",
+      "wikidataId": "Q136312678"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Seascraper",
+      "author": "Benjamin Wood",
+      "status": "LONGLIST",
+      "wikidataId": "Q136352250"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "The South",
+      "author": "Tash Aw",
+      "status": "LONGLIST",
+      "wikidataId": "Q136297389"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2025,
+      "title": "Universality",
+      "author": "Natasha Brown",
+      "status": "LONGLIST",
+      "wikidataId": "Q136306512"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Orbital",
+      "author": "Samantha Harvey",
+      "status": "WINNER",
+      "wikidataId": "Q130581281"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Creation Lake",
+      "author": "Rachel Kushner",
+      "status": "SHORTLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Held",
+      "author": "Anne Michaels",
+      "status": "SHORTLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "James",
+      "author": "Percival Everett",
+      "status": "SHORTLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Stone Yard Devotional",
+      "author": "Charlotte Wood",
+      "status": "SHORTLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "The Safekeep",
+      "author": "Yael van der Wouden",
+      "status": "SHORTLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Enlightenment",
+      "author": "Sarah Perry",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Headshot",
+      "author": "Rita Bullwinkel",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "My Friends",
+      "author": "Hisham Matar",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Playground",
+      "author": "Richard Powers",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "This Strange Eventful History",
+      "author": "Claire Messud",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Wandering Stars",
+      "author": "Tommy Orange",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2024,
+      "title": "Wild Houses",
+      "author": "Colin Barrett",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "Prophet Song",
+      "author": "Paul Lynch",
+      "status": "WINNER",
+      "wikidataId": "Q123347158"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "If I Survive You",
+      "author": "Jonathan Escoffery",
+      "status": "SHORTLIST",
+      "wikidataId": "Q122864671"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "Study for Obedience",
+      "author": "Sarah Bernstein",
+      "status": "SHORTLIST",
+      "wikidataId": "Q123334207"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "The Bee Sting",
+      "author": "Paul Murray",
+      "status": "SHORTLIST",
+      "wikidataId": "Q123418448"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "This Other Eden",
+      "author": "Paul Harding",
+      "status": "SHORTLIST",
+      "wikidataId": "Q116776970"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "Western Lane",
+      "author": "Chetna Maroo",
+      "status": "SHORTLIST",
+      "wikidataId": "Q123563778"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "A Spell of Good Things",
+      "author": "Ayọ̀bámi Adébáyọ̀",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "All the Little Bird-Hearts",
+      "author": "Viktoria Lloyd-Barlow",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "How to Build a Boat",
+      "author": "Elaine Feeney",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "In Ascension",
+      "author": "Martin MacInnes",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "Old God's Time",
+      "author": "Sebastian Barry",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "Pearl",
+      "author": "Siân Hughes",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2023,
+      "title": "The House of Doors",
+      "author": "Tan Twan Eng",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "The Seven Moons of Maali Almeida",
+      "author": "Shehan Karunatilaka",
+      "status": "WINNER",
+      "wikidataId": "Q114732705"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Glory",
+      "author": "Q4941176",
+      "status": "SHORTLIST",
+      "wikidataId": "Q111915219"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Oh William!",
+      "author": "Elizabeth Strout",
+      "status": "SHORTLIST",
+      "wikidataId": "Q110281143"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Small Things Like These",
+      "author": "Claire Keegan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q113364856"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "The Trees",
+      "author": "Percival Everett",
+      "status": "SHORTLIST",
+      "wikidataId": "Q113499454"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Treacle Walker",
+      "author": "Alan Garner",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761915"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "After Sappho",
+      "author": "Selby Wynn Schwartz",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761917"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Booth",
+      "author": "Karen Joy Fowler",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761916"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Case Study",
+      "author": "Graeme Macrae Burnet",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761912"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Maps of Our Spectacular Bodies",
+      "author": "Maddie Mortimer",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761911"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Nightcrawling",
+      "author": "Leila Mottley",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761913"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "The Colony",
+      "author": "Audrey Magee",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761918"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2022,
+      "title": "Trust",
+      "author": "Hernán Díaz",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761914"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "The Promise",
+      "author": "Damon Galgut",
+      "status": "WINNER",
+      "wikidataId": "Q108687101"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "A Passage North",
+      "author": "Anuk Arudpragasam",
+      "status": "SHORTLIST",
+      "wikidataId": "Q108689654"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "Bewilderment",
+      "author": "Richard Powers",
+      "status": "SHORTLIST",
+      "wikidataId": "Q108439991"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "Great Circle",
+      "author": "Maggie Shipstead",
+      "status": "SHORTLIST",
+      "wikidataId": "Q108675385"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "No One Is Talking About This",
+      "author": "Patricia Lockwood",
+      "status": "SHORTLIST",
+      "wikidataId": "Q105686775"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "The Fortune Men",
+      "author": "Nadifa Mohamed",
+      "status": "SHORTLIST",
+      "wikidataId": "Q108701312"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "A Town Called Solace",
+      "author": "Mary Lawson",
+      "status": "LONGLIST",
+      "wikidataId": "Q106468244"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "An Island",
+      "author": "Karen Jennings",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761908"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "China Room",
+      "author": "Sunjeev Sahota",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761909"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "Klara and the Sun",
+      "author": "Kazuo Ishiguro",
+      "status": "LONGLIST",
+      "wikidataId": "Q105704813"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "Light Perpetual",
+      "author": "Francis Spufford",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761910"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "Second Place",
+      "author": "Rachel Cusk",
+      "status": "LONGLIST",
+      "wikidataId": "Q108801462"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2021,
+      "title": "The Sweetness of Water",
+      "author": "Nathan Harris",
+      "status": "LONGLIST",
+      "wikidataId": "Q108852359"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Shuggie Bain",
+      "author": "Douglas Stuart",
+      "status": "WINNER",
+      "wikidataId": "Q100997892"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Girl in White Cotton",
+      "author": "Avni Doshi",
+      "status": "SHORTLIST",
+      "wikidataId": "Q99469639"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Real Life",
+      "author": "Brandon Taylor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q97190862"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "The New Wilderness",
+      "author": "Diane Cook",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761903"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "The Shadow King",
+      "author": "Maaza Mengiste",
+      "status": "SHORTLIST",
+      "wikidataId": "Q105081971"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "This Mournable Body",
+      "author": "Tsitsi Dangarembga",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761904"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Apeirogon",
+      "author": "Colum McCann",
+      "status": "LONGLIST",
+      "wikidataId": "Q93349315"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "How Much of These Hills Is Gold",
+      "author": "C Pam Zhang",
+      "status": "LONGLIST",
+      "wikidataId": "Q105561783"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Love and Other Thought Experiments",
+      "author": "Sophie Ward",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761907"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Redhead by the Side of The Road",
+      "author": "Anne Tyler",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761906"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Such a Fun Age",
+      "author": "Kiley Reid",
+      "status": "LONGLIST",
+      "wikidataId": "Q85803918"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "The Mirror and the Light",
+      "author": "Hilary Mantel",
+      "status": "LONGLIST",
+      "wikidataId": "Q7751674"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2020,
+      "title": "Who They Was",
+      "author": "Gabriel Krauze",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761905"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Girl, Woman, Other",
+      "author": "Bernardine Evaristo",
+      "status": "WINNER",
+      "wikidataId": "Q70929843"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "The Testaments",
+      "author": "Margaret Atwood",
+      "status": "WINNER",
+      "wikidataId": "Q60786692"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "10 Minutes 38 Seconds in This Strange World",
+      "author": "Elif Şafak",
+      "status": "SHORTLIST",
+      "wikidataId": "Q72730356"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "An Orchestra of Minorities",
+      "author": "Chigozie Obioma",
+      "status": "SHORTLIST",
+      "wikidataId": "Q85741422"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Ducks, Newburyport",
+      "author": "Lucy Ellmann",
+      "status": "SHORTLIST",
+      "wikidataId": "Q67130878"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Quichotte",
+      "author": "Q44306",
+      "status": "SHORTLIST",
+      "wikidataId": "Q67105106"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Frankissstein",
+      "author": "Jeanette Winterson",
+      "status": "LONGLIST",
+      "wikidataId": "Q85761958"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Lanny",
+      "author": "Max Porter",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761902"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Lost Children Archive",
+      "author": "Valeria Luiselli",
+      "status": "LONGLIST",
+      "wikidataId": "Q65042611"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "My Sister, the Serial Killer",
+      "author": "Oyinkan Braithwaite",
+      "status": "LONGLIST",
+      "wikidataId": "Q104843316"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "Night Boat to Tangier",
+      "author": "Kevin Barry",
+      "status": "LONGLIST",
+      "wikidataId": "Q85789102"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "The Man Who Saw Everything",
+      "author": "Deborah Levy",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761901"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2019,
+      "title": "The Wall",
+      "author": "John Lanchester",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761900"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Milkman",
+      "author": "Anna Burns",
+      "status": "WINNER",
+      "wikidataId": "Q57417096"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Everything Under",
+      "author": "Daisy Johnson",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761896"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "The Long Take",
+      "author": "Robin Robertson",
+      "status": "SHORTLIST",
+      "wikidataId": "Q85807782"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "The Mars Room",
+      "author": "Rachel Kushner",
+      "status": "SHORTLIST",
+      "wikidataId": "Q58413357"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "The Overstory",
+      "author": "Richard Powers",
+      "status": "SHORTLIST",
+      "wikidataId": "Q56277009"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Washington Black",
+      "author": "Esi Edugyan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q60748023"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "From a Low and Quiet Sea",
+      "author": "Donal Ryan",
+      "status": "LONGLIST",
+      "wikidataId": "Q109535814"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "In Our Mad and Furious City",
+      "author": "Guy Gunaratne",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761898"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "status": "LONGLIST",
+      "wikidataId": "Q55360383"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Sabrina",
+      "author": "Nick Drnaso",
+      "status": "LONGLIST",
+      "wikidataId": "Q56651647"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Snap",
+      "author": "Belinda Bauer",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761897"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "The Water Cure",
+      "author": "Sophie Mackintosh",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761899"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2018,
+      "title": "Warlight",
+      "author": "Michael Ondaatje",
+      "status": "LONGLIST",
+      "wikidataId": "Q55637420"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Lincoln in the Bardo",
+      "author": "George Saunders",
+      "status": "WINNER",
+      "wikidataId": "Q28841909"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "4 3 2 1",
+      "author": "Paul Auster",
+      "status": "SHORTLIST",
+      "wikidataId": "Q28846426"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Autumn",
+      "author": "Ali Smith",
+      "status": "SHORTLIST",
+      "wikidataId": "Q28453459"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Elmet",
+      "author": "Fiona Mozley",
+      "status": "SHORTLIST",
+      "wikidataId": "Q48781097"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Exit West",
+      "author": "Mohsin Hamid",
+      "status": "SHORTLIST",
+      "wikidataId": "Q29344661"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "History of Wolves",
+      "author": "Emily Fridlund",
+      "status": "SHORTLIST",
+      "wikidataId": "Q41663593"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Days Without End",
+      "author": "Sebastian Barry",
+      "status": "LONGLIST",
+      "wikidataId": "Q29449242"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Home Fire",
+      "author": "Kamila Shamsie",
+      "status": "LONGLIST",
+      "wikidataId": "Q39073748"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Reservoir 13",
+      "author": "Jon McGregor",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761895"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Solar Bones",
+      "author": "Mike McCormack",
+      "status": "LONGLIST",
+      "wikidataId": "Q55633445"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "Swing Time",
+      "author": "Zadie Smith",
+      "status": "LONGLIST",
+      "wikidataId": "Q22674238"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "The Ministry of Utmost Happiness",
+      "author": "Arundhati Roy",
+      "status": "LONGLIST",
+      "wikidataId": "Q28127551"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2017,
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "status": "LONGLIST",
+      "wikidataId": "Q27957817"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "The Sellout",
+      "author": "Paul Beatty",
+      "status": "WINNER",
+      "wikidataId": "Q22075195"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "All That Man Is",
+      "author": "David Szalay",
+      "status": "SHORTLIST",
+      "wikidataId": "Q26158136"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "Do Not Say We Have Nothing",
+      "author": "Madeleine Thien",
+      "status": "SHORTLIST",
+      "wikidataId": "Q26158138"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "Eileen",
+      "author": "Ottessa Moshfegh",
+      "status": "SHORTLIST",
+      "wikidataId": "Q20899436"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "His Bloody Project",
+      "author": "Graeme Macrae Burnet",
+      "status": "SHORTLIST",
+      "wikidataId": "Q26158132"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "Hot Milk",
+      "author": "Deborah Levy",
+      "status": "SHORTLIST",
+      "wikidataId": "Q48770976"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "Hystopia",
+      "author": "Q5237471",
+      "status": "LONGLIST",
+      "wikidataId": "Q26158023"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "My Name Is Lucy Barton",
+      "author": "Elizabeth Strout",
+      "status": "LONGLIST",
+      "wikidataId": "Q23013739"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "Serious Sweet",
+      "author": "A. L. Kennedy",
+      "status": "LONGLIST",
+      "wikidataId": "Q26158131"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "The Many",
+      "author": "Wyl Menmuir",
+      "status": "LONGLIST",
+      "wikidataId": "Q28451606"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "The North Water",
+      "author": "Ian McGuire",
+      "status": "LONGLIST",
+      "wikidataId": "Q26158134"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "The Schooldays of Jesus",
+      "author": "J. M. Coetzee",
+      "status": "LONGLIST",
+      "wikidataId": "Q26158129"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2016,
+      "title": "Work Like Any Other",
+      "author": "Virginia Reeves",
+      "status": "LONGLIST",
+      "wikidataId": "Q26158135"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "A Brief History of Seven Killings",
+      "author": "Marlon James",
+      "status": "WINNER",
+      "wikidataId": "Q19874028"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "A Little Life",
+      "author": "Hanya Yanagihara",
+      "status": "SHORTLIST",
+      "wikidataId": "Q20709044"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "A Spool of Blue Thread",
+      "author": "Anne Tyler",
+      "status": "SHORTLIST",
+      "wikidataId": "Q20720783"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "Satin Island",
+      "author": "Tom McCarthy",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19902771"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "The Fishermen",
+      "author": "Chigozie Obioma",
+      "status": "SHORTLIST",
+      "wikidataId": "Q20992380"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "The Year of the Runaways",
+      "author": "Sunjeev Sahota",
+      "status": "SHORTLIST",
+      "wikidataId": "Q21203682"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "Did You Ever Have a Family",
+      "author": "Bill Clegg",
+      "status": "LONGLIST",
+      "wikidataId": "Q21198150"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "Lila",
+      "author": "Marilynne Robinson",
+      "status": "LONGLIST",
+      "wikidataId": "Q18786607"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "Sleeping on Jupiter",
+      "author": "Anuradha Roy",
+      "status": "LONGLIST",
+      "wikidataId": "Q101540527"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "The Chimes",
+      "author": "Anna Smaill",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761894"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "The Green Road",
+      "author": "Anne Enright",
+      "status": "LONGLIST",
+      "wikidataId": "Q29018923"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "The Illuminations",
+      "author": "Andrew O'Hagan",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761893"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2015,
+      "title": "The Moor's Account",
+      "author": "Laila Lalami",
+      "status": "LONGLIST",
+      "wikidataId": "Q20925587"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "The Narrow Road to the Deep North",
+      "author": "Richard Flanagan",
+      "status": "WINNER",
+      "wikidataId": "Q17056599"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "How to Be Both",
+      "author": "Ali Smith",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19364465"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "J",
+      "author": "Howard Jacobson",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19902690"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "The Lives of Others",
+      "author": "Neel Mukherjee",
+      "status": "SHORTLIST",
+      "wikidataId": "Q18127470"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "To Rise Again at a Decent Hour",
+      "author": "Joshua Ferris",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19364484"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "We Are All Completely Beside Ourselves",
+      "author": "Karen Joy Fowler",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19364487"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "History of the Rain",
+      "author": "Niall Williams",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761891"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "Orfeo",
+      "author": "Richard Powers",
+      "status": "LONGLIST",
+      "wikidataId": "Q17150892"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "The Blazing World",
+      "author": "Siri Hustvedt",
+      "status": "LONGLIST",
+      "wikidataId": "Q114764053"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "The Bone Clocks",
+      "author": "David Mitchell",
+      "status": "LONGLIST",
+      "wikidataId": "Q17512402"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "The Dog",
+      "author": "Joseph O'Neill",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761892"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "The Wake",
+      "author": "Paul Kingsnorth",
+      "status": "LONGLIST",
+      "wikidataId": "Q20890676"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2014,
+      "title": "Us",
+      "author": "David Nicholls",
+      "status": "LONGLIST",
+      "wikidataId": "Q19902830"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "The Luminaries",
+      "author": "Eleanor Catton",
+      "status": "WINNER",
+      "wikidataId": "Q15076530"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "A Tale for the Time Being",
+      "author": "Ruth Ozeki",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16149397"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "Harvest",
+      "author": "Jim Crace",
+      "status": "SHORTLIST",
+      "wikidataId": "Q17008608"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "The Lowland",
+      "author": "Jhumpa Lahiri",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16321394"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "The Testament of Mary",
+      "author": "Colm Tóibín",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7768568"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "Almost English",
+      "author": "Charlotte Mendelson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761890"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "Five Star Billionaire",
+      "author": "Tash Aw",
+      "status": "LONGLIST",
+      "wikidataId": "Q16385706"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "The Kills",
+      "author": "Richard House",
+      "status": "LONGLIST",
+      "wikidataId": "Q17112073"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "The Marrying of Chani Kaufman",
+      "author": "Eve Harris",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761888"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "The Spinning Heart",
+      "author": "Donal Ryan",
+      "status": "LONGLIST",
+      "wikidataId": "Q109535819"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "TransAtlantic",
+      "author": "Colum McCann",
+      "status": "LONGLIST",
+      "wikidataId": "Q17130731"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "Unexploded",
+      "author": "Alison Macleod",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761889"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Bring Up the Bodies",
+      "author": "Hilary Mantel",
+      "status": "WINNER",
+      "wikidataId": "Q3644822"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Narcopolis",
+      "author": "Jeet Thayil",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3266257"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Swimming Home",
+      "author": "Deborah Levy",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7656218"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "The Garden of Evening Mists",
+      "author": "Tan Twan Eng",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7735843"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "The Lighthouse",
+      "author": "Alison Moore",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7747303"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Umbrella",
+      "author": "Will Self",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7881394"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Communion Town",
+      "author": "Sam Thompson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761887"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Philida",
+      "author": "André Brink",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761884"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "Skios",
+      "author": "Michael Frayn",
+      "status": "LONGLIST",
+      "wikidataId": "Q7535628"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "The Teleportation Accident",
+      "author": "Ned Beauman",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761885"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "The Unlikely Pilgrimage of Harold Fry",
+      "author": "Rachel Joyce",
+      "status": "LONGLIST",
+      "wikidataId": "Q14522871"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2012,
+      "title": "The Yips",
+      "author": "Nicola Barker",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761886"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "The Sense of an Ending",
+      "author": "Julian Barnes",
+      "status": "WINNER",
+      "wikidataId": "Q1331310"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "Half-Blood Blues",
+      "author": "Esi Edugyan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5641553"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "Jamrach's Menagerie",
+      "author": "Carol Birch",
+      "status": "SHORTLIST",
+      "wikidataId": "Q6148156"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "Pigeon English",
+      "author": "Stephen Kelman",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7193278"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "Snowdrops",
+      "author": "Andrew Miller",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16950287"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "The Sisters Brothers",
+      "author": "Patrick deWitt",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3623828"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "A Cupboard Full of Coats",
+      "author": "Yvvette Edwards",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761880"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "Derby Day",
+      "author": "D. J. Taylor",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761882"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "Far to Go",
+      "author": "Alison Pick",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761881"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "On Canaan's Side",
+      "author": "Sebastian Barry",
+      "status": "LONGLIST",
+      "wikidataId": "Q7090933"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "The Last Hundred Days",
+      "author": "Patrick McGuinness",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761883"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "The Stranger's Child",
+      "author": "Alan Hollinghurst",
+      "status": "LONGLIST",
+      "wikidataId": "Q7766925"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2011,
+      "title": "The Testament of Jessie Lamb",
+      "author": "Jane Rogers",
+      "status": "LONGLIST",
+      "wikidataId": "Q16521028"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "The Finkler Question",
+      "author": "Howard Jacobson",
+      "status": "WINNER",
+      "wikidataId": "Q1992396"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "C",
+      "author": "Tom McCarthy",
+      "status": "SHORTLIST",
+      "wikidataId": "Q18163452"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "In a Strange Room",
+      "author": "Damon Galgut",
+      "status": "SHORTLIST",
+      "wikidataId": "Q17096806"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "Parrot and Olivier in America",
+      "author": "Peter Carey",
+      "status": "SHORTLIST",
+      "wikidataId": "Q275134"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "Room",
+      "author": "Emma Donoghue",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2133301"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "The Long Song",
+      "author": "Andrea Levy",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19902700"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "February",
+      "author": "Lisa Moore",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761879"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "Skippy Dies",
+      "author": "Paul Murray",
+      "status": "LONGLIST",
+      "wikidataId": "Q7535824"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "The Betrayal",
+      "author": "Helen Dunmore",
+      "status": "LONGLIST",
+      "wikidataId": "Q97357121"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "The Slap",
+      "author": "Christos Tsiolkas",
+      "status": "LONGLIST",
+      "wikidataId": "Q7764741"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "The Stars in the Bright Sky",
+      "author": "Alan Warner",
+      "status": "LONGLIST",
+      "wikidataId": "Q7766351"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "The Thousand Autumns of Jacob de Zoet",
+      "author": "David Mitchell",
+      "status": "LONGLIST",
+      "wikidataId": "Q7768906"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2010,
+      "title": "Trespass",
+      "author": "Rose Tremain",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761878"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Wolf Hall",
+      "author": "Hilary Mantel",
+      "status": "WINNER",
+      "wikidataId": "Q2657795"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Summertime",
+      "author": "J. M. Coetzee",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3983319"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "The Children's Book",
+      "author": "A. S. Byatt",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4159424"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "The Glass Room",
+      "author": "Simon Mawer",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3821687"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "The Little Stranger",
+      "author": "Sarah Waters",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3819724"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "The Quickening Maze",
+      "author": "Adam Foulds",
+      "status": "SHORTLIST",
+      "wikidataId": "Q24807590"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Brooklyn",
+      "author": "Colm Tóibín",
+      "status": "LONGLIST",
+      "wikidataId": "Q4974741"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Heliopolis",
+      "author": "James Scudamore",
+      "status": "LONGLIST",
+      "wikidataId": "Q5705834"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "How to Paint a Dead Man",
+      "author": "Sarah Hall",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761871"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Love and Summer",
+      "author": "William Trevor",
+      "status": "LONGLIST",
+      "wikidataId": "Q6691694"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Me Cheeta",
+      "author": "James Lever",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761873"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "Not Untrue & Not Unkind",
+      "author": "Ed O'Loughlin",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761875"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2009,
+      "title": "The Wilderness",
+      "author": "Samantha Harvey",
+      "status": "LONGLIST",
+      "wikidataId": "Q107981965"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "The White Tiger",
+      "author": "Aravind Adiga",
+      "status": "WINNER",
+      "wikidataId": "Q2301826"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "A Fraction of the Whole",
+      "author": "Steve Toltz",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3549687"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "Sea of Poppies",
+      "author": "Amitav Ghosh",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3846743"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "The Clothes on Their Backs",
+      "author": "Linda Grant",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19902799"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "The Northern Clemency",
+      "author": "Philip Hensher",
+      "status": "SHORTLIST",
+      "wikidataId": "Q65057305"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "The Secret Scripture",
+      "author": "Sebastian Barry",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3795708"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "A Case of Exploding Mangoes",
+      "author": "Mohammed Hanif",
+      "status": "LONGLIST",
+      "wikidataId": "Q4655748"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "Child 44",
+      "author": "Tom Rob Smith",
+      "status": "LONGLIST",
+      "wikidataId": "Q2914693"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "From A to X",
+      "author": "John Berger",
+      "status": "LONGLIST",
+      "wikidataId": "Q16839270"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "Girl in a Blue Dress",
+      "author": "Gaynor Arnold",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761868"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "Netherland",
+      "author": "Joseph O'Neill",
+      "status": "LONGLIST",
+      "wikidataId": "Q3338517"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "The Enchantress of Florence",
+      "author": "Q44306",
+      "status": "LONGLIST",
+      "wikidataId": "Q3500842"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2008,
+      "title": "The Lost Dog",
+      "author": "Michelle de Kretser",
+      "status": "LONGLIST",
+      "wikidataId": "Q7748602"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "The Gathering",
+      "author": "Anne Enright",
+      "status": "WINNER",
+      "wikidataId": "Q3824774"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Animal's People",
+      "author": "Indra Sinha",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4764735"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Darkmans",
+      "author": "Nicola Barker",
+      "status": "SHORTLIST",
+      "wikidataId": "Q65065970"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Mister Pip",
+      "author": "Lloyd Jones",
+      "status": "SHORTLIST",
+      "wikidataId": "Q13377727"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "On Chesil Beach",
+      "author": "Ian McEwan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q451491"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "The Reluctant Fundamentalist",
+      "author": "Mohsin Hamid",
+      "status": "SHORTLIST",
+      "wikidataId": "Q597545"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Consolation",
+      "author": "Michael Redhill",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761866"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Gifted",
+      "author": "Nikita Lalwani",
+      "status": "LONGLIST",
+      "wikidataId": "Q5560060"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Self Help",
+      "author": "Edward Docx",
+      "status": "LONGLIST",
+      "wikidataId": "Q7448267"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "The Gift of Rain",
+      "author": "Tan Twan Eng",
+      "status": "LONGLIST",
+      "wikidataId": "Q7736416"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "The Welsh Girl",
+      "author": "Peter Ho Davies",
+      "status": "LONGLIST",
+      "wikidataId": "Q20601732"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "What Was Lost",
+      "author": "Catherine O'Flynn",
+      "status": "LONGLIST",
+      "wikidataId": "Q7991405"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2007,
+      "title": "Winnie & Wolf",
+      "author": "A. N. Wilson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761867"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Inheritance of Loss",
+      "author": "Kiran Desai",
+      "status": "WINNER",
+      "wikidataId": "Q2657435"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Carry Me Down",
+      "author": "M. J. Hyland",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4795"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "In the Country of Men",
+      "author": "Hisham Matar",
+      "status": "SHORTLIST",
+      "wikidataId": "Q6012013"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Mother's Milk",
+      "author": "Edward St Aubyn",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16653805"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Night Watch",
+      "author": "Sarah Waters",
+      "status": "SHORTLIST",
+      "wikidataId": "Q38187"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Secret River",
+      "author": "Kate Grenville",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7763079"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Be Near Me",
+      "author": "Andrew O'Hagan",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761865"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Black Swan Green",
+      "author": "David Mitchell",
+      "status": "LONGLIST",
+      "wikidataId": "Q4921967"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Gathering the Water",
+      "author": "Robert Edric",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761862"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Get a Life",
+      "author": "Nadine Gordimer",
+      "status": "LONGLIST",
+      "wikidataId": "Q5554299"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Kalooki Nights",
+      "author": "Howard Jacobson",
+      "status": "LONGLIST",
+      "wikidataId": "Q3812639"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Seven Lies",
+      "author": "James Lasdun",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761863"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "So Many Ways to Begin",
+      "author": "Jon McGregor",
+      "status": "LONGLIST",
+      "wikidataId": "Q16950324"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Emperor's Children",
+      "author": "Claire Messud",
+      "status": "LONGLIST",
+      "wikidataId": "Q7731914"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Other Side of the Bridge",
+      "author": "Mary Lawson",
+      "status": "LONGLIST",
+      "wikidataId": "Q7755570"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Perfect Man",
+      "author": "Naeem Murr",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761864"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Ruby in Her Navel",
+      "author": "Barry Unsworth",
+      "status": "LONGLIST",
+      "wikidataId": "Q7761772"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "The Testament of Gideon Mack",
+      "author": "James Robertson",
+      "status": "LONGLIST",
+      "wikidataId": "Q7768567"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2006,
+      "title": "Theft: A Love Story",
+      "author": "Peter Carey",
+      "status": "LONGLIST",
+      "wikidataId": "Q7777751"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "The Sea",
+      "author": "John Banville",
+      "status": "WINNER",
+      "wikidataId": "Q1216210"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "A Long Long Way",
+      "author": "Sebastian Barry",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4657918"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "Arthur & George",
+      "author": "Julian Barnes",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4797751"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "status": "SHORTLIST",
+      "wikidataId": "Q951587"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "On Beauty",
+      "author": "Zadie Smith",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1994900"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "The Accidental",
+      "author": "Ali Smith",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4015968"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "A Short History of Tractors in Ukrainian",
+      "author": "Marina Lewycka",
+      "status": "LONGLIST",
+      "wikidataId": "Q3549380"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "All For Love",
+      "author": "Dan Jacobson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761859"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "Beyond Black",
+      "author": "Hilary Mantel",
+      "status": "LONGLIST",
+      "wikidataId": "Q4899939"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "In the Fold",
+      "author": "Rachel Cusk",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761858"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "Saturday",
+      "author": "Ian McEwan",
+      "status": "LONGLIST",
+      "wikidataId": "Q1723053"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "Shalimar the Clown",
+      "author": "Q44306",
+      "status": "LONGLIST",
+      "wikidataId": "Q3090602"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "Slow Man",
+      "author": "J. M. Coetzee",
+      "status": "LONGLIST",
+      "wikidataId": "Q687357"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "The Harmony Silk Factory",
+      "author": "Tash Aw",
+      "status": "LONGLIST",
+      "wikidataId": "Q7738923"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "The People's Act of Love",
+      "author": "James Meek",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761860"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "This is the Country",
+      "author": "William Wall",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761861"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2005,
+      "title": "This Thing of Darkness",
+      "author": "Harry Thompson",
+      "status": "LONGLIST",
+      "wikidataId": "Q21012627"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Line of Beauty",
+      "author": "Alan Hollinghurst",
+      "status": "WINNER",
+      "wikidataId": "Q2448434"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Bitter Fruit",
+      "author": "Achmat Dangor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4918991"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Cloud Atlas",
+      "author": "David Mitchell",
+      "status": "SHORTLIST",
+      "wikidataId": "Q40205"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "I'll Go to Bed at Noon",
+      "author": "Gerard Woodward",
+      "status": "SHORTLIST",
+      "wikidataId": "Q15052537"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Electric Michaelangelo",
+      "author": "Sarah Hall",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761844"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Master",
+      "author": "Colm Tóibín",
+      "status": "SHORTLIST",
+      "wikidataId": "Q370841"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "A Blade of Grass",
+      "author": "Lewis DeSoto",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761852"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Always the Sun",
+      "author": "Neil Cross",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761850"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Becoming Strangers",
+      "author": "Louise Dean",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761851"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Cherry",
+      "author": "Matt Thorne",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761857"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Clear: A Transparent Novel",
+      "author": "Nicola Barker",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761846"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Cooking with Fernet Branca",
+      "author": "James Hamilton-Paterson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761853"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Havoc, in Its Third Year",
+      "author": "Ronan Bennett",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761849"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Jonathan Strange & Mr Norrell",
+      "author": "Susanna Clarke",
+      "status": "LONGLIST",
+      "wikidataId": "Q1474920"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Maps for Lost Lovers",
+      "author": "Nadeem Aslam",
+      "status": "LONGLIST",
+      "wikidataId": "Q6754199"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Purple Hibiscus",
+      "author": "Chimamanda Ngozi Adichie",
+      "status": "LONGLIST",
+      "wikidataId": "Q7261426"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Sixty Lights",
+      "author": "Gail Jones",
+      "status": "LONGLIST",
+      "wikidataId": "Q7533271"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "Snowleg",
+      "author": "Nicholas Shakespeare",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761856"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Great Fire",
+      "author": "Shirley Hazzard",
+      "status": "LONGLIST",
+      "wikidataId": "Q7737760"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Honeymoon",
+      "author": "Justin Haythe",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761854"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Island Walkers",
+      "author": "John Bemrose",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761848"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2004,
+      "title": "The Unnumbered",
+      "author": "Sam North",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761855"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Vernon God Little",
+      "author": "DBC Pierre",
+      "status": "WINNER",
+      "wikidataId": "Q475459"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Astonishing Splashes of Colour",
+      "author": "Clare Morrall",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761837"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Brick Lane",
+      "author": "Monica Ali",
+      "status": "SHORTLIST",
+      "wikidataId": "Q97292331"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Notes on a Scandal",
+      "author": "Zoë Heller",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3274167"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Oryx and Crake",
+      "author": "Margaret Atwood",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2032398"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "The Good Doctor",
+      "author": "Damon Galgut",
+      "status": "SHORTLIST",
+      "wikidataId": "Q65054247"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "A Distant Shore",
+      "author": "Caryl Phillips",
+      "status": "LONGLIST",
+      "wikidataId": "Q16824181"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Crossing the Lines",
+      "author": "Melvyn Bragg",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761839"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Elizabeth Costello",
+      "author": "J. M. Coetzee",
+      "status": "LONGLIST",
+      "wikidataId": "Q2706700"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Frankie & Stankie",
+      "author": "Barbara Trapido",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761843"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Heligoland",
+      "author": "Shena Mackay",
+      "status": "LONGLIST",
+      "wikidataId": "Q5705328"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Jazz etc",
+      "author": "John Murray",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761842"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Judge Savage",
+      "author": "Tim Parks",
+      "status": "LONGLIST",
+      "wikidataId": "Q27492246"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Schopenhauer's Telescope",
+      "author": "Gerard Donovan",
+      "status": "LONGLIST",
+      "wikidataId": "Q18355996"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Something Might Happen",
+      "author": "Julie Myerson",
+      "status": "LONGLIST",
+      "wikidataId": "Q7560134"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "The Curious Incident of the Dog in the Night-Time",
+      "author": "Mark Haddon",
+      "status": "LONGLIST",
+      "wikidataId": "Q876848"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "The Light of Day",
+      "author": "Graham Swift",
+      "status": "LONGLIST",
+      "wikidataId": "Q21592514"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "The Nick of Time",
+      "author": "Francis King",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761841"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "The Romantic",
+      "author": "Barbara Gowdy",
+      "status": "LONGLIST",
+      "wikidataId": "Q7761418"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "The Taxi Driver's Daughter",
+      "author": "Julia Darling",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761840"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Turn Again Home",
+      "author": "Carol Birch",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761838"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Waxwings",
+      "author": "Jonathan Raban",
+      "status": "LONGLIST",
+      "wikidataId": "Q7975730"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2003,
+      "title": "Yellow Dog",
+      "author": "Martin Amis",
+      "status": "LONGLIST",
+      "wikidataId": "Q8051717"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "status": "WINNER",
+      "wikidataId": "Q374204"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Dirt Music",
+      "author": "Tim Winton",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3709185"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Family Matters",
+      "author": "Rohinton Mistry",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5433188"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Fingersmith",
+      "author": "Sarah Waters",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2756027"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "The Story of Lucy Gault",
+      "author": "William Trevor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4791"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Unless",
+      "author": "Carol Shields",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3602937"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Any Human Heart",
+      "author": "William Boyd",
+      "status": "LONGLIST",
+      "wikidataId": "Q4778145"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Critical Injuries",
+      "author": "Joan Barfoot",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761828"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Dorian",
+      "author": "Will Self",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761835"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "If Nobody Speaks of Remarkable Things",
+      "author": "Jon McGregor",
+      "status": "LONGLIST",
+      "wikidataId": "Q16847046"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Peacetime",
+      "author": "Robert Edric",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761831"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Shroud",
+      "author": "John Banville",
+      "status": "LONGLIST",
+      "wikidataId": "Q7504295"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Spies",
+      "author": "Michael Frayn",
+      "status": "LONGLIST",
+      "wikidataId": "Q7577129"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Still Here",
+      "author": "Linda Grant",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761832"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "The Autograph Man",
+      "author": "Molle Kanmert Sjölander, Zadie Smith",
+      "status": "LONGLIST",
+      "wikidataId": "Q7714972"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "The Mulberry Empire",
+      "author": "Philip Hensher",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761833"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "The Next Big Thing",
+      "author": "Anita Brookner",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761829"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "The Strange Case of Dr Simmonds & Dr Glas",
+      "author": "Dannie Abse",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761827"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "To the Last City",
+      "author": "Colin Thubron",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761836"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2002,
+      "title": "Who's Sorry Now?",
+      "author": "Howard Jacobson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761834"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "True History of the Kelly Gang",
+      "author": "Peter Carey",
+      "status": "WINNER",
+      "wikidataId": "Q3821351"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Atonement",
+      "author": "Ian McEwan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q306619"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Hotel World",
+      "author": "Ali Smith",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5912125"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Number9dream",
+      "author": "David Mitchell",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2756078"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Oxygen",
+      "author": "Andrew Miller",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4804"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Dark Room",
+      "author": "Rachel Seiffert",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16954350"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "A Son of War",
+      "author": "Melvyn Bragg",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761820"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "According to Queeney",
+      "author": "Beryl Bainbridge",
+      "status": "LONGLIST",
+      "wikidataId": "Q109535993"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "By the Sea",
+      "author": "Abdulrazak Gurnah",
+      "status": "LONGLIST",
+      "wikidataId": "Q108829372"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Dogside Story",
+      "author": "Patricia Grace",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761822"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Fairness",
+      "author": "Ferdinand Mount",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761825"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Half a Life",
+      "author": "V. S. Naipaul",
+      "status": "LONGLIST",
+      "wikidataId": "Q5641777"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "How to Be Good",
+      "author": "Nick Hornby",
+      "status": "LONGLIST",
+      "wikidataId": "Q2267374"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "If the Invader Comes",
+      "author": "Derek Beaven",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761819"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Shamrock Tea",
+      "author": "Ciaran Carson",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761821"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Amber Spyglass",
+      "author": "Philip Pullman",
+      "status": "LONGLIST",
+      "wikidataId": "Q129929"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Blue Tango",
+      "author": "Eoin McNamee",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761824"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Death of Vishnu",
+      "author": "Manil Suri",
+      "status": "LONGLIST",
+      "wikidataId": "Q7729459"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Element of Water",
+      "author": "Stevie Davies",
+      "status": "LONGLIST",
+      "wikidataId": "Q20601785"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Leto Bundle",
+      "author": "Marina Warner",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761826"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Pickup",
+      "author": "Nadine Gordimer",
+      "status": "LONGLIST",
+      "wikidataId": "Q7757041"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "The Stone Carvers",
+      "author": "Jane Urquhart",
+      "status": "LONGLIST",
+      "wikidataId": "Q17054198"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Translated Accounts",
+      "author": "James Kelman",
+      "status": "LONGLIST",
+      "wikidataId": "Q16917931"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2001,
+      "title": "Wolfy and the Strudelbakers",
+      "author": "Zvi Jagendorf",
+      "status": "LONGLIST",
+      "wikidataId": "Q114761823"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2000,
+      "title": "The Blind Assassin",
+      "author": "Margaret Atwood",
+      "status": "WINNER",
+      "wikidataId": "Q1198405"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2000,
+      "title": "English Passengers",
+      "author": "Matthew Kneale",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4672"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2000,
+      "title": "The Deposition of Father McGreevy",
+      "author": "Brian O'Doherty",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761818"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2000,
+      "title": "The Hiding Place",
+      "author": "Trezza Azzopardi",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7739576"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2000,
+      "title": "The Keepers of Truth",
+      "author": "Michael Collins",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7744059"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2000,
+      "title": "When We Were Orphans",
+      "author": "Kazuo Ishiguro",
+      "status": "SHORTLIST",
+      "wikidataId": "Q708490"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1999,
+      "title": "Disgrace",
+      "author": "J. M. Coetzee",
+      "status": "WINNER",
+      "wikidataId": "Q958560"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1999,
+      "title": "Fasting, Feasting",
+      "author": "Anita Desai",
+      "status": "SHORTLIST",
+      "wikidataId": "Q763193"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1999,
+      "title": "Headlong",
+      "author": "Michael Frayn",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3603012"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1999,
+      "title": "Our Fathers",
+      "author": "Andrew O'Hagan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3607046"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1999,
+      "title": "The Blackwater Lightship",
+      "author": "Colm Tóibín",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3793923"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1999,
+      "title": "The Map of Love",
+      "author": "Ahdaf Soueif",
+      "status": "SHORTLIST",
+      "wikidataId": "Q60296693"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1998,
+      "title": "Amsterdam",
+      "author": "Ian McEwan",
+      "status": "WINNER",
+      "wikidataId": "Q478433"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1998,
+      "title": "Breakfast on Pluto",
+      "author": "Patrick McCabe",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1992099"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1998,
+      "title": "England, England",
+      "author": "Julian Barnes",
+      "status": "SHORTLIST",
+      "wikidataId": "Q138046"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1998,
+      "title": "Master Georgie",
+      "author": "Beryl Bainbridge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3851574"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1998,
+      "title": "The Industry of Souls",
+      "author": "Martin Booth",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761817"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1998,
+      "title": "The Restraint of Beasts",
+      "author": "Magnus Mills",
+      "status": "SHORTLIST",
+      "wikidataId": "Q835484"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1997,
+      "title": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "status": "WINNER",
+      "wikidataId": "Q378786"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1997,
+      "title": "Europa",
+      "author": "Tim Parks",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5412027"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1997,
+      "title": "Grace Notes",
+      "author": "Bernard MacLaverty",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3713902"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1997,
+      "title": "Quarantine",
+      "author": "Jim Crace",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7269129"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1997,
+      "title": "The Essence of the Thing",
+      "author": "Madeleine St John",
+      "status": "SHORTLIST",
+      "wikidataId": "Q23307632"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1997,
+      "title": "The Underground Man",
+      "author": "Mick Jackson",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7771381"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1996,
+      "title": "Last Orders",
+      "author": "Graham Swift",
+      "status": "WINNER",
+      "wikidataId": "Q380831"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1996,
+      "title": "A Fine Balance",
+      "author": "Rohinton Mistry",
+      "status": "SHORTLIST",
+      "wikidataId": "Q48829"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1996,
+      "title": "Alias Grace",
+      "author": "Margaret Atwood",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3818322"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1996,
+      "title": "Every Man for Himself",
+      "author": "Beryl Bainbridge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q208911"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1996,
+      "title": "Reading in the Dark",
+      "author": "Seamus Deane",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7300600"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1996,
+      "title": "The Orchard on Fire",
+      "author": "Shena Mackay",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7755283"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1995,
+      "title": "The Ghost Road",
+      "author": "Pat Barker",
+      "status": "WINNER",
+      "wikidataId": "Q3987215"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1995,
+      "title": "In Every Face I Meet",
+      "author": "Justin Cartwright",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761816"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1995,
+      "title": "Morality Play",
+      "author": "Barry Unsworth",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3835882"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1995,
+      "title": "The Moor's Last Sigh",
+      "author": "Q44306",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1139328"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1995,
+      "title": "The Riders",
+      "author": "Tim Winton",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3790605"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1994,
+      "title": "How Late It Was, How Late",
+      "author": "James Kelman",
+      "status": "WINNER",
+      "wikidataId": "Q2076441"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1994,
+      "title": "Beside the Ocean of Time",
+      "author": "George Mackay Brown",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3840709"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1994,
+      "title": "Knowledge of Angels",
+      "author": "Jill Paton Walsh",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3266429"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1994,
+      "title": "Paradise",
+      "author": "Abdulrazak Gurnah",
+      "status": "SHORTLIST",
+      "wikidataId": "Q20875782"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1994,
+      "title": "Reef",
+      "author": "Romesh Gunesekera",
+      "status": "SHORTLIST",
+      "wikidataId": "Q25218767"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1994,
+      "title": "The Folding Star",
+      "author": "Alan Hollinghurst",
+      "status": "SHORTLIST",
+      "wikidataId": "Q629646"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1993,
+      "title": "Paddy Clarke Ha Ha Ha",
+      "author": "Roddy Doyle",
+      "status": "WINNER",
+      "wikidataId": "Q3888716"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1993,
+      "title": "Crossing the River",
+      "author": "Caryl Phillips",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5188680"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1993,
+      "title": "Remembering Babylon",
+      "author": "David Malouf",
+      "status": "SHORTLIST",
+      "wikidataId": "Q631460"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1993,
+      "title": "Scar Tissue",
+      "author": "Michael Ignatieff",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19902772"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1993,
+      "title": "The Stone Diaries",
+      "author": "Carol Shields",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3797249"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1993,
+      "title": "Under the Frog",
+      "author": "Tibor Fischer",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3965219"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1992,
+      "title": "Sacred Hunger",
+      "author": "Barry Unsworth",
+      "status": "WINNER",
+      "wikidataId": "Q3944629"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1992,
+      "title": "The English Patient",
+      "author": "Michael Ondaatje",
+      "status": "WINNER",
+      "wikidataId": "Q1292533"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1992,
+      "title": "Black Dogs",
+      "author": "Ian McEwan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1704438"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1992,
+      "title": "Daughters of the House",
+      "author": "Michèle Roberts",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761815"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1992,
+      "title": "Serenity House",
+      "author": "Christopher Hope",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761814"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1992,
+      "title": "The Butcher Boy",
+      "author": "Patrick McCabe",
+      "status": "SHORTLIST",
+      "wikidataId": "Q43891"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1991,
+      "title": "The Famished Road",
+      "author": "Ben Okri",
+      "status": "WINNER",
+      "wikidataId": "Q2086419"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1991,
+      "title": "Reading Turgenev",
+      "author": "William Trevor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761812"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1991,
+      "title": "Such a Long Journey",
+      "author": "Rohinton Mistry",
+      "status": "SHORTLIST",
+      "wikidataId": "Q38213"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1991,
+      "title": "The Redundancy of Courage",
+      "author": "Timothy Mo",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7759996"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1991,
+      "title": "The Van",
+      "author": "Roddy Doyle",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3716045"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1991,
+      "title": "Time's Arrow",
+      "author": "Martin Amis",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7804773"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1990,
+      "title": "Possession",
+      "author": "A. S. Byatt",
+      "status": "WINNER",
+      "wikidataId": "Q428581"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1990,
+      "title": "Amongst Women",
+      "author": "John McGahern",
+      "status": "SHORTLIST",
+      "wikidataId": "Q473979"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1990,
+      "title": "An Awfully Big Adventure",
+      "author": "Beryl Bainbridge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4003583"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1990,
+      "title": "Lies of Silence",
+      "author": "Brian Moore",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3828831"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1990,
+      "title": "Solomon Gursky Was Here",
+      "author": "Mordecai Richler",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3964426"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1990,
+      "title": "The Gate of Angels",
+      "author": "Penelope Fitzgerald",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19892913"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1989,
+      "title": "The Remains of the Day",
+      "author": "Kazuo Ishiguro",
+      "status": "WINNER",
+      "wikidataId": "Q829934"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1989,
+      "title": "A Disaffection",
+      "author": "James Kelman",
+      "status": "SHORTLIST",
+      "wikidataId": "Q347332"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1989,
+      "title": "Cat's Eye",
+      "author": "Margaret Atwood",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1736876"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1989,
+      "title": "Jigsaw",
+      "author": "Sybille Bedford",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3808275"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1989,
+      "title": "Restoration",
+      "author": "Rose Tremain",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3793934"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1989,
+      "title": "The Book of Evidence",
+      "author": "John Banville",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3824337"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1988,
+      "title": "Oscar and Lucinda",
+      "author": "Peter Carey",
+      "status": "WINNER",
+      "wikidataId": "Q1060522"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1988,
+      "title": "Nice Work",
+      "author": "David Lodge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2086468"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1988,
+      "title": "The Beginning of Spring",
+      "author": "Penelope Fitzgerald",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19892133"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1988,
+      "title": "The Lost Father",
+      "author": "Marina Warner",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114764027"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1988,
+      "title": "The Satanic Verses",
+      "author": "Q44306",
+      "status": "SHORTLIST",
+      "wikidataId": "Q191288"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1988,
+      "title": "Utz",
+      "author": "Bruce Chatwin",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4006803"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1987,
+      "title": "Moon Tiger",
+      "author": "Penelope Lively",
+      "status": "WINNER",
+      "wikidataId": "Q3797754"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1987,
+      "title": "Anthills of the Savannah",
+      "author": "Chinua Achebe",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4011016"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1987,
+      "title": "Chatterton",
+      "author": "Peter Ackroyd",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761807"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1987,
+      "title": "Circles of Deceit",
+      "author": "Nina Bawden",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761809"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1987,
+      "title": "The Book and the Brotherhood",
+      "author": "Iris Murdoch",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3794465"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1987,
+      "title": "The Colour of Blood",
+      "author": "Brian Moore",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1212359"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1986,
+      "title": "The Old Devils",
+      "author": "Kingsley Amis",
+      "status": "WINNER",
+      "wikidataId": "Q4009164"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1986,
+      "title": "An Artist of the Floating World",
+      "author": "Kazuo Ishiguro",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4003685"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1986,
+      "title": "An Insular Possession",
+      "author": "Timothy Mo",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761805"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1986,
+      "title": "Gabriel's Lament",
+      "author": "Paul Bailey",
+      "status": "SHORTLIST",
+      "wikidataId": "Q18160499"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1986,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1541914"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1986,
+      "title": "What's Bred in the Bone",
+      "author": "Robertson Davies",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7990745"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1985,
+      "title": "The Bone People",
+      "author": "Keri Hulme",
+      "status": "WINNER",
+      "wikidataId": "Q1247962"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1985,
+      "title": "Illywhacker",
+      "author": "Peter Carey",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16386250"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1985,
+      "title": "Last Letters from Hav",
+      "author": "Jan Morris",
+      "status": "SHORTLIST",
+      "wikidataId": "Q17112308"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1985,
+      "title": "The Battle of Pollocks Crossing",
+      "author": "J. L. Carr",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7715884"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1985,
+      "title": "The Good Apprentice",
+      "author": "Iris Murdoch",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3818676"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1985,
+      "title": "The Good Terrorist",
+      "author": "Doris Lessing",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4351814"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1984,
+      "title": "Hotel du Lac",
+      "author": "Anita Brookner",
+      "status": "WINNER",
+      "wikidataId": "Q3786968"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1984,
+      "title": "According to Mark",
+      "author": "Penelope Lively",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3614624"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1984,
+      "title": "Empire of the Sun",
+      "author": "J. G. Ballard",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2412167"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1984,
+      "title": "Flaubert's Parrot",
+      "author": "Julian Barnes",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1063693"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1984,
+      "title": "In Custody",
+      "author": "Anita Desai",
+      "status": "SHORTLIST",
+      "wikidataId": "Q606184"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1984,
+      "title": "Small World: An Academic Romance",
+      "author": "David Lodge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q2756156"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1983,
+      "title": "Life & Times of Michael K",
+      "author": "J. M. Coetzee",
+      "status": "WINNER",
+      "wikidataId": "Q761474"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1983,
+      "title": "Flying to Nowhere",
+      "author": "John Fuller",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761803"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1983,
+      "title": "Rates of Exchange",
+      "author": "Malcolm Bradbury",
+      "status": "SHORTLIST",
+      "wikidataId": "Q11751322"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1983,
+      "title": "Shame",
+      "author": "Q44306",
+      "status": "SHORTLIST",
+      "wikidataId": "Q852565"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1983,
+      "title": "The Illusionist",
+      "author": "Anita Mason",
+      "status": "SHORTLIST",
+      "wikidataId": "Q48733069"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1983,
+      "title": "Waterland",
+      "author": "Graham Swift",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3795005"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1982,
+      "title": "Schindler's Ark",
+      "author": "Thomas Keneally",
+      "status": "WINNER",
+      "wikidataId": "Q1975638"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1982,
+      "title": "An Ice-Cream War",
+      "author": "William Boyd",
+      "status": "SHORTLIST",
+      "wikidataId": "Q228988"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1982,
+      "title": "Constance",
+      "author": "Lawrence Durrell",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5163489"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1982,
+      "title": "Silence Among the Weapons",
+      "author": "John Arden",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761798"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1982,
+      "title": "Sour Sweet",
+      "author": "Timothy Mo",
+      "status": "SHORTLIST",
+      "wikidataId": "Q38190"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1982,
+      "title": "The 27th Kingdom",
+      "author": "Alice Thomas Ellis",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761800"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "Midnight's Children",
+      "author": "Q44306",
+      "status": "WINNER",
+      "wikidataId": "Q625764"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "Good Behaviour",
+      "author": "Molly Keane",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16918783"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "Loitering with Intent",
+      "author": "Muriel Spark",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3629098"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "Rhine Journey",
+      "author": "Ann Schlee",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761797"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "The Comfort of Strangers",
+      "author": "Ian McEwan",
+      "status": "SHORTLIST",
+      "wikidataId": "Q1754953"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "The Sirian Experiments",
+      "author": "Doris Lessing",
+      "status": "SHORTLIST",
+      "wikidataId": "Q6273369"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1981,
+      "title": "The White Hotel",
+      "author": "D. M. Thomas",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7774514"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "Rites of Passage",
+      "author": "William Golding",
+      "status": "WINNER",
+      "wikidataId": "Q3937279"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "A Month in the Country",
+      "author": "J. L. Carr",
+      "status": "SHORTLIST",
+      "wikidataId": "Q4003924"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "Clear Light of Day",
+      "author": "Anita Desai",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3667522"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "Earthly Powers",
+      "author": "Anthony Burgess",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3430189"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "No Country for Young Men",
+      "author": "Julia O'Faolain",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761795"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "Pascali's Island",
+      "author": "Barry Unsworth",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3819493"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1980,
+      "title": "The Beggar Maid",
+      "author": "Alice Munro",
+      "status": "SHORTLIST",
+      "wikidataId": "Q60664020"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1979,
+      "title": "Offshore",
+      "author": "Penelope Fitzgerald",
+      "status": "WINNER",
+      "wikidataId": "Q3821704"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1979,
+      "title": "A Bend in the River",
+      "author": "V. S. Naipaul",
+      "status": "SHORTLIST",
+      "wikidataId": "Q482567"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1979,
+      "title": "Confederates",
+      "author": "Thomas Keneally",
+      "status": "SHORTLIST",
+      "wikidataId": "Q347325"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1979,
+      "title": "Joseph",
+      "author": "Julian Rathbone",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761791"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1979,
+      "title": "Praxis",
+      "author": "Fay Weldon",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761793"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1978,
+      "title": "The Sea, the Sea",
+      "author": "Iris Murdoch",
+      "status": "WINNER",
+      "wikidataId": "Q3794562"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1978,
+      "title": "A Five-Year Sentence",
+      "author": "Bernice Rubens",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761789"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1978,
+      "title": "God on the Rocks",
+      "author": "Jane Gardam",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19873563"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1978,
+      "title": "Jake's Thing",
+      "author": "Kingsley Amis",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3823901"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1978,
+      "title": "Rumours of Rain",
+      "author": "André Brink",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7379368"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1978,
+      "title": "The Bookshop",
+      "author": "Penelope Fitzgerald",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3822825"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1977,
+      "title": "Staying On",
+      "author": "Paul Scott",
+      "status": "WINNER",
+      "wikidataId": "Q3968768"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1977,
+      "title": "Great Granny Webster",
+      "author": "Caroline Blackwood",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761786"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1977,
+      "title": "Peter Smart's Confessions",
+      "author": "Paul Bailey",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761785"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1977,
+      "title": "Quartet in Autumn",
+      "author": "Barbara Pym",
+      "status": "SHORTLIST",
+      "wikidataId": "Q737164"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1977,
+      "title": "Shadows on our Skin",
+      "author": "Jennifer Johnston",
+      "status": "SHORTLIST",
+      "wikidataId": "Q42186393"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1977,
+      "title": "The Road to Lichfield",
+      "author": "Penelope Lively",
+      "status": "SHORTLIST",
+      "wikidataId": "Q39046468"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1976,
+      "title": "Saville",
+      "author": "David Storey",
+      "status": "WINNER",
+      "wikidataId": "Q3951088"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1976,
+      "title": "An Instant in the Wind",
+      "author": "André Brink",
+      "status": "SHORTLIST",
+      "wikidataId": "Q24234021"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1976,
+      "title": "King Fisher Lives",
+      "author": "Julian Rathbone",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761784"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1976,
+      "title": "Rising",
+      "author": "R. C. Hutchinson",
+      "status": "SHORTLIST",
+      "wikidataId": "Q85797342"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1976,
+      "title": "The Children of Dynmouth",
+      "author": "William Trevor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16385270"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1976,
+      "title": "The Doctor's Wife",
+      "author": "Brian Moore",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7730467"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1975,
+      "title": "Heat and Dust",
+      "author": "Ruth Prawer Jhabvala",
+      "status": "WINNER",
+      "wikidataId": "Q673521"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1975,
+      "title": "Gossip from the Forest",
+      "author": "Thomas Keneally",
+      "status": "SHORTLIST",
+      "wikidataId": "Q347308"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1974,
+      "title": "Holiday",
+      "author": "Stanley Middleton",
+      "status": "WINNER",
+      "wikidataId": "Q3786288"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1974,
+      "title": "The Conservationist",
+      "author": "Nadine Gordimer",
+      "status": "WINNER",
+      "wikidataId": "Q3793576"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1974,
+      "title": "Ending Up",
+      "author": "Kingsley Amis",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761781"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1974,
+      "title": "In Their Wisdom",
+      "author": "C. P. Snow",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761782"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1974,
+      "title": "The Bottle Factory Outing",
+      "author": "Beryl Bainbridge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q208808"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1973,
+      "title": "The Siege of Krishnapur",
+      "author": "J. G. Farrell",
+      "status": "WINNER",
+      "wikidataId": "Q3818819"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1973,
+      "title": "A Green Equinox",
+      "author": "Elizabeth Mavor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761779"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1973,
+      "title": "The Black Prince",
+      "author": "Iris Murdoch",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7718418"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1973,
+      "title": "The Dressmaker",
+      "author": "Beryl Bainbridge",
+      "status": "SHORTLIST",
+      "wikidataId": "Q331106"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1972,
+      "title": "G.",
+      "author": "John Berger",
+      "status": "WINNER",
+      "wikidataId": "Q3755540"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1972,
+      "title": "Pasmore",
+      "author": "David Storey",
+      "status": "SHORTLIST",
+      "wikidataId": "Q28451566"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1972,
+      "title": "The Bird of Night",
+      "author": "Susan Hill",
+      "status": "SHORTLIST",
+      "wikidataId": "Q7718073"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1972,
+      "title": "The Chant of Jimmie Blacksmith",
+      "author": "Thomas Keneally",
+      "status": "SHORTLIST",
+      "wikidataId": "Q331228"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1971,
+      "title": "In a Free State",
+      "author": "V. S. Naipaul",
+      "status": "WINNER",
+      "wikidataId": "Q3797477"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1971,
+      "title": "Briefing for a Descent into Hell",
+      "author": "Doris Lessing",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3709304"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1971,
+      "title": "Goshawk Squadron",
+      "author": "Derek Robinson",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16982349"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1971,
+      "title": "Mrs. Palfrey at the Claremont",
+      "author": "Elizabeth Taylor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q48699655"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1971,
+      "title": "St. Urbain's Horseman",
+      "author": "Mordecai Richler",
+      "status": "SHORTLIST",
+      "wikidataId": "Q246014"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1971,
+      "title": "The Big Chapel",
+      "author": "Thomas Kilroy",
+      "status": "SHORTLIST",
+      "wikidataId": "Q19630687"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "The Elected Member",
+      "author": "Bernice Rubens",
+      "status": "WINNER",
+      "wikidataId": "Q2411049"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "Troubles",
+      "author": "J. G. Farrell",
+      "status": "WINNER",
+      "wikidataId": "Q4000425"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "Bruno's Dream",
+      "author": "Iris Murdoch",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3795866"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "Eva Trout",
+      "author": "Elizabeth Bowen",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3735146"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "Fire from Heaven",
+      "author": "Mary Renault",
+      "status": "SHORTLIST",
+      "wikidataId": "Q245674"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "John Brown's Body",
+      "author": "A. L. Barker",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114763583"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "Mrs. Eckdorf in O'Neill's Hotel",
+      "author": "William Trevor",
+      "status": "SHORTLIST",
+      "wikidataId": "Q16387156"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "The Bay of Noon",
+      "author": "Shirley Hazzard",
+      "status": "SHORTLIST",
+      "wikidataId": "Q245686"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "The Birds on the Trees",
+      "author": "Nina Bawden",
+      "status": "SHORTLIST",
+      "wikidataId": "Q275292"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "The Conjunction",
+      "author": "T. W. Wheeler",
+      "status": "SHORTLIST",
+      "wikidataId": "Q114761777"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "The Driver's Seat",
+      "author": "Muriel Spark",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3791807"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1970,
+      "title": "The Vivisector",
+      "author": "Patrick White",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3989889"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1969,
+      "title": "Something to Answer For",
+      "author": "P. H. Newby",
+      "status": "WINNER",
+      "wikidataId": "Q371192"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1969,
+      "title": "Figures in a Landscape",
+      "author": "Barry England",
+      "status": "SHORTLIST",
+      "wikidataId": "Q5448083"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1969,
+      "title": "From Scenes Like These",
+      "author": "Gordon Williams",
+      "status": "SHORTLIST",
+      "wikidataId": "Q83450990"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1969,
+      "title": "Impossible Object",
+      "author": "Nicholas Mosley, 3rd Baron Ravensdale",
+      "status": "SHORTLIST",
+      "wikidataId": "Q108857037"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1969,
+      "title": "The Nice and the Good",
+      "author": "Iris Murdoch",
+      "status": "SHORTLIST",
+      "wikidataId": "Q18393581"
+    },
+    {
+      "award": "BOOKER",
+      "year": 1969,
+      "title": "The Public Image",
+      "author": "Muriel Spark",
+      "status": "SHORTLIST",
+      "wikidataId": "Q3819197"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2024,
+      "title": "James",
+      "author": "Percival Everett",
+      "status": "WINNER",
+      "wikidataId": "Q126679110"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2023,
+      "title": "Blackouts",
+      "author": "Justin Torres",
+      "status": "WINNER",
+      "wikidataId": "Q123280652"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2022,
+      "title": "The Rabbit Hutch",
+      "author": "Tess Gunty",
+      "status": "WINNER",
+      "wikidataId": "Q115248886"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2021,
+      "title": "Hell of a Book",
+      "author": "Jason Mott",
+      "status": "WINNER",
+      "wikidataId": "Q111661684"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2020,
+      "title": "Interior Chinatown",
+      "author": "Charles Yu",
+      "status": "WINNER",
+      "wikidataId": "Q96382194"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2020,
+      "title": "Shuggie Bain",
+      "author": "Douglas Stuart",
+      "status": "NOMINEE",
+      "wikidataId": "Q100997892"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2019,
+      "title": "Trust Exercise",
+      "author": "Susan Choi",
+      "status": "WINNER",
+      "wikidataId": "Q65044642"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "title": "The Friend",
+      "author": "Sigrid Nunez",
+      "status": "WINNER",
+      "wikidataId": "Q58692425"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "title": "There There",
+      "author": "Tommy Orange",
+      "status": "NOMINEE",
+      "wikidataId": "Q55635667"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2017,
+      "title": "Sing, Unburied, Sing",
+      "author": "Jesmyn Ward",
+      "status": "WINNER",
+      "wikidataId": "Q42530254"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2017,
+      "title": "Pachinko",
+      "author": "Min Jin Lee",
+      "status": "NOMINEE",
+      "wikidataId": "Q55641363"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2016,
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "status": "WINNER",
+      "wikidataId": "Q27957817"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2014,
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "status": "NOMINEE",
+      "wikidataId": "Q18109559"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2013,
+      "title": "Bleeding Edge",
+      "author": "Thomas Pynchon",
+      "status": "NOMINEE",
+      "wikidataId": "Q15052477"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2013,
+      "title": "Tenth of December: Stories",
+      "author": "George Saunders",
+      "status": "NOMINEE",
+      "wikidataId": "Q7700894"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2013,
+      "title": "The Flamethrowers",
+      "author": "Rachel Kushner",
+      "status": "NOMINEE",
+      "wikidataId": "Q16993449"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2012,
+      "title": "The Round House",
+      "author": "Louise Erdrich",
+      "status": "WINNER",
+      "wikidataId": "Q17010474"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2011,
+      "title": "Salvage the Bones",
+      "author": "Jesmyn Ward",
+      "status": "WINNER",
+      "wikidataId": "Q24037621"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2008,
+      "title": "Shadow Country",
+      "author": "Peter Matthiessen",
+      "status": "NOMINEE",
+      "wikidataId": "Q7460489"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2007,
+      "title": "Tree of Smoke",
+      "author": "Denis Johnson",
+      "status": "WINNER",
+      "wikidataId": "Q14639595"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2006,
+      "title": "The Echo Maker",
+      "author": "Richard Powers",
+      "status": "WINNER",
+      "wikidataId": "Q1167621"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2005,
+      "title": "The March",
+      "author": "E. L. Doctorow",
+      "status": "NOMINEE",
+      "wikidataId": "Q183363"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2000,
+      "title": "Blonde",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q1580112"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1998,
+      "title": "Charming Billy",
+      "author": "Alice McDermott",
+      "status": "WINNER",
+      "wikidataId": "Q19364540"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1998,
+      "title": "A Man in Full",
+      "author": "Tom Wolfe",
+      "status": "NOMINEE",
+      "wikidataId": "Q4658094"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1997,
+      "title": "Cold Mountain",
+      "author": "Charles Frazier",
+      "status": "WINNER",
+      "wikidataId": "Q2499287"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1996,
+      "title": "Martin Dressler",
+      "author": "Steven Millhauser",
+      "status": "NOMINEE",
+      "wikidataId": "Q6775331"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1995,
+      "title": "Sabbath's Theater",
+      "author": "Philip Roth",
+      "status": "WINNER",
+      "wikidataId": "Q3795983"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1993,
+      "title": "The Shipping News",
+      "author": "Annie Proulx",
+      "status": "WINNER",
+      "wikidataId": "Q11009630"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1992,
+      "title": "All the Pretty Horses",
+      "author": "Cormac McCarthy",
+      "status": "WINNER",
+      "wikidataId": "Q264519"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1990,
+      "title": "Middle Passage",
+      "author": "Charles R. Johnson",
+      "status": "WINNER",
+      "wikidataId": "Q6841523"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1990,
+      "title": "Because It Is Bitter, and Because It Is My Heart",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q4878481"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1989,
+      "title": "Billy Bathgate",
+      "author": "E. L. Doctorow",
+      "status": "NOMINEE",
+      "wikidataId": "Q3734045"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1989,
+      "title": "Geek Love",
+      "author": "Katherine Dunn",
+      "status": "NOMINEE",
+      "wikidataId": "Q5529789"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1987,
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "status": "NOMINEE",
+      "wikidataId": "Q971767"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1987,
+      "title": "The Counterlife",
+      "author": "Philip Roth",
+      "status": "NOMINEE",
+      "wikidataId": "Q597219"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1985,
+      "title": "White Noise",
+      "author": "Don DeLillo",
+      "status": "WINNER",
+      "wikidataId": "Q2623505"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1985,
+      "title": "Always Coming Home",
+      "author": "Ursula K. Le Guin",
+      "status": "NOMINEE",
+      "wikidataId": "Q4677090"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1984,
+      "title": "The Anatomy Lesson",
+      "author": "Philip Roth",
+      "status": "NOMINEE",
+      "wikidataId": "Q7713647"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1983,
+      "title": "The Color Purple",
+      "author": "Alice Walker",
+      "status": "WINNER",
+      "wikidataId": "Q1897870"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1982,
+      "title": "Rabbit Is Rich",
+      "author": "John Updike",
+      "status": "WINNER",
+      "wikidataId": "Q549152"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1977,
+      "title": "Orsinian Tales",
+      "author": "Ursula K. Le Guin",
+      "status": "NOMINEE",
+      "wikidataId": "Q7104139"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1976,
+      "title": "Humboldt's Gift",
+      "author": "Saul Bellow",
+      "status": "NOMINEE",
+      "wikidataId": "Q3793856"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "My Life As a Man",
+      "author": "Philip Roth",
+      "status": "NOMINEE",
+      "wikidataId": "Q1685465"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "Sula",
+      "author": "Toni Morrison",
+      "status": "NOMINEE",
+      "wikidataId": "Q3503405"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "A Crown of Feathers and Other Stories",
+      "author": "Isaac Bashevis Singer",
+      "status": "WINNER",
+      "wikidataId": "Q16619373"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Gravity's Rainbow",
+      "author": "Thomas Pynchon",
+      "status": "WINNER",
+      "wikidataId": "Q1212160"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "The Optimist's Daughter",
+      "author": "Eudora Welty",
+      "status": "NOMINEE",
+      "wikidataId": "Q7755231"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "Love in the Ruins",
+      "author": "Walker Percy",
+      "status": "NOMINEE",
+      "wikidataId": "Q6691874"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "Rabbit Redux",
+      "author": "John Updike",
+      "status": "NOMINEE",
+      "wikidataId": "Q1725082"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "The Book of Daniel",
+      "author": "E. L. Doctorow",
+      "status": "NOMINEE",
+      "wikidataId": "Q1167369"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "Wonderland",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q8031887"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1971,
+      "title": "Mr. Sammler's Planet",
+      "author": "Saul Bellow",
+      "status": "WINNER",
+      "wikidataId": "Q3795127"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1970,
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "status": "NOMINEE",
+      "wikidataId": "Q265954"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1970,
+      "title": "Them",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q7781163"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1969,
+      "title": "Steps",
+      "author": "Jerzy Kosiński",
+      "status": "WINNER",
+      "wikidataId": "Q11273251"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1968,
+      "title": "A Garden of Earthly Delights",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q4656931"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1968,
+      "title": "The Confessions of Nat Turner",
+      "author": "William Styron",
+      "status": "NOMINEE",
+      "wikidataId": "Q7727343"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1968,
+      "title": "Why Are We in Vietnam?",
+      "author": "Norman Mailer",
+      "status": "NOMINEE",
+      "wikidataId": "Q7997721"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1967,
+      "title": "The Last Gentleman",
+      "author": "Walker Percy",
+      "status": "NOMINEE",
+      "wikidataId": "Q7745783"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "At Play in the Fields of the Lord",
+      "author": "Peter Matthiessen",
+      "status": "NOMINEE",
+      "wikidataId": "Q4812392"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "The Collected Stories of Katherine Anne Porter",
+      "author": "Katherine Anne Porter",
+      "status": "NOMINEE",
+      "wikidataId": "Q7726672"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "Herzog",
+      "author": "Saul Bellow",
+      "status": "WINNER",
+      "wikidataId": "Q1424503"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "V.",
+      "author": "Thomas Pynchon",
+      "status": "NOMINEE",
+      "wikidataId": "Q1191071"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1964,
+      "title": "The Centaur",
+      "author": "John Updike",
+      "status": "WINNER",
+      "wikidataId": "Q3220933"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1963,
+      "title": "Pigeon Feathers and Other Stories",
+      "author": "John Updike",
+      "status": "NOMINEE",
+      "wikidataId": "Q7193280"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1963,
+      "title": "Ship of Fools",
+      "author": "Katherine Anne Porter",
+      "status": "NOMINEE",
+      "wikidataId": "Q1134909"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "The Moviegoer",
+      "author": "Walker Percy",
+      "status": "NOMINEE",
+      "wikidataId": "Q7752560"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The Waters of Kronos",
+      "author": "Conrad Richter",
+      "status": "WINNER",
+      "wikidataId": "Q19881718"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "Rabbit, Run",
+      "author": "John Updike",
+      "status": "NOMINEE",
+      "wikidataId": "Q178791"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Goodbye, Columbus",
+      "author": "Philip Roth",
+      "status": "WINNER",
+      "wikidataId": "Q960840"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Henderson the Rain King",
+      "author": "Saul Bellow",
+      "status": "NOMINEE",
+      "wikidataId": "Q3795484"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Haunting of Hill House",
+      "author": "Shirley Jackson",
+      "status": "NOMINEE",
+      "wikidataId": "Q3819311"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Poorhouse Fair",
+      "author": "John Updike",
+      "status": "NOMINEE",
+      "wikidataId": "Q7757751"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "Atlas Shrugged",
+      "author": "Ayn Rand",
+      "status": "NOMINEE",
+      "wikidataId": "Q374098"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "Seize the Day",
+      "author": "Saul Bellow",
+      "status": "NOMINEE",
+      "wikidataId": "Q2907590"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "Band of Angels",
+      "author": "Robert Penn Warren",
+      "status": "NOMINEE",
+      "wikidataId": "Q126736678"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "A Fable",
+      "author": "William Faulkner",
+      "status": "WINNER",
+      "wikidataId": "Q3363072"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "Lord Grizzly",
+      "author": "Frederick Manfred",
+      "status": "NOMINEE",
+      "wikidataId": "Q6679311"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1954,
+      "title": "The Adventures of Augie March",
+      "author": "Saul Bellow",
+      "status": "WINNER",
+      "wikidataId": "Q1771746"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "Invisible Man",
+      "author": "Ralph Ellison",
+      "status": "WINNER",
+      "wikidataId": "Q1784288"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "Lie Down in Darkness",
+      "author": "William Styron",
+      "status": "NOMINEE",
+      "wikidataId": "Q4003902"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2026,
+      "title": "Angel Down",
+      "author": "Daniel Kraus",
+      "status": "WINNER",
+      "wikidataId": "Q138002921"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2025,
+      "title": "James",
+      "author": "Percival Everett",
+      "status": "WINNER",
+      "wikidataId": "Q126679110"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2023,
+      "title": "Demon Copperhead",
+      "author": "Barbara Kingsolver",
+      "status": "WINNER",
+      "wikidataId": "Q115526836"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2023,
+      "title": "Trust",
+      "author": "Hernán Díaz",
+      "status": "WINNER",
+      "wikidataId": "Q114761914"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2022,
+      "title": "The Netanyahus",
+      "author": "Joshua Cohen",
+      "status": "WINNER",
+      "wikidataId": "Q108871736"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2021,
+      "title": "The Night Watchman",
+      "author": "Louise Erdrich",
+      "status": "WINNER",
+      "wikidataId": "Q108907129"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2020,
+      "title": "The Nickel Boys",
+      "author": "Colson Whitehead",
+      "status": "WINNER",
+      "wikidataId": "Q85808003"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2019,
+      "title": "The Overstory",
+      "author": "Richard Powers",
+      "status": "WINNER",
+      "wikidataId": "Q56277009"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2019,
+      "title": "There There",
+      "author": "Tommy Orange",
+      "status": "NOMINEE",
+      "wikidataId": "Q55635667"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2018,
+      "title": "Less",
+      "author": "Andrew Sean Greer",
+      "status": "WINNER",
+      "wikidataId": "Q56276683"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2017,
+      "title": "The Underground Railroad",
+      "author": "Colson Whitehead",
+      "status": "WINNER",
+      "wikidataId": "Q27957817"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2016,
+      "title": "The Sympathizer",
+      "author": "Viet Thanh Nguyen",
+      "status": "WINNER",
+      "wikidataId": "Q21162257"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2016,
+      "title": "Get in Trouble",
+      "author": "Kelly Link",
+      "status": "NOMINEE",
+      "wikidataId": "Q65062682"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2015,
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "status": "WINNER",
+      "wikidataId": "Q18109559"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2014,
+      "title": "The Goldfinch",
+      "author": "Donna Tartt",
+      "status": "WINNER",
+      "wikidataId": "Q15080194"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2013,
+      "title": "The Orphan Master's Son",
+      "author": "Adam Johnson",
+      "status": "WINNER",
+      "wikidataId": "Q7755424"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2012,
+      "title": "Train Dreams",
+      "author": "Denis Johnson",
+      "status": "NOMINEE",
+      "wikidataId": "Q85810391"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2011,
+      "title": "A Visit from the Goon Squad",
+      "author": "Jennifer Egan",
+      "status": "WINNER",
+      "wikidataId": "Q213300"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2010,
+      "title": "Tinkers",
+      "author": "Paul Harding",
+      "status": "WINNER",
+      "wikidataId": "Q2435823"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2009,
+      "title": "Olive Kitteridge",
+      "author": "Elizabeth Strout",
+      "status": "WINNER",
+      "wikidataId": "Q7087170"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2008,
+      "title": "The Brief Wondrous Life of Oscar Wao",
+      "author": "Junot Díaz",
+      "status": "WINNER",
+      "wikidataId": "Q2551789"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2008,
+      "title": "Tree of Smoke",
+      "author": "Denis Johnson",
+      "status": "NOMINEE",
+      "wikidataId": "Q14639595"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2007,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "status": "WINNER",
+      "wikidataId": "Q1140295"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2007,
+      "title": "The Echo Maker",
+      "author": "Richard Powers",
+      "status": "NOMINEE",
+      "wikidataId": "Q1167621"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2006,
+      "title": "March",
+      "author": "Geraldine Brooks",
+      "status": "WINNER",
+      "wikidataId": "Q6756693"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2006,
+      "title": "The March",
+      "author": "E. L. Doctorow",
+      "status": "NOMINEE",
+      "wikidataId": "Q183363"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2005,
+      "title": "Gilead",
+      "author": "Marilynne Robinson",
+      "status": "WINNER",
+      "wikidataId": "Q5561577"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2004,
+      "title": "The Known World",
+      "author": "Edward P. Jones",
+      "status": "WINNER",
+      "wikidataId": "Q7744892"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2003,
+      "title": "Middlesex",
+      "author": "Jeffrey Kent Eugenides",
+      "status": "WINNER",
+      "wikidataId": "Q1609780"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2002,
+      "title": "Empire Falls",
+      "author": "Richard Russo",
+      "status": "WINNER",
+      "wikidataId": "Q1621457"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2001,
+      "title": "The Amazing Adventures of Kavalier & Clay",
+      "author": "Michael Chabon",
+      "status": "WINNER",
+      "wikidataId": "Q2705230"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2001,
+      "title": "Blonde",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q1580112"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2000,
+      "title": "Interpreter of Maladies",
+      "author": "Jhumpa Lahiri",
+      "status": "WINNER",
+      "wikidataId": "Q6056523"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1999,
+      "title": "The Hours",
+      "author": "Michael Cunningham",
+      "status": "WINNER",
+      "wikidataId": "Q2610868"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1998,
+      "title": "American Pastoral",
+      "author": "Philip Roth",
+      "status": "WINNER",
+      "wikidataId": "Q470057"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1997,
+      "title": "Martin Dressler",
+      "author": "Steven Millhauser",
+      "status": "WINNER",
+      "wikidataId": "Q6775331"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1997,
+      "title": "Unlocking the Air and Other Stories",
+      "author": "Ursula K. Le Guin",
+      "status": "NOMINEE",
+      "wikidataId": "Q7897073"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1996,
+      "title": "Independence Day",
+      "author": "Richard Ford",
+      "status": "WINNER",
+      "wikidataId": "Q387961"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1996,
+      "title": "Sabbath's Theater",
+      "author": "Philip Roth",
+      "status": "NOMINEE",
+      "wikidataId": "Q3795983"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1995,
+      "title": "The Stone Diaries",
+      "author": "Carol Shields",
+      "status": "WINNER",
+      "wikidataId": "Q3797249"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1994,
+      "title": "The Shipping News",
+      "author": "Annie Proulx",
+      "status": "WINNER",
+      "wikidataId": "Q11009630"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1994,
+      "title": "Operation Shylock",
+      "author": "Philip Roth",
+      "status": "NOMINEE",
+      "wikidataId": "Q2892749"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1993,
+      "title": "A Good Scent from a Strange Mountain",
+      "author": "Robert Olen Butler",
+      "status": "WINNER",
+      "wikidataId": "Q4657131"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1993,
+      "title": "Black Water",
+      "author": "Joyce Carol Oates",
+      "status": "NOMINEE",
+      "wikidataId": "Q3423065"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1992,
+      "title": "A Thousand Acres",
+      "author": "Jane Smiley",
+      "status": "WINNER",
+      "wikidataId": "Q17098771"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1991,
+      "title": "Rabbit at Rest",
+      "author": "John Updike",
+      "status": "WINNER",
+      "wikidataId": "Q1649823"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1990,
+      "title": "The Mambo Kings Play Songs of Love",
+      "author": "Oscar Hijuelos",
+      "status": "WINNER",
+      "wikidataId": "Q7749825"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1990,
+      "title": "Billy Bathgate",
+      "author": "E. L. Doctorow",
+      "status": "NOMINEE",
+      "wikidataId": "Q3734045"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1989,
+      "title": "Breathing Lessons",
+      "author": "Anne Tyler",
+      "status": "WINNER",
+      "wikidataId": "Q754464"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1988,
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "status": "WINNER",
+      "wikidataId": "Q971767"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1987,
+      "title": "A Summons to Memphis",
+      "author": "Peter Matthew Hillsman Taylor",
+      "status": "WINNER",
+      "wikidataId": "Q4659903"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1986,
+      "title": "Lonesome Dove",
+      "author": "Larry McMurtry",
+      "status": "WINNER",
+      "wikidataId": "Q973883"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1985,
+      "title": "Foreign Affairs",
+      "author": "Alison Lurie",
+      "status": "WINNER",
+      "wikidataId": "Q5468212"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1984,
+      "title": "Ironweed",
+      "author": "William Kennedy",
+      "status": "WINNER",
+      "wikidataId": "Q6073321"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1983,
+      "title": "The Color Purple",
+      "author": "Alice Walker",
+      "status": "WINNER",
+      "wikidataId": "Q1897870"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1982,
+      "title": "Rabbit Is Rich",
+      "author": "John Updike",
+      "status": "WINNER",
+      "wikidataId": "Q549152"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1981,
+      "title": "A Confederacy of Dunces",
+      "author": "John Kennedy Toole",
+      "status": "WINNER",
+      "wikidataId": "Q627749"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1980,
+      "title": "The Executioner's Song",
+      "author": "Norman Mailer",
+      "status": "WINNER",
+      "wikidataId": "Q3068515"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1980,
+      "title": "The Ghost Writer",
+      "author": "Philip Roth",
+      "status": "NOMINEE",
+      "wikidataId": "Q3205253"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1979,
+      "title": "The Stories of John Cheever",
+      "author": "John Cheever",
+      "status": "WINNER",
+      "wikidataId": "Q7766676"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1978,
+      "title": "Elbow Room",
+      "author": "James Alan McPherson",
+      "status": "WINNER",
+      "wikidataId": "Q5353790"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1976,
+      "title": "Humboldt's Gift",
+      "author": "Saul Bellow",
+      "status": "WINNER",
+      "wikidataId": "Q3793856"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1975,
+      "title": "The Killer Angels",
+      "author": "Michael Shaara",
+      "status": "WINNER",
+      "wikidataId": "Q3521472"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1974,
+      "title": "Gravity's Rainbow",
+      "author": "Thomas Pynchon",
+      "status": "NOMINEE",
+      "wikidataId": "Q1212160"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1973,
+      "title": "The Optimist's Daughter",
+      "author": "Eudora Welty",
+      "status": "WINNER",
+      "wikidataId": "Q7755231"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1972,
+      "title": "Angle of Repose",
+      "author": "Wallace Stegner",
+      "status": "WINNER",
+      "wikidataId": "Q4763360"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1970,
+      "title": "The Collected Stories of Jean Stafford",
+      "author": "Jean Stafford",
+      "status": "WINNER",
+      "wikidataId": "Q7726671"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1969,
+      "title": "House Made of Dawn",
+      "author": "N. Scott Momaday",
+      "status": "WINNER",
+      "wikidataId": "Q5913691"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1968,
+      "title": "The Confessions of Nat Turner",
+      "author": "William Styron",
+      "status": "WINNER",
+      "wikidataId": "Q7727343"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1967,
+      "title": "The Fixer",
+      "author": "Bernard Malamud",
+      "status": "WINNER",
+      "wikidataId": "Q7734317"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1966,
+      "title": "The Collected Stories of Katherine Anne Porter",
+      "author": "Katherine Anne Porter",
+      "status": "WINNER",
+      "wikidataId": "Q7726672"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1965,
+      "title": "The Keepers of the House",
+      "author": "Shirley Ann Grau",
+      "status": "WINNER",
+      "wikidataId": "Q7744061"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1963,
+      "title": "The Reivers",
+      "author": "William Faulkner",
+      "status": "WINNER",
+      "wikidataId": "Q3233504"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1962,
+      "title": "The Edge of Sadness",
+      "author": "Edwin O'Connor",
+      "status": "WINNER",
+      "wikidataId": "Q7731569"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1961,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "status": "WINNER",
+      "wikidataId": "Q212340"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1960,
+      "title": "Advise and Consent",
+      "author": "Allen Drury",
+      "status": "WINNER",
+      "wikidataId": "Q4686819"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1959,
+      "title": "The Travels of Jaimie McPheeters",
+      "author": "Robert Lewis Taylor",
+      "status": "WINNER",
+      "wikidataId": "Q17099240"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1958,
+      "title": "A Death in the Family",
+      "author": "James Agee",
+      "status": "WINNER",
+      "wikidataId": "Q4656363"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1956,
+      "title": "Andersonville",
+      "author": "MacKinlay Kantor",
+      "status": "WINNER",
+      "wikidataId": "Q4754260"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1955,
+      "title": "A Fable",
+      "author": "William Faulkner",
+      "status": "WINNER",
+      "wikidataId": "Q3363072"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1953,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "status": "WINNER",
+      "wikidataId": "Q26505"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1952,
+      "title": "The Caine Mutiny",
+      "author": "Herman Wouk",
+      "status": "WINNER",
+      "wikidataId": "Q305415"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1951,
+      "title": "The Town",
+      "author": "Conrad Richter",
+      "status": "WINNER",
+      "wikidataId": "Q7769769"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1950,
+      "title": "The Way West",
+      "author": "A. B. Guthrie Jr.",
+      "status": "WINNER",
+      "wikidataId": "Q11244045"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1949,
+      "title": "Guard of Honor",
+      "author": "James Gould Cozzens",
+      "status": "WINNER",
+      "wikidataId": "Q5613980"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1948,
+      "title": "Tales of the South Pacific",
+      "author": "James A. Michener",
+      "status": "WINNER",
+      "wikidataId": "Q7679410"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1945,
+      "title": "A Bell for Adano",
+      "author": "John Hersey",
+      "status": "WINNER",
+      "wikidataId": "Q4655421"
+    }
+  ]
+}
