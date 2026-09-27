@@ -36,8 +36,22 @@ or open the `book-awards` folder in Android Studio and run the `composeApp` conf
 
 ## Data
 
-`data/fetch-awards.mjs` queries Wikidata, applies the fixes in `data/corrections.json`, and writes
-`data/awards.json`. The app doesn't keep a copy: the `syncCommonResources` Gradle task merges
+`data/fetch-awards.mjs` builds `data/awards.json` from two sources:
+
+- **Wikidata** (SPARQL) for the long history.
+- **Wikipedia**'s prize tables, which list new longlists and shortlists within days while Wikidata can lag
+  by months: `List_of_winners_and_nominated_authors_of_the_Booker_Prize`, `National_Book_Award_for_Fiction`
+  (Hardcover only for 1980–83) and `Pulitzer_Prize_for_Fiction` (bold title = winner, the rest finalists).
+  Parsing is in `data/wikitext.mjs` and `data/wikipedia-sources.mjs`; columns are found by header name.
+
+Where both sources have a book (same prize and year, and the same Wikidata ID, the same author, or the same
+title and surname) the better status wins. Then the fixes in `data/corrections.json` apply. A correction
+targets a book by `wikidataId` or `title`, and `"until": "YYYY-MM-DD"` makes it temporary — for a source
+error expected to be fixed by then, like Wikipedia calling the 2026 National Book Award longlist
+"finalists" before October 6. The script refuses to write if it finds a duplicate or if any award loses more
+than 10% of its entries (`--allow-shrink` to override); `--out <path>` writes somewhere else.
+
+The app doesn't keep a copy: the `syncCommonResources` Gradle task merges
 `data/awards.json` into the compose resources at build time.
 
 **Publishing without an app update:** on launch (and on pull to refresh) the app fetches
@@ -113,13 +127,14 @@ still the documented Compose Multiplatform API for this version, left as-is.
 
 ## E2E checks
 
-With an Android emulator or device connected, each script builds and installs the app, drives it
+`pipeline.sh` only needs Node and network access. For the others, with an Android emulator or device connected, each script builds and installs the app, drives it
 with `adb`, and exits non-zero on failure:
 
 ```
 e2e/core-flow.sh           # open a book, details load, mark "Want to read", chip shows in the list
 e2e/sticky-header-tap.sh   # tapping a pinned year header doesn't open the book under it
 e2e/data-refresh.sh        # published data arrives, ETag/304, offline cache, bad publishes rejected
+e2e/pipeline.sh            # rebuilds the dataset from live sources and checks announced lists are present
 ```
 
 Pass a device serial (e.g. `emulator-5554`) if more than one is connected. Each run leaves its
