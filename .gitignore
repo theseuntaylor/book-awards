@@ -27,3 +27,6 @@ DerivedData/
 
 ### macOS ###
 .DS_Store
+
+### E2E ###
+e2e/artifacts/
