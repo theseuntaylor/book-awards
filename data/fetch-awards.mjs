@@ -2,14 +2,17 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { applyCorrections, checkNominations, checkShrinkage, mergeWikipedia, statusRank } from './combine.mjs';
+import { addCovers } from './covers.mjs';
 import { fetchWikipediaNominations } from './wikipedia-sources.mjs';
 import { userAgent } from './wikitext.mjs';
 
-// Usage: node data/fetch-awards.mjs [--out <path>] [--allow-shrink]
+// Usage: node data/fetch-awards.mjs [--out <path>] [--allow-shrink] [--skip-covers] [--retry-missing-covers]
 const here = dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
 const outPath = args.includes('--out') ? resolve(args[args.indexOf('--out') + 1]) : join(here, 'awards.json');
 const allowShrink = args.includes('--allow-shrink');
+const skipCovers = args.includes('--skip-covers');
+const retryMissingCovers = args.includes('--retry-missing-covers');
 
 // Keys match the Award enum in the app.
 const awards = {
@@ -114,7 +117,11 @@ nominations.sort((a, b) =>
 
 checkNominations(nominations, Object.keys(awards));
 const previousPath = existsSync(outPath) ? outPath : join(here, 'awards.json');
-if (existsSync(previousPath)) checkShrinkage(JSON.parse(readFileSync(previousPath, 'utf8')).nominations, nominations, allowShrink);
+const previous = existsSync(previousPath) ? JSON.parse(readFileSync(previousPath, 'utf8')).nominations : [];
+checkShrinkage(previous, nominations, allowShrink);
+
+// Last, since it's the slow step: only books never looked up before cost a request.
+await addCovers(nominations, previous, { lookup: !skipCovers, retryMissing: retryMissingCovers });
 
 // The app only replaces its data with a strictly newer file, so every run is dated.
 const generatedAt = new Date().toISOString();
