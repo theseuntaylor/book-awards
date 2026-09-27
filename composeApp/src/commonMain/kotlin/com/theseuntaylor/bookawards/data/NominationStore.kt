@@ -12,7 +12,7 @@ sealed interface RefreshOutcome {
     data object Failed : RefreshOutcome
 }
 
-/** Shows the best data on hand immediately, then swaps in the published file when it's newer. */
+/** Shows the newest data on hand immediately, then swaps in the published file when it's newer still. */
 class NominationStore(
     private val remote: RemoteNominations,
     private val cache: NominationCache,
@@ -22,7 +22,7 @@ class NominationStore(
     val nominations: StateFlow<List<Nomination>?> = state.asStateFlow()
 
     private val lock = Mutex()
-    private var bundledHash = 0
+    private var generatedAt: String? = null
     private var etag: String? = null
     private var startedRefresh = false
 
@@ -31,14 +31,15 @@ class NominationStore(
         lock.withLock {
             if (startedRefresh) return null
             startedRefresh = true
-            val bundledText = loadBundledNominationsText()
-            bundledHash = bundledText.hashCode()
-            val cached = cache.read(bundledHash)?.let { entry ->
-                runCatching { parseNominations(entry.text) }.getOrNull()
-                    ?.takeIf { it.isNotEmpty() }
-                    ?.also { etag = entry.etag }
+            val bundled = parseAwards(loadBundledNominationsText())
+            val cachedEntry = cache.read()
+            val cached = cachedEntry?.let { runCatching { parseAwards(it.text) }.getOrNull() }
+            if (cached != null && cached.nominations.isNotEmpty() && isNewer(cached.generatedAt, bundled.generatedAt)) {
+                etag = cachedEntry.etag
+                publish(cached)
+            } else {
+                publish(bundled)
             }
-            publish(cached ?: parseNominations(bundledText))
         }
         return refresh()
     }
@@ -49,20 +50,23 @@ class NominationStore(
             RemoteResult.NotModified -> RefreshOutcome.UpToDate
             RemoteResult.Failed -> RefreshOutcome.Failed
             is RemoteResult.Updated -> {
-                val update = runCatching { parseNominations(result.text) }.getOrNull()
-                if (update == null || !isPlausibleUpdate(update, current)) return RefreshOutcome.Failed
-                cache.write(bundledHash, NominationCache.Entry(result.text, result.etag))
+                val update = runCatching { parseAwards(result.text) }.getOrNull()
+                    ?: return RefreshOutcome.Failed
+                if (!isNewer(update.generatedAt, generatedAt)) return RefreshOutcome.UpToDate
+                if (!isPlausibleUpdate(update.nominations, current)) return RefreshOutcome.Failed
+                cache.write(NominationCache.Entry(result.text, result.etag))
                 etag = result.etag
                 val known = current.mapTo(HashSet()) { it.id }
                 publish(update)
-                val added = update.count { it.id !in known }
+                val added = update.nominations.count { it.id !in known }
                 if (added > 0) RefreshOutcome.Updated(added) else RefreshOutcome.UpToDate
             }
         }
     }
 
-    private fun publish(nominations: List<Nomination>) {
-        readingList.adoptCurrentKeys(nominations)
-        state.value = nominations
+    private fun publish(data: AwardsData) {
+        readingList.adoptCurrentKeys(data.nominations)
+        generatedAt = data.generatedAt
+        state.value = data.nominations
     }
 }
