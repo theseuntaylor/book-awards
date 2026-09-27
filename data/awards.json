@@ -2,6 +2,110 @@
   "nominations": [
     {
       "award": "BOOKER",
+      "year": 2026,
+      "title": "Black Bag",
+      "author": "Luke Kennard",
+      "status": "SHORTLIST",
+      "wikidataId": "Q141301665"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "John of John",
+      "author": "Douglas Stuart",
+      "status": "SHORTLIST",
+      "wikidataId": "Q139584295"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "May We Feed the King",
+      "author": "Rebecca Perry",
+      "status": "SHORTLIST",
+      "wikidataId": "Q141301824"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The Disappearers",
+      "author": "Marlon James",
+      "status": "SHORTLIST",
+      "wikidataId": "Q140835084"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The End of Everything",
+      "author": "M. John Harrison",
+      "status": "SHORTLIST",
+      "wikidataId": "Q140751909"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The Things We Never Say",
+      "author": "Elizabeth Strout",
+      "status": "SHORTLIST",
+      "wikidataId": "Q136750253"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "All Them Dogs",
+      "author": "Djamel White",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "Helen of Nowhere",
+      "author": "Makenna Goodman",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "Switzy",
+      "author": "Emma Cline",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The Palm House",
+      "author": "Gwendoline Riley",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The Renovation",
+      "author": "Kenan Orhan",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The Shadow of the Object",
+      "author": "Chloe Aridjis",
+      "status": "LONGLIST",
+      "wikidataId": "Q141287248"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2026,
+      "title": "The Vivisectors",
+      "author": "Missouri Williams",
+      "status": "LONGLIST",
+      "wikidataId": "Q140157711"
+    },
+    {
+      "award": "BOOKER",
       "year": 2025,
       "title": "Flesh",
       "author": "David Szalay",
@@ -118,7 +222,7 @@
       "title": "Creation Lake",
       "author": "Rachel Kushner",
       "status": "SHORTLIST",
-      "wikidataId": null
+      "wikidataId": "Q130312424"
     },
     {
       "award": "BOOKER",
@@ -126,7 +230,7 @@
       "title": "Held",
       "author": "Anne Michaels",
       "status": "SHORTLIST",
-      "wikidataId": null
+      "wikidataId": "Q130602196"
     },
     {
       "award": "BOOKER",
@@ -134,7 +238,7 @@
       "title": "James",
       "author": "Percival Everett",
       "status": "SHORTLIST",
-      "wikidataId": null
+      "wikidataId": "Q126679110"
     },
     {
       "award": "BOOKER",
@@ -142,7 +246,7 @@
       "title": "Stone Yard Devotional",
       "author": "Charlotte Wood",
       "status": "SHORTLIST",
-      "wikidataId": null
+      "wikidataId": "Q130469799"
     },
     {
       "award": "BOOKER",
@@ -150,7 +254,7 @@
       "title": "The Safekeep",
       "author": "Yael van der Wouden",
       "status": "SHORTLIST",
-      "wikidataId": null
+      "wikidataId": "Q130749180"
     },
     {
       "award": "BOOKER",
@@ -174,7 +278,7 @@
       "title": "My Friends",
       "author": "Hisham Matar",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q130633437"
     },
     {
       "award": "BOOKER",
@@ -182,7 +286,7 @@
       "title": "Playground",
       "author": "Richard Powers",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q132451932"
     },
     {
       "award": "BOOKER",
@@ -190,7 +294,7 @@
       "title": "This Strange Eventful History",
       "author": "Claire Messud",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q128792091"
     },
     {
       "award": "BOOKER",
@@ -198,7 +302,7 @@
       "title": "Wandering Stars",
       "author": "Tommy Orange",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q132658781"
     },
     {
       "award": "BOOKER",
@@ -260,9 +364,9 @@
       "award": "BOOKER",
       "year": 2023,
       "title": "A Spell of Good Things",
-      "author": "Ayọ̀bámi Adébáyọ̀",
+      "author": "Ayobami Adebayo",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q117756882"
     },
     {
       "award": "BOOKER",
@@ -286,7 +390,7 @@
       "title": "In Ascension",
       "author": "Martin MacInnes",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q123358191"
     },
     {
       "award": "BOOKER",
@@ -310,7 +414,7 @@
       "title": "The House of Doors",
       "author": "Tan Twan Eng",
       "status": "LONGLIST",
-      "wikidataId": null
+      "wikidataId": "Q123677318"
     },
     {
       "award": "BOOKER",
@@ -1287,6 +1391,14 @@
       "author": "Colm Tóibín",
       "status": "SHORTLIST",
       "wikidataId": "Q7768568"
+    },
+    {
+      "award": "BOOKER",
+      "year": 2013,
+      "title": "We Need New Names",
+      "author": "NoViolet Bulawayo",
+      "status": "SHORTLIST",
+      "wikidataId": "Q17144284"
     },
     {
       "award": "BOOKER",
@@ -4474,11 +4586,147 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "Mad Eden",
+      "author": "Morgan Thomas",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "Paradiso 17",
+      "author": "Hannah Lillith Assadi",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "Passengers",
+      "author": "Alexander Maksik",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "Pretend You’re Dead and I Carry You",
+      "author": "Julián Delgado Lopera",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "Python’s Kiss",
+      "author": "Louise Erdrich",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "Red Ants",
+      "author": "Kimberly Blaeser",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "The Disappearers",
+      "author": "Marlon James",
+      "status": "LONGLIST",
+      "wikidataId": "Q140835084"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2026,
+      "title": "The Renovation",
+      "author": "Kenan Orhan",
+      "status": "LONGLIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2025,
+      "title": "The True True Story of Raja the Gullible (and His Mother)",
+      "author": "Rabih Alameddine",
+      "status": "WINNER",
+      "wikidataId": "Q137380109"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2025,
+      "title": "A Guardian and a Thief",
+      "author": "Megha Majumdar",
+      "status": "FINALIST",
+      "wikidataId": "Q136497190"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2025,
+      "title": "North Sun, or, the Voyage of the Whaleship Esther",
+      "author": "Ethan Rutherford",
+      "status": "FINALIST",
+      "wikidataId": "Q136557416"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2025,
+      "title": "Palaver",
+      "author": "Bryan Washington",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2025,
+      "title": "The Antidote",
+      "author": "Karen Russell",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2024,
       "title": "James",
       "author": "Percival Everett",
       "status": "WINNER",
       "wikidataId": "Q126679110"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2024,
+      "title": "All Fours",
+      "author": "Miranda July",
+      "status": "FINALIST",
+      "wikidataId": "Q128620441"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2024,
+      "title": "Ghostroots",
+      "author": "'Pemi Aguda",
+      "status": "FINALIST",
+      "wikidataId": "Q131282021"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2024,
+      "title": "Martyr!",
+      "author": "Kaveh Akbar",
+      "status": "FINALIST",
+      "wikidataId": "Q124465799"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2024,
+      "title": "My Friends",
+      "author": "Hisham Matar",
+      "status": "FINALIST",
+      "wikidataId": "Q130633437"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4490,6 +4738,38 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2023,
+      "title": "Chain-Gang All-Stars",
+      "author": "Nana Kwame Adjei-Brenyah",
+      "status": "FINALIST",
+      "wikidataId": "Q123990934"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2023,
+      "title": "Temple Folk",
+      "author": "Aaliyah Bilal",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2023,
+      "title": "The End of Drum-Time",
+      "author": "Hanna Pylväinen",
+      "status": "FINALIST",
+      "wikidataId": "Q130693559"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2023,
+      "title": "This Other Eden",
+      "author": "Paul Harding",
+      "status": "FINALIST",
+      "wikidataId": "Q116776970"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2022,
       "title": "The Rabbit Hutch",
       "author": "Tess Gunty",
@@ -4498,11 +4778,75 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2022,
+      "title": "All This Could Be Different",
+      "author": "Sarah Thankam Mathews",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2022,
+      "title": "The Birdcatcher",
+      "author": "Gayl Jones",
+      "status": "FINALIST",
+      "wikidataId": "Q115490022"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2022,
+      "title": "The Haunting of Hajji Hotak and Other Stories",
+      "author": "Jamil Jan Kochai",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2022,
+      "title": "The Town of Babylon",
+      "author": "Alejandro Varela",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2021,
       "title": "Hell of a Book",
       "author": "Jason Mott",
       "status": "WINNER",
       "wikidataId": "Q111661684"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2021,
+      "title": "Cloud Cuckoo Land",
+      "author": "Anthony Doerr",
+      "status": "FINALIST",
+      "wikidataId": "Q110552625"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2021,
+      "title": "Matrix",
+      "author": "Lauren Groff",
+      "status": "FINALIST",
+      "wikidataId": "Q109609245"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2021,
+      "title": "The Prophets",
+      "author": "Robert Jones Jr.",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2021,
+      "title": "Zorrie",
+      "author": "Laird Hunt",
+      "status": "FINALIST",
+      "wikidataId": "Q137710805"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4515,10 +4859,34 @@
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 2020,
+      "title": "A Children's Bible",
+      "author": "Lydia Millet",
+      "status": "FINALIST",
+      "wikidataId": "Q105081486"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2020,
+      "title": "Leave the World Behind",
+      "author": "Rumaan Alam",
+      "status": "FINALIST",
+      "wikidataId": "Q104880303"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2020,
       "title": "Shuggie Bain",
       "author": "Douglas Stuart",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q100997892"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2020,
+      "title": "The Secret Lives of Church Ladies",
+      "author": "Deesha Philyaw",
+      "status": "FINALIST",
+      "wikidataId": "Q102079286"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4530,11 +4898,75 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2019,
+      "title": "Black Leopard, Red Wolf",
+      "author": "Marlon James",
+      "status": "FINALIST",
+      "wikidataId": "Q65118764"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2019,
+      "title": "Disappearing Earth",
+      "author": "Julia Phillips",
+      "status": "FINALIST",
+      "wikidataId": "Q65072722"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2019,
+      "title": "Sabrina and Corina",
+      "author": "Kali Fajardo-Anstine",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2019,
+      "title": "The Other Americans",
+      "author": "Laila Lalami",
+      "status": "FINALIST",
+      "wikidataId": "Q109535647"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2018,
       "title": "The Friend",
       "author": "Sigrid Nunez",
       "status": "WINNER",
       "wikidataId": "Q58692425"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "title": "A Lucky Man",
+      "author": "Jamel Brinkley",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "title": "Florida",
+      "author": "Lauren Groff",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "title": "The Great Believers",
+      "author": "Rebecca Makkai",
+      "status": "FINALIST",
+      "wikidataId": "Q110552755"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2018,
+      "title": "Where the Dead Sit Talking",
+      "author": "Brandon Hobson",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4555,10 +4987,34 @@
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 2017,
+      "title": "Dark at the Crossing",
+      "author": "Elliot Ackerman",
+      "status": "FINALIST",
+      "wikidataId": "Q117421854"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2017,
+      "title": "Her Body and Other Parties",
+      "author": "Carmen Maria Machado",
+      "status": "FINALIST",
+      "wikidataId": "Q50379801"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2017,
       "title": "Pachinko",
       "author": "Min Jin Lee",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q55641363"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2017,
+      "title": "The Leavers",
+      "author": "Lisa Ko",
+      "status": "FINALIST",
+      "wikidataId": "Q96409429"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4570,18 +5026,130 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2016,
+      "title": "Another Brooklyn",
+      "author": "Jacqueline Woodson",
+      "status": "FINALIST",
+      "wikidataId": "Q26963062"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2016,
+      "title": "News of the World",
+      "author": "Paulette Jiles",
+      "status": "FINALIST",
+      "wikidataId": "Q85788843"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2016,
+      "title": "The Association of Small Bombs",
+      "author": "Karan Mahajan",
+      "status": "FINALIST",
+      "wikidataId": "Q23762943"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2016,
+      "title": "The Throwback Special",
+      "author": "Chris Bachelder",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2015,
+      "title": "Fortune Smiles",
+      "author": "Adam Johnson",
+      "status": "WINNER",
+      "wikidataId": "Q28466220"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2015,
+      "title": "A Little Life",
+      "author": "Hanya Yanagihara",
+      "status": "FINALIST",
+      "wikidataId": "Q20709044"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2015,
+      "title": "Fates and Furies",
+      "author": "Lauren Groff",
+      "status": "FINALIST",
+      "wikidataId": "Q21539879"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2015,
+      "title": "Refund",
+      "author": "Karen Bender",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2015,
+      "title": "The Turner House",
+      "author": "Angela Flournoy",
+      "status": "FINALIST",
+      "wikidataId": "Q24211442"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2014,
+      "title": "Redeployment",
+      "author": "Phil Klay",
+      "status": "WINNER",
+      "wikidataId": "Q18575560"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2014,
       "title": "All the Light We Cannot See",
       "author": "Anthony Doerr",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q18109559"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2014,
+      "title": "An Unnecessary Woman",
+      "author": "Rabih Alameddine",
+      "status": "FINALIST",
+      "wikidataId": "Q24037231"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2014,
+      "title": "Lila",
+      "author": "Marilynne Robinson",
+      "status": "FINALIST",
+      "wikidataId": "Q18786607"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2014,
+      "title": "Station Eleven",
+      "author": "Emily St. John Mandel",
+      "status": "FINALIST",
+      "wikidataId": "Q20645702"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2013,
+      "title": "The Good Lord Bird",
+      "author": "James McBride",
+      "status": "WINNER",
+      "wikidataId": "Q16982299"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 2013,
       "title": "Bleeding Edge",
       "author": "Thomas Pynchon",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q15052477"
     },
     {
@@ -4589,7 +5157,7 @@
       "year": 2013,
       "title": "Tenth of December: Stories",
       "author": "George Saunders",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7700894"
     },
     {
@@ -4597,8 +5165,16 @@
       "year": 2013,
       "title": "The Flamethrowers",
       "author": "Rachel Kushner",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q16993449"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2013,
+      "title": "The Lowland",
+      "author": "Jhumpa Lahiri",
+      "status": "FINALIST",
+      "wikidataId": "Q16321394"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4610,6 +5186,38 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2012,
+      "title": "A Hologram for the King",
+      "author": "Dave Eggers",
+      "status": "FINALIST",
+      "wikidataId": "Q16583894"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2012,
+      "title": "Billy Lynn's Long Halftime Walk",
+      "author": "Ben Fountain",
+      "status": "FINALIST",
+      "wikidataId": "Q18207470"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2012,
+      "title": "The Yellow Birds",
+      "author": "Kevin Powers",
+      "status": "FINALIST",
+      "wikidataId": "Q17154174"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2012,
+      "title": "This Is How You Lose Her",
+      "author": "Junot Díaz",
+      "status": "FINALIST",
+      "wikidataId": "Q17149801"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2011,
       "title": "Salvage the Bones",
       "author": "Jesmyn Ward",
@@ -4618,11 +5226,155 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2011,
+      "title": "Binocular Vision",
+      "author": "Edith Pearlman",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2011,
+      "title": "The Buddha in the Attic",
+      "author": "Julie Otsuka",
+      "status": "FINALIST",
+      "wikidataId": "Q16537236"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2011,
+      "title": "The Sojourn",
+      "author": "Andrew Krivak",
+      "status": "FINALIST",
+      "wikidataId": "Q24806883"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2011,
+      "title": "The Tiger's Wife",
+      "author": "Téa Obreht",
+      "status": "FINALIST",
+      "wikidataId": "Q7769245"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2010,
+      "title": "Lord of Misrule",
+      "author": "Jaimy Gordon",
+      "status": "WINNER",
+      "wikidataId": "Q25217938"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2010,
+      "title": "Great House",
+      "author": "Nicole Krauss",
+      "status": "FINALIST",
+      "wikidataId": "Q5599341"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2010,
+      "title": "I Hotel",
+      "author": "Karen Tei Yamashita",
+      "status": "FINALIST",
+      "wikidataId": "Q131152509"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2010,
+      "title": "Parrot and Olivier in America",
+      "author": "Peter Carey",
+      "status": "FINALIST",
+      "wikidataId": "Q275134"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2010,
+      "title": "So Much for That",
+      "author": "Lionel Shriver",
+      "status": "FINALIST",
+      "wikidataId": "Q24806892"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2009,
+      "title": "Let the Great World Spin",
+      "author": "Colum McCann",
+      "status": "WINNER",
+      "wikidataId": "Q3059176"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2009,
+      "title": "American Salvage",
+      "author": "Bonnie Jo Campbell",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2009,
+      "title": "Far North",
+      "author": "Marcel Theroux",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2009,
+      "title": "In Other Rooms, Other Wonders",
+      "author": "Daniyal Mueenuddin",
+      "status": "FINALIST",
+      "wikidataId": "Q6010305"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2009,
+      "title": "Lark and Termite",
+      "author": "Jayne Anne Phillips",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2008,
       "title": "Shadow Country",
       "author": "Peter Matthiessen",
-      "status": "NOMINEE",
+      "status": "WINNER",
       "wikidataId": "Q7460489"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2008,
+      "title": "Home",
+      "author": "Marilynne Robinson",
+      "status": "FINALIST",
+      "wikidataId": "Q13636457"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2008,
+      "title": "Telex from Cuba",
+      "author": "Rachel Kushner",
+      "status": "FINALIST",
+      "wikidataId": "Q24038170"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2008,
+      "title": "The End",
+      "author": "Salvatore Scibona",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2008,
+      "title": "The Lazarus Project",
+      "author": "Aleksandar Hemon",
+      "status": "FINALIST",
+      "wikidataId": "Q7746477"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4634,6 +5386,38 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2007,
+      "title": "Fieldwork",
+      "author": "Mischa Berlinski",
+      "status": "FINALIST",
+      "wikidataId": "Q5447237"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2007,
+      "title": "Like You'd Understand, Anyway",
+      "author": "Jim Shepard",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2007,
+      "title": "Then We Came to the End",
+      "author": "Joshua Ferris",
+      "status": "FINALIST",
+      "wikidataId": "Q7781335"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2007,
+      "title": "Varieties of Disturbance",
+      "author": "Lydia Davis",
+      "status": "FINALIST",
+      "wikidataId": "Q17047760"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2006,
       "title": "The Echo Maker",
       "author": "Richard Powers",
@@ -4642,19 +5426,315 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 2006,
+      "title": "A Disorder Peculiar to the Country",
+      "author": "Ken Kalfus",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2006,
+      "title": "Eat the Document",
+      "author": "Dana Spiotta",
+      "status": "FINALIST",
+      "wikidataId": "Q96376933"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2006,
+      "title": "Only Revolutions",
+      "author": "Mark Z. Danielewski",
+      "status": "FINALIST",
+      "wikidataId": "Q2024503"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2006,
+      "title": "The Zero",
+      "author": "Jess Walter",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2005,
+      "title": "Europe Central",
+      "author": "William T. Vollmann",
+      "status": "WINNER",
+      "wikidataId": "Q2944398"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2005,
+      "title": "Holy Skirts",
+      "author": "René Steinke",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 2005,
       "title": "The March",
       "author": "E. L. Doctorow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q183363"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2005,
+      "title": "Trance",
+      "author": "Christopher Sorrentino",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2005,
+      "title": "Veronica",
+      "author": "Mary Gaitskill",
+      "status": "FINALIST",
+      "wikidataId": "Q130386293"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2004,
+      "title": "The News from Paraguay",
+      "author": "Lily Tuck",
+      "status": "WINNER",
+      "wikidataId": "Q24807556"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2004,
+      "title": "Florida",
+      "author": "Christine Schutt",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2004,
+      "title": "Ideas of Heaven: A Ring of Stories",
+      "author": "Joan Silber",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2004,
+      "title": "Madeleine is Sleeping",
+      "author": "Sarah Shun-lien Bynum",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2004,
+      "title": "Our Kind",
+      "author": "Kate Walbert",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2003,
+      "title": "The Great Fire",
+      "author": "Shirley Hazzard",
+      "status": "WINNER",
+      "wikidataId": "Q7737760"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2003,
+      "title": "A Ship Made of Paper",
+      "author": "Scott Spencer",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2003,
+      "title": "Drop City",
+      "author": "T. C. Boyle",
+      "status": "FINALIST",
+      "wikidataId": "Q1260252"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2003,
+      "title": "Evidence of Things Unseen",
+      "author": "Marianne Wiggins",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2003,
+      "title": "The Known World",
+      "author": "Edward P. Jones",
+      "status": "FINALIST",
+      "wikidataId": "Q7744892"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2002,
+      "title": "Three Junes",
+      "author": "Julia Glass",
+      "status": "WINNER",
+      "wikidataId": "Q7797553"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2002,
+      "title": "Big If",
+      "author": "Mark Costello",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2002,
+      "title": "Gorgeous Lies",
+      "author": "Martha McPhee",
+      "status": "FINALIST",
+      "wikidataId": "Q17332579"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2002,
+      "title": "The Heaven of Mercury",
+      "author": "Brad Watson",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2002,
+      "title": "You Are Not a Stranger Here",
+      "author": "Adam Haslett",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2001,
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "status": "WINNER",
+      "wikidataId": "Q335645"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2001,
+      "title": "Among the Missing",
+      "author": "Dan Chaon",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2001,
+      "title": "Highwire Moon",
+      "author": "Susan Straight",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2001,
+      "title": "Look at Me",
+      "author": "Jennifer Egan",
+      "status": "FINALIST",
+      "wikidataId": "Q111913705"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2001,
+      "title": "The Last Report on the Miracles at Little No Horse",
+      "author": "Louise Erdrich",
+      "status": "FINALIST",
+      "wikidataId": "Q65067818"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2000,
+      "title": "In America",
+      "author": "Susan Sontag",
+      "status": "WINNER",
+      "wikidataId": "Q5831868"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 2000,
       "title": "Blonde",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1580112"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2000,
+      "title": "Blue Angel",
+      "author": "Francine Prose",
+      "status": "FINALIST",
+      "wikidataId": "Q105555594"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2000,
+      "title": "The Diagnosis",
+      "author": "Alan Lightman",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 2000,
+      "title": "The Feast of Love",
+      "author": "Charles Baxter",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1999,
+      "title": "Waiting",
+      "author": "Ha Jin",
+      "status": "WINNER",
+      "wikidataId": "Q7960537"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1999,
+      "title": "House of Sand and Fog",
+      "author": "Andre Dubus III",
+      "status": "FINALIST",
+      "wikidataId": "Q3821684"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1999,
+      "title": "Hummingbird House",
+      "author": "Patricia Henley",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1999,
+      "title": "Plainsong",
+      "author": "Kent Haruf",
+      "status": "FINALIST",
+      "wikidataId": "Q7200755"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1999,
+      "title": "Who Do You Love",
+      "author": "Jean Thompson",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4669,8 +5749,32 @@
       "year": 1998,
       "title": "A Man in Full",
       "author": "Tom Wolfe",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q4658094"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1998,
+      "title": "Damascus Gate",
+      "author": "Robert Stone",
+      "status": "FINALIST",
+      "wikidataId": "Q131917613"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1998,
+      "title": "Kaaterskill Falls",
+      "author": "Allegra Goodman",
+      "status": "FINALIST",
+      "wikidataId": "Q6343623"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1998,
+      "title": "The Healing",
+      "author": "Gayl Jones",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4682,11 +5786,75 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1997,
+      "title": "Echo House",
+      "author": "Ward Just",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1997,
+      "title": "Le Divorce",
+      "author": "Diane Johnson",
+      "status": "FINALIST",
+      "wikidataId": "Q23307646"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1997,
+      "title": "The Puttermesser Papers",
+      "author": "Cynthia Ozick",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1997,
+      "title": "Underworld",
+      "author": "Don DeLillo",
+      "status": "FINALIST",
+      "wikidataId": "Q2249650"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1996,
+      "title": "Ship Fever and Other Stories",
+      "author": "Andrea Barrett",
+      "status": "WINNER",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1996,
+      "title": "Atticus",
+      "author": "Ron Hansen",
+      "status": "FINALIST",
+      "wikidataId": "Q65089238"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1996,
       "title": "Martin Dressler",
       "author": "Steven Millhauser",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q6775331"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1996,
+      "title": "The Giant's House",
+      "author": "Elizabeth McCracken",
+      "status": "FINALIST",
+      "wikidataId": "Q24965626"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1996,
+      "title": "The River Beyond the World",
+      "author": "Janet Peery",
+      "status": "FINALIST",
+      "wikidataId": "Q24192552"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4698,6 +5866,78 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1995,
+      "title": "All Souls' Rising",
+      "author": "Madison Smartt Bell",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1995,
+      "title": "Interstate",
+      "author": "Stephen Dixon",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1995,
+      "title": "Krik? Krak!",
+      "author": "Edwidge Danticat",
+      "status": "FINALIST",
+      "wikidataId": "Q6437027"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1995,
+      "title": "The House on the Lagoon",
+      "author": "Rosario Ferré",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1994,
+      "title": "A Frolic of His Own",
+      "author": "William Gaddis",
+      "status": "WINNER",
+      "wikidataId": "Q4656876"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1994,
+      "title": "Moses Supposes",
+      "author": "Ellen Currie",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1994,
+      "title": "The Bird Artist",
+      "author": "Howard Norman",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1994,
+      "title": "The Collected Stories",
+      "author": "Grace Paley",
+      "status": "FINALIST",
+      "wikidataId": "Q17047768"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1994,
+      "title": "White Man's Grave",
+      "author": "Richard Dooling",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1993,
       "title": "The Shipping News",
       "author": "Annie Proulx",
@@ -4706,11 +5946,115 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1993,
+      "title": "Come to Me: Stories",
+      "author": "Amy Bloom",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1993,
+      "title": "Operation Wandering Soul",
+      "author": "Richard Powers",
+      "status": "FINALIST",
+      "wikidataId": "Q18209366"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1993,
+      "title": "Swimming in the Volcano",
+      "author": "Bob Shacochis",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1993,
+      "title": "The Pugilist at Rest",
+      "author": "Thom Jones",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1992,
       "title": "All the Pretty Horses",
       "author": "Cormac McCarthy",
       "status": "WINNER",
       "wikidataId": "Q264519"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1992,
+      "title": "Bastard Out of Carolina",
+      "author": "Dorothy Allison",
+      "status": "FINALIST",
+      "wikidataId": "Q4868232"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1992,
+      "title": "Dreaming in Cuban",
+      "author": "Cristina García",
+      "status": "FINALIST",
+      "wikidataId": "Q5306622"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1992,
+      "title": "Lost in the City",
+      "author": "Edward P. Jones",
+      "status": "FINALIST",
+      "wikidataId": "Q20875726"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1992,
+      "title": "Outerbridge Reach",
+      "author": "Robert Stone",
+      "status": "FINALIST",
+      "wikidataId": "Q7112044"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1991,
+      "title": "Mating",
+      "author": "Norman Rush",
+      "status": "WINNER",
+      "wikidataId": "Q6787567"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1991,
+      "title": "Beyond Deserving",
+      "author": "Sandra Scofield",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1991,
+      "title": "Frog",
+      "author": "Stephen Dixon",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1991,
+      "title": "The MacGuffin",
+      "author": "Stanley Elkin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1991,
+      "title": "Wartime Lies",
+      "author": "Louis Begley",
+      "status": "FINALIST",
+      "wikidataId": "Q3549886"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4725,15 +6069,47 @@
       "year": 1990,
       "title": "Because It Is Bitter, and Because It Is My Heart",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q4878481"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1990,
+      "title": "Chromos",
+      "author": "Felipe Alfau",
+      "status": "FINALIST",
+      "wikidataId": "Q36391190"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1990,
+      "title": "Dogeaters",
+      "author": "Jessica Hagedorn",
+      "status": "FINALIST",
+      "wikidataId": "Q5288327"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1990,
+      "title": "Paradise",
+      "author": "Elena Castedo",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1989,
+      "title": "Spartina",
+      "author": "John Casey",
+      "status": "WINNER",
+      "wikidataId": "Q24255799"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1989,
       "title": "Billy Bathgate",
       "author": "E. L. Doctorow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3734045"
     },
     {
@@ -4741,24 +6117,128 @@
       "year": 1989,
       "title": "Geek Love",
       "author": "Katherine Dunn",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q5529789"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1989,
+      "title": "The Joy Luck Club",
+      "author": "Amy Tan",
+      "status": "FINALIST",
+      "wikidataId": "Q1857708"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1989,
+      "title": "The Mambo Kings Play Songs of Love",
+      "author": "Oscar Hijuelos",
+      "status": "FINALIST",
+      "wikidataId": "Q7749825"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1988,
+      "title": "Paris Trout",
+      "author": "Pete Dexter",
+      "status": "WINNER",
+      "wikidataId": "Q3793700"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1988,
+      "title": "Breathing Lessons",
+      "author": "Anne Tyler",
+      "status": "FINALIST",
+      "wikidataId": "Q754464"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1988,
+      "title": "Libra",
+      "author": "Don DeLillo",
+      "status": "FINALIST",
+      "wikidataId": "Q1093807"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1988,
+      "title": "Vanished",
+      "author": "Mary McGarry Morris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1988,
+      "title": "Wheat That Springeth Green",
+      "author": "J. F. Powers",
+      "status": "FINALIST",
+      "wikidataId": "Q7991842"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1987,
+      "title": "Paco's Story",
+      "author": "Larry Heinemann",
+      "status": "WINNER",
+      "wikidataId": "Q24255780"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1987,
       "title": "Beloved",
       "author": "Toni Morrison",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q971767"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1987,
+      "title": "That Night",
+      "author": "Alice McDermott",
+      "status": "FINALIST",
+      "wikidataId": "Q3927603"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1987,
       "title": "The Counterlife",
       "author": "Philip Roth",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q597219"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1987,
+      "title": "The Northern Lights",
+      "author": "Howard Norman",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1986,
+      "title": "World's Fair",
+      "author": "E. L. Doctorow",
+      "status": "WINNER",
+      "wikidataId": "Q25206119"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1986,
+      "title": "A Summons to Memphis",
+      "author": "Peter Taylor",
+      "status": "FINALIST",
+      "wikidataId": "Q4659903"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1986,
+      "title": "Whites",
+      "author": "Norman Rush",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4773,15 +6253,39 @@
       "year": 1985,
       "title": "Always Coming Home",
       "author": "Ursula K. Le Guin",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q4677090"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1985,
+      "title": "The Tree of Life",
+      "author": "Hugh Nissenson",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1984,
+      "title": "Victory Over Japan",
+      "author": "Ellen Gilchrist",
+      "status": "WINNER",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1984,
+      "title": "Foreign Affairs",
+      "author": "Alison Lurie",
+      "status": "FINALIST",
+      "wikidataId": "Q5468212"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1984,
       "title": "The Anatomy Lesson",
       "author": "Philip Roth",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7713647"
     },
     {
@@ -4794,6 +6298,38 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1983,
+      "title": "A Mother and Two Daughters",
+      "author": "Gail Godwin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1983,
+      "title": "Dinner at the Homesick Restaurant",
+      "author": "Anne Tyler",
+      "status": "FINALIST",
+      "wikidataId": "Q5278418"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1983,
+      "title": "Shiloh and Other Stories",
+      "author": "Bobbie Ann Mason",
+      "status": "FINALIST",
+      "wikidataId": "Q7496749"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1983,
+      "title": "The Mosquito Coast",
+      "author": "Paul Theroux",
+      "status": "FINALIST",
+      "wikidataId": "Q16387114"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1982,
       "title": "Rabbit Is Rich",
       "author": "John Updike",
@@ -4802,35 +6338,363 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1982,
+      "title": "A Flag for Sunrise",
+      "author": "Robert Stone",
+      "status": "FINALIST",
+      "wikidataId": "Q42184751"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1982,
+      "title": "Dad",
+      "author": "William Wharton",
+      "status": "FINALIST",
+      "wikidataId": "Q9355857"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1982,
+      "title": "Ellis Island and Other Stories",
+      "author": "Mark Helprin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1982,
+      "title": "The Hotel New Hampshire",
+      "author": "John Irving",
+      "status": "FINALIST",
+      "wikidataId": "Q1169021"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1981,
+      "title": "Plains Song",
+      "author": "Wright Morris",
+      "status": "WINNER",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1981,
+      "title": "So Long, See You Tomorrow",
+      "author": "William Maxwell",
+      "status": "FINALIST",
+      "wikidataId": "Q7549352"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1981,
+      "title": "The Collected Stories of Eudora Welty",
+      "author": "Eudora Welty",
+      "status": "FINALIST",
+      "wikidataId": "Q7726669"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1981,
+      "title": "The Second Coming",
+      "author": "Walker Percy",
+      "status": "FINALIST",
+      "wikidataId": "Q7762903"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1981,
+      "title": "The Transit of Venus",
+      "author": "Shirley Hazzard",
+      "status": "FINALIST",
+      "wikidataId": "Q36067251"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1980,
+      "title": "Sophie's Choice",
+      "author": "William Styron",
+      "status": "WINNER",
+      "wikidataId": "Q1524588"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1980,
+      "title": "Endless Love",
+      "author": "Scott Spencer",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1980,
+      "title": "Just Above My Head",
+      "author": "James Baldwin",
+      "status": "FINALIST",
+      "wikidataId": "Q6315724"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1980,
+      "title": "The Executioner's Song",
+      "author": "Norman Mailer",
+      "status": "FINALIST",
+      "wikidataId": "Q3068515"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1980,
+      "title": "The Ghost Writer",
+      "author": "Philip Roth",
+      "status": "FINALIST",
+      "wikidataId": "Q3205253"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1979,
+      "title": "Going After Cacciato",
+      "author": "Tim O'Brien",
+      "status": "WINNER",
+      "wikidataId": "Q5577743"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1979,
+      "title": "Lying Low",
+      "author": "Diane Johnson",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1979,
+      "title": "The Family",
+      "author": "David Plante",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1979,
+      "title": "The Stories of John Cheever",
+      "author": "John Cheever",
+      "status": "FINALIST",
+      "wikidataId": "Q7766676"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1979,
+      "title": "The World According to Garp",
+      "author": "John Irving",
+      "status": "FINALIST",
+      "wikidataId": "Q2507282"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1978,
+      "title": "Blood Tie",
+      "author": "Mary Lee Settle",
+      "status": "WINNER",
+      "wikidataId": "Q24255757"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1978,
+      "title": "Elbow Room",
+      "author": "James Alan McPherson",
+      "status": "FINALIST",
+      "wikidataId": "Q5353790"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1978,
+      "title": "Madder Music",
+      "author": "Peter De Vries",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1978,
+      "title": "The Public Burning",
+      "author": "Robert Coover",
+      "status": "FINALIST",
+      "wikidataId": "Q7758686"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1978,
+      "title": "Union Dues",
+      "author": "John Sayles",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1977,
+      "title": "The Spectator Bird",
+      "author": "Wallace Stegner",
+      "status": "WINNER",
+      "wikidataId": "Q7765773"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1977,
+      "title": "A Fine Romance",
+      "author": "Cynthia Propper Seton",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1977,
       "title": "Orsinian Tales",
       "author": "Ursula K. Le Guin",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7104139"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1977,
+      "title": "The Balloonist",
+      "author": "MacDonald Harris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1977,
+      "title": "Will You Please Be Quiet, Please?",
+      "author": "Raymond Carver",
+      "status": "FINALIST",
+      "wikidataId": "Q3794374"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1976,
+      "title": "J R",
+      "author": "William Gaddis",
+      "status": "WINNER",
+      "wikidataId": "Q6109413"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1976,
+      "title": "Beyond the Bedroom Wall",
+      "author": "Larry Woiwode",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1976,
       "title": "Humboldt's Gift",
       "author": "Saul Bellow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3793856"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1976,
+      "title": "Other People's Lives",
+      "author": "Johanna Kaplan",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1976,
+      "title": "The Collected Stories of Hortense Calisher",
+      "author": "Hortense Calisher",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1976,
+      "title": "Tyrants Destroyed and Other Stories",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q7861457"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "Dog Soldiers",
+      "author": "Robert Stone",
+      "status": "WINNER",
+      "wikidataId": "Q3790928"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "The Hair of Harold Roux",
+      "author": "Thomas Williams",
+      "status": "WINNER",
+      "wikidataId": "Q24255756"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "Enormous Changes at the Last Minute",
+      "author": "Grace Paley",
+      "status": "FINALIST",
+      "wikidataId": "Q42189422"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "Guilty Pleasures",
+      "author": "Donald Barthelme",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "Look at the Harlequins!",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q3423372"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1975,
       "title": "My Life As a Man",
       "author": "Philip Roth",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1685465"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "Something Happened",
+      "author": "Joseph Heller",
+      "status": "FINALIST",
+      "wikidataId": "Q839220"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1975,
       "title": "Sula",
       "author": "Toni Morrison",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3503405"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "The Death of the Detective",
+      "author": "Mark Smith",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1975,
+      "title": "The Odd Woman",
+      "author": "Gail Godwin",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4850,18 +6714,218 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Apostles of Light",
+      "author": "Ellen Douglas",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Beasts of the Southern Wild and Other Stories",
+      "author": "Doris Betts",
+      "status": "FINALIST",
+      "wikidataId": "Q4876890"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Black Conceit",
+      "author": "John Leonard",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Burr",
+      "author": "Gore Vidal",
+      "status": "FINALIST",
+      "wikidataId": "Q5000310"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Nickel Mountain",
+      "author": "John Gardner",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Ninety-Two in the Shade",
+      "author": "Thomas McGuane",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "People Will Always Be Kind",
+      "author": "Wilfrid Sheed",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "Searches and Seizures",
+      "author": "Stanley Elkin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "State of Grace",
+      "author": "Joy Williams",
+      "status": "FINALIST",
+      "wikidataId": "Q137799814"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1974,
+      "title": "The World of Apples",
+      "author": "John Cheever",
+      "status": "FINALIST",
+      "wikidataId": "Q115474730"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Augustus",
+      "author": "John Williams",
+      "status": "WINNER",
+      "wikidataId": "Q4821361"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Chimera",
+      "author": "John Barth",
+      "status": "WINNER",
+      "wikidataId": "Q5099343"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Enemies, A Love Story",
+      "author": "Isaac Bashevis Singer",
+      "status": "FINALIST",
+      "wikidataId": "Q13456096"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Geronimo Rex",
+      "author": "Barry Hannah",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Hermaphrodeity",
+      "author": "Alan H. Friedman",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Mumbo Jumbo",
+      "author": "Ishmael Reed",
+      "status": "FINALIST",
+      "wikidataId": "Q6935365"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "The Confessions of a Child of the Century",
+      "author": "Thomas Rogers",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "The Friends of Eddie Coyle",
+      "author": "George V. Higgins",
+      "status": "FINALIST",
+      "wikidataId": "Q7735311"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "The Late Great Creature",
+      "author": "Brock Brower",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1973,
       "title": "The Optimist's Daughter",
       "author": "Eudora Welty",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7755231"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "The Prince",
+      "author": "R. M. Koster",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1973,
+      "title": "Transparent Things",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q3213249"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "The Complete Stories",
+      "author": "Flannery O'Connor",
+      "status": "WINNER",
+      "wikidataId": "Q7727192"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "A Garden of Sand",
+      "author": "Earl Thompson",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "Farragan's Retreat",
+      "author": "Tom McHale",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "Lion Country",
+      "author": "Frederick Buechner",
+      "status": "FINALIST",
+      "wikidataId": "Q6555409"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1972,
       "title": "Love in the Ruins",
       "author": "Walker Percy",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q6691874"
     },
     {
@@ -4869,7 +6933,7 @@
       "year": 1972,
       "title": "Rabbit Redux",
       "author": "John Updike",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1725082"
     },
     {
@@ -4877,15 +6941,31 @@
       "year": 1972,
       "title": "The Book of Daniel",
       "author": "E. L. Doctorow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1167369"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "The Dick Gibson Show",
+      "author": "Stanley Elkin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1972,
+      "title": "The Pagan Rabbi and Other Stories",
+      "author": "Cynthia Ozick",
+      "status": "FINALIST",
+      "wikidataId": "Q7755886"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1972,
       "title": "Wonderland",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q8031887"
     },
     {
@@ -4898,19 +6978,75 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
-      "year": 1970,
-      "title": "Slaughterhouse-Five",
-      "author": "Kurt Vonnegut",
-      "status": "NOMINEE",
-      "wikidataId": "Q265954"
+      "year": 1971,
+      "title": "Bech: A Book",
+      "author": "John Updike",
+      "status": "FINALIST",
+      "wikidataId": "Q5717944"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1971,
+      "title": "Deliverance",
+      "author": "James Dickey",
+      "status": "FINALIST",
+      "wikidataId": "Q3043384"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1971,
+      "title": "Losing Battles",
+      "author": "Eudora Welty",
+      "status": "FINALIST",
+      "wikidataId": "Q24255755"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1971,
+      "title": "The Bay of Noon",
+      "author": "Shirley Hazzard",
+      "status": "FINALIST",
+      "wikidataId": "Q245686"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1970,
       "title": "Them",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "WINNER",
       "wikidataId": "Q7781163"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1970,
+      "title": "Fat City",
+      "author": "Leonard Gardner",
+      "status": "FINALIST",
+      "wikidataId": "Q5437183"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1970,
+      "title": "Going Places",
+      "author": "Leonard Michaels",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1970,
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "status": "FINALIST",
+      "wikidataId": "Q265954"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1970,
+      "title": "The Collected Stories of Jean Stafford",
+      "author": "Jean Stafford",
+      "status": "FINALIST",
+      "wikidataId": "Q7726671"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4922,18 +7058,66 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1969,
+      "title": "A Fan's Notes",
+      "author": "Frederick Exley",
+      "status": "FINALIST",
+      "wikidataId": "Q2819737"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1969,
+      "title": "Expensive People",
+      "author": "Joyce Carol Oates",
+      "status": "FINALIST",
+      "wikidataId": "Q132353208"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1969,
+      "title": "Lost in the Funhouse",
+      "author": "John Barth",
+      "status": "FINALIST",
+      "wikidataId": "Q15902697"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1969,
+      "title": "The Pursuit of Happiness",
+      "author": "Thomas Rogers",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1968,
+      "title": "The Eighth Day",
+      "author": "Thornton Wilder",
+      "status": "WINNER",
+      "wikidataId": "Q19571567"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1968,
       "title": "A Garden of Earthly Delights",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q4656931"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1968,
+      "title": "The Chosen",
+      "author": "Chaim Potok",
+      "status": "FINALIST",
+      "wikidataId": "Q2752989"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1968,
       "title": "The Confessions of Nat Turner",
       "author": "William Styron",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7727343"
     },
     {
@@ -4941,32 +7125,104 @@
       "year": 1968,
       "title": "Why Are We in Vietnam?",
       "author": "Norman Mailer",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7997721"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1967,
+      "title": "The Fixer",
+      "author": "Bernard Malamud",
+      "status": "WINNER",
+      "wikidataId": "Q7734317"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1967,
+      "title": "A Dream of Kings",
+      "author": "Harry Mark Petrakis",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1967,
+      "title": "All in the Family",
+      "author": "Edwin O'Connor",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1967,
+      "title": "Office Politics",
+      "author": "Wilfrid Sheed",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1967,
+      "title": "The Embezzler",
+      "author": "Louis Auchincloss",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1967,
       "title": "The Last Gentleman",
       "author": "Walker Percy",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7745783"
-    },
-    {
-      "award": "NATIONAL_BOOK_AWARD",
-      "year": 1966,
-      "title": "At Play in the Fields of the Lord",
-      "author": "Peter Matthiessen",
-      "status": "NOMINEE",
-      "wikidataId": "Q4812392"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1966,
       "title": "The Collected Stories of Katherine Anne Porter",
       "author": "Katherine Anne Porter",
-      "status": "NOMINEE",
+      "status": "WINNER",
       "wikidataId": "Q7726672"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "At Play in the Fields of the Lord",
+      "author": "Peter Matthiessen",
+      "status": "FINALIST",
+      "wikidataId": "Q4812392"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "Everything That Rises Must Converge",
+      "author": "Flannery O'Connor",
+      "status": "FINALIST",
+      "wikidataId": "Q5418095"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "Pericles on 31st Street",
+      "author": "Harry Mark Petrakis",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "The (Diblos) Notebook",
+      "author": "James Merrill",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1966,
+      "title": "The Liberation of Lord Byron Jones",
+      "author": "Jesse Hill Ford",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4975,6 +7231,54 @@
       "author": "Saul Bellow",
       "status": "WINNER",
       "wikidataId": "Q1424503"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "Second Skin",
+      "author": "John Hawkes",
+      "status": "FINALIST",
+      "wikidataId": "Q7443547"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "Short Friday and Other Stories",
+      "author": "Isaac Bashevis Singer",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "The Defense",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q1083331"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "The Martyred",
+      "author": "Richard E. Kim",
+      "status": "FINALIST",
+      "wikidataId": "Q386285"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "The Rector of Justin",
+      "author": "Louis Auchincloss",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1965,
+      "title": "To an Early Grave",
+      "author": "Wallace Markfield",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -4994,10 +7298,58 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1964,
+      "title": "Idiots First",
+      "author": "Bernard Malamud",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1964,
+      "title": "The Group",
+      "author": "Mary McCarthy",
+      "status": "FINALIST",
+      "wikidataId": "Q1211885"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1964,
+      "title": "The Will",
+      "author": "Harvey Swados",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1964,
+      "title": "V.",
+      "author": "Thomas Pynchon",
+      "status": "FINALIST",
+      "wikidataId": "Q1191071"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1963,
+      "title": "Morte d'Urban",
+      "author": "J. F. Powers",
+      "status": "WINNER",
+      "wikidataId": "Q18764214"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1963,
+      "title": "Pale Fire",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q1229792"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1963,
       "title": "Pigeon Feathers and Other Stories",
       "author": "John Updike",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7193280"
     },
     {
@@ -5005,16 +7357,104 @@
       "year": 1963,
       "title": "Ship of Fools",
       "author": "Katherine Anne Porter",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1134909"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1963,
+      "title": "The Golden Spur",
+      "author": "Dawn Powell",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1962,
       "title": "The Moviegoer",
       "author": "Walker Percy",
-      "status": "NOMINEE",
+      "status": "WINNER",
       "wikidataId": "Q7752560"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "A New Life",
+      "author": "Bernard Malamud",
+      "status": "FINALIST",
+      "wikidataId": "Q15910697"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "Among the Dangs",
+      "author": "George P. Elliott",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "status": "FINALIST",
+      "wikidataId": "Q278208"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "False Entry",
+      "author": "Hortense Calisher",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "Franny and Zooey",
+      "author": "J. D. Salinger",
+      "status": "FINALIST",
+      "wikidataId": "Q1445395"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "Revolutionary Road",
+      "author": "Richard Yates",
+      "status": "FINALIST",
+      "wikidataId": "Q1393977"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "The Chateau",
+      "author": "William Maxwell",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "The Morning and the Evening",
+      "author": "Joan Williams",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "The Pawnbroker",
+      "author": "Edward Lewis Wallant",
+      "status": "FINALIST",
+      "wikidataId": "Q17051700"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1962,
+      "title": "The Spinoza of Market Street and Other Stories",
+      "author": "Isaac Bashevis Singer",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -5027,10 +7467,90 @@
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1961,
+      "title": "A Separate Peace",
+      "author": "John Knowles",
+      "status": "FINALIST",
+      "wikidataId": "Q4659417"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "Ceremony in Lone Tree",
+      "author": "Wright Morris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "Generation Without Farewell",
+      "author": "Kay Boyle",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
       "title": "Rabbit, Run",
       "author": "John Updike",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q178791"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The Body of a Young Man",
+      "author": "Mildred Walker",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The Child Buyer",
+      "author": "John Hersey",
+      "status": "FINALIST",
+      "wikidataId": "Q7722435"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The Christening Party",
+      "author": "Francis Steegmuller",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The House of Five Talents",
+      "author": "Louis Auchincloss",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The Light in the Piazza and Other Italian Tales",
+      "author": "Elizabeth Spencer",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "The Violent Bear It Away",
+      "author": "Flannery O'Connor",
+      "status": "FINALIST",
+      "wikidataId": "Q7772743"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1961,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "status": "FINALIST",
+      "wikidataId": "Q212340"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -5045,48 +7565,456 @@
       "year": 1960,
       "title": "Henderson the Rain King",
       "author": "Saul Bellow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3795484"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Malcolm",
+      "author": "James Purdy",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Men Die",
+      "author": "H. L. Humes",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Mrs. Bridge",
+      "author": "Evan S. Connell",
+      "status": "FINALIST",
+      "wikidataId": "Q17114009"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Pursuit of the Prodigal",
+      "author": "Louis Auchincloss",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Cave",
+      "author": "Robert Penn Warren",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Cool World",
+      "author": "Warren Miller",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Devil's Advocate",
+      "author": "Morris West",
+      "status": "FINALIST",
+      "wikidataId": "Q3202770"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1960,
       "title": "The Haunting of Hill House",
       "author": "Shirley Jackson",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3819311"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Light Infantry Ball",
+      "author": "Hamilton Basso",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Mansion",
+      "author": "William Faulkner",
+      "status": "FINALIST",
+      "wikidataId": "Q3222389"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Pistol",
+      "author": "James Jones",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1960,
       "title": "The Poorhouse Fair",
       "author": "John Updike",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7757751"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Return of H*Y*M*A*N K*A*P*L*A*N",
+      "author": "Leo Rosten",
+      "status": "FINALIST",
+      "wikidataId": "Q12021113"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The Third Choice",
+      "author": "Elizabeth Janeway",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "The War Lover",
+      "author": "John Hersey",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1960,
+      "title": "Wake Up, Stupid",
+      "author": "Mark Harris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "The Magic Barrel",
+      "author": "Bernard Malamud",
+      "status": "WINNER",
+      "wikidataId": "Q7749390"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "Anatomy of a Murder",
+      "author": "Robert Traver",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "From the Terrace",
+      "author": "John O'Hara",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "Home from the Hill",
+      "author": "William Humphrey",
+      "status": "FINALIST",
+      "wikidataId": "Q5889046"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "Lolita",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q127149"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "The Ginger Man",
+      "author": "J. P. Donleavy",
+      "status": "FINALIST",
+      "wikidataId": "Q7736458"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "The Lost Country",
+      "author": "J. R. Salamanca",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1959,
+      "title": "The Winthrop Woman",
+      "author": "Anya Seton",
+      "status": "FINALIST",
+      "wikidataId": "Q7775213"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "The Wapshot Chronicle",
+      "author": "John Cheever",
+      "status": "WINNER",
+      "wikidataId": "Q7773452"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "A Death in the Family",
+      "author": "James Agee",
+      "status": "FINALIST",
+      "wikidataId": "Q4656363"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1958,
       "title": "Atlas Shrugged",
       "author": "Ayn Rand",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q374098"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "By Love Possessed",
+      "author": "James Gould Cozzens",
+      "status": "FINALIST",
+      "wikidataId": "Q5003802"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "Love Among the Cannibals",
+      "author": "Wright Morris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "Pnin",
+      "author": "Vladimir Nabokov",
+      "status": "FINALIST",
+      "wikidataId": "Q289815"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "Something About a Soldier",
+      "author": "Mark Harris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "The Assistant",
+      "author": "Bernard Malamud",
+      "status": "FINALIST",
+      "wikidataId": "Q7714719"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "The Birth of a Grandfather",
+      "author": "May Sarton",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "The Return of Lady Brace",
+      "author": "Nancy Wilson Ross",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1958,
+      "title": "The Velvet Horn",
+      "author": "Andrew Nelson Lytle",
+      "status": "FINALIST",
+      "wikidataId": "Q24255865"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "The Field of Vision",
+      "author": "Wright Morris",
+      "status": "WINNER",
+      "wikidataId": "Q7733726"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "A Single Pebble",
+      "author": "John Hersey",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "A Walk on the Wild Side",
+      "author": "Nelson Algren",
+      "status": "FINALIST",
+      "wikidataId": "Q16986773"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "Further Fables for Our Time",
+      "author": "James Thurber",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "Generations of Men",
+      "author": "John Clinton Hunt",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "Giovanni's Room",
+      "author": "James Baldwin",
+      "status": "FINALIST",
+      "wikidataId": "Q5563645"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "Greenwillow",
+      "author": "B. J. Chute",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1957,
       "title": "Seize the Day",
       "author": "Saul Bellow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q2907590"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "The Last Hurrah",
+      "author": "Edwin O'Connor",
+      "status": "FINALIST",
+      "wikidataId": "Q7745826"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "The Presence of Grace",
+      "author": "J. F. Powers",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "The Voice at the Back Door",
+      "author": "Elizabeth Spencer",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1957,
+      "title": "These Thousand Hills",
+      "author": "A. B. Guthrie",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "Ten North Frederick",
+      "author": "John O'Hara",
+      "status": "WINNER",
+      "wikidataId": "Q1304926"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "A Good Man Is Hard to Find and Other Stories",
+      "author": "Flannery O'Connor",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "Andersonville",
+      "author": "MacKinlay Kantor",
+      "status": "FINALIST",
+      "wikidataId": "Q4754260"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
       "year": 1956,
       "title": "Band of Angels",
       "author": "Robert Penn Warren",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q126736678"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "Faithful Are the Wounds",
+      "author": "May Sarton",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "Marjorie Morningstar",
+      "author": "Herman Wouk",
+      "status": "FINALIST",
+      "wikidataId": "Q6766313"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "The Black Prince, and Other Stories",
+      "author": "Shirley Ann Grau",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "The Bride of the Innisfallen and Other Stories",
+      "author": "Eudora Welty",
+      "status": "FINALIST",
+      "wikidataId": "Q136735694"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1956,
+      "title": "The Spider's House",
+      "author": "Paul Bowles",
+      "status": "FINALIST",
+      "wikidataId": "Q113512137"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -5101,8 +8029,80 @@
       "year": 1955,
       "title": "Lord Grizzly",
       "author": "Frederick Manfred",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q6679311"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "Pictures from an Institution",
+      "author": "Randall Jarrell",
+      "status": "FINALIST",
+      "wikidataId": "Q7191235"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "Sweet Thursday",
+      "author": "John Steinbeck",
+      "status": "FINALIST",
+      "wikidataId": "Q1416875"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The Bad Seed",
+      "author": "William March",
+      "status": "FINALIST",
+      "wikidataId": "Q1767294"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The Courts of Memory",
+      "author": "Frank Rooney",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The Dollmaker",
+      "author": "Harriette Arnow",
+      "status": "FINALIST",
+      "wikidataId": "Q28452911"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The Huge Season",
+      "author": "Wright Morris",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The Last Hunt",
+      "author": "Milton Lott",
+      "status": "FINALIST",
+      "wikidataId": "Q7745825"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The Night of the Hunter",
+      "author": "Davis Grubb",
+      "status": "FINALIST",
+      "wikidataId": "Q7370629"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1955,
+      "title": "The View from Pompey's Head",
+      "author": "Hamilton Basso",
+      "status": "FINALIST",
+      "wikidataId": "Q7772596"
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
@@ -5122,11 +8122,195 @@
     },
     {
       "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "A Shower of Summer Days",
+      "author": "May Sarton",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "East of Eden",
+      "author": "John Steinbeck",
+      "status": "FINALIST",
+      "wikidataId": "Q849701"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "Jefferson Selleck",
+      "author": "Carl Jonas",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "Many Mansions",
+      "author": "Isabel Bolton",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "The Build-Up",
+      "author": "William Carlos Williams",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "The Catherine Wheel",
+      "author": "Jean Stafford",
+      "status": "FINALIST",
+      "wikidataId": "Q139759418"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "The Gathering Darkness",
+      "author": "Thomas Gallagher",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "The Landsmen",
+      "author": "Peter Martin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "status": "FINALIST",
+      "wikidataId": "Q26505"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1953,
+      "title": "Winds of Morning",
+      "author": "H. L. Davis",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "From Here to Eternity",
+      "author": "James Jones",
+      "status": "WINNER",
+      "wikidataId": "Q2469771"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
       "year": 1952,
       "title": "Lie Down in Darkness",
       "author": "William Styron",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q4003902"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "Melville Goodwin, USA",
+      "author": "John P. Marquand",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "Requiem for a Nun",
+      "author": "William Faulkner",
+      "status": "FINALIST",
+      "wikidataId": "Q3313370"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Caine Mutiny",
+      "author": "Herman Wouk",
+      "status": "FINALIST",
+      "wikidataId": "Q305415"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "status": "FINALIST",
+      "wikidataId": "Q183883"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Grass Harp",
+      "author": "Truman Capote",
+      "status": "FINALIST",
+      "wikidataId": "Q1785002"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Holy Sinner",
+      "author": "Thomas Mann",
+      "status": "FINALIST",
+      "wikidataId": "Q249219"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Morning Watch",
+      "author": "James Agee",
+      "status": "FINALIST",
+      "wikidataId": "Q3824773"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Strange Children",
+      "author": "Caroline Gordon",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1952,
+      "title": "The Witch Diggers",
+      "author": "Jessamyn West",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1951,
+      "title": "Collected Stories of William Faulkner",
+      "author": "William Faulkner",
+      "status": "WINNER",
+      "wikidataId": "Q17625917"
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1951,
+      "title": "The Trouble of One House",
+      "author": "Brendan Gill",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "NATIONAL_BOOK_AWARD",
+      "year": 1950,
+      "title": "The Man with the Golden Arm",
+      "author": "Nelson Algren",
+      "status": "WINNER",
+      "wikidataId": "Q3820015"
     },
     {
       "award": "PULITZER",
@@ -5138,11 +8322,75 @@
     },
     {
       "award": "PULITZER",
+      "year": 2026,
+      "title": "Audition",
+      "author": "Katie Kitamura",
+      "status": "FINALIST",
+      "wikidataId": "Q132861298"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2026,
+      "title": "Stag Dance: A Quartet",
+      "author": "Torrey Peters",
+      "status": "FINALIST",
+      "wikidataId": "Q133522223"
+    },
+    {
+      "award": "PULITZER",
       "year": 2025,
       "title": "James",
       "author": "Percival Everett",
       "status": "WINNER",
       "wikidataId": "Q126679110"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2025,
+      "title": "Headshot: A Novel",
+      "author": "Rita Bullwinkel",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2025,
+      "title": "Mice 1961",
+      "author": "Stacey Levine",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2025,
+      "title": "The Unicorn Woman",
+      "author": "Gayl Jones",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2024,
+      "title": "Night Watch",
+      "author": "Jayne Anne Phillips",
+      "status": "WINNER",
+      "wikidataId": "Q126009535"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2024,
+      "title": "Same Bed Different Dreams",
+      "author": "Ed Park",
+      "status": "FINALIST",
+      "wikidataId": "Q131152448"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2024,
+      "title": "Wednesday's Child",
+      "author": "Yiyun Li",
+      "status": "FINALIST",
+      "wikidataId": "Q131152463"
     },
     {
       "award": "PULITZER",
@@ -5162,11 +8410,35 @@
     },
     {
       "award": "PULITZER",
+      "year": 2023,
+      "title": "The Immortal King Rao",
+      "author": "Vauhini Vara",
+      "status": "FINALIST",
+      "wikidataId": "Q131143834"
+    },
+    {
+      "award": "PULITZER",
       "year": 2022,
       "title": "The Netanyahus",
       "author": "Joshua Cohen",
       "status": "WINNER",
       "wikidataId": "Q108871736"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2022,
+      "title": "Monkey Boy",
+      "author": "Francisco Goldman",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2022,
+      "title": "Palmares",
+      "author": "Gayl Jones",
+      "status": "FINALIST",
+      "wikidataId": "Q130357306"
     },
     {
       "award": "PULITZER",
@@ -5178,11 +8450,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 2021,
+      "title": "A Registry of My Passage upon the Earth",
+      "author": "Daniel Mason",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2021,
+      "title": "Telephone",
+      "author": "Percival Everett",
+      "status": "FINALIST",
+      "wikidataId": "Q137088894"
+    },
+    {
+      "award": "PULITZER",
       "year": 2020,
       "title": "The Nickel Boys",
       "author": "Colson Whitehead",
       "status": "WINNER",
       "wikidataId": "Q85808003"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2020,
+      "title": "The Dutch House",
+      "author": "Ann Patchett",
+      "status": "FINALIST",
+      "wikidataId": "Q85807008"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2020,
+      "title": "The Topeka School",
+      "author": "Ben Lerner",
+      "status": "FINALIST",
+      "wikidataId": "Q85808658"
     },
     {
       "award": "PULITZER",
@@ -5195,9 +8499,17 @@
     {
       "award": "PULITZER",
       "year": 2019,
+      "title": "The Great Believers",
+      "author": "Rebecca Makkai",
+      "status": "FINALIST",
+      "wikidataId": "Q110552755"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2019,
       "title": "There There",
       "author": "Tommy Orange",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q55635667"
     },
     {
@@ -5210,11 +8522,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 2018,
+      "title": "In the Distance",
+      "author": "Hernan Diaz",
+      "status": "FINALIST",
+      "wikidataId": "Q65083030"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2018,
+      "title": "The Idiot",
+      "author": "Elif Batuman",
+      "status": "FINALIST",
+      "wikidataId": "Q34633154"
+    },
+    {
+      "award": "PULITZER",
       "year": 2017,
       "title": "The Underground Railroad",
       "author": "Colson Whitehead",
       "status": "WINNER",
       "wikidataId": "Q27957817"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2017,
+      "title": "Imagine Me Gone",
+      "author": "Adam Haslett",
+      "status": "FINALIST",
+      "wikidataId": "Q28859246"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2017,
+      "title": "The Sport of Kings",
+      "author": "C. E. Morgan",
+      "status": "FINALIST",
+      "wikidataId": "Q104049800"
     },
     {
       "award": "PULITZER",
@@ -5229,8 +8573,16 @@
       "year": 2016,
       "title": "Get in Trouble",
       "author": "Kelly Link",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q65062682"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2016,
+      "title": "Maud's Line",
+      "author": "Margaret Verble",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "PULITZER",
@@ -5242,11 +8594,51 @@
     },
     {
       "award": "PULITZER",
+      "year": 2015,
+      "title": "Let Me Be Frank with You",
+      "author": "Richard Ford",
+      "status": "FINALIST",
+      "wikidataId": "Q120404380"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2015,
+      "title": "Lovely, Dark, Deep",
+      "author": "Joyce Carol Oates",
+      "status": "FINALIST",
+      "wikidataId": "Q133461764"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2015,
+      "title": "The Moor's Account",
+      "author": "Laila Lalami",
+      "status": "FINALIST",
+      "wikidataId": "Q20925587"
+    },
+    {
+      "award": "PULITZER",
       "year": 2014,
       "title": "The Goldfinch",
       "author": "Donna Tartt",
       "status": "WINNER",
       "wikidataId": "Q15080194"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2014,
+      "title": "The Son",
+      "author": "Philipp Meyer",
+      "status": "FINALIST",
+      "wikidataId": "Q65090202"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2014,
+      "title": "The Woman Who Lost Her Soul",
+      "author": "Bob Shacochis",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "PULITZER",
@@ -5258,10 +8650,42 @@
     },
     {
       "award": "PULITZER",
+      "year": 2013,
+      "title": "The Snow Child",
+      "author": "Eowyn Ivey",
+      "status": "FINALIST",
+      "wikidataId": "Q39046259"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2013,
+      "title": "What We Talk About When We Talk about Anne Frank",
+      "author": "Nathan Englander",
+      "status": "FINALIST",
+      "wikidataId": "Q17144242"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2012,
+      "title": "Swamplandia!",
+      "author": "Karen Russell",
+      "status": "FINALIST",
+      "wikidataId": "Q7653379"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2012,
+      "title": "The Pale King (posthumously)",
+      "author": "David Foster Wallace",
+      "status": "FINALIST",
+      "wikidataId": "Q1642719"
+    },
+    {
+      "award": "PULITZER",
       "year": 2012,
       "title": "Train Dreams",
       "author": "Denis Johnson",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q85810391"
     },
     {
@@ -5274,6 +8698,22 @@
     },
     {
       "award": "PULITZER",
+      "year": 2011,
+      "title": "The Privileges",
+      "author": "Jonathan Dee",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2011,
+      "title": "The Surrendered",
+      "author": "Chang-rae Lee",
+      "status": "FINALIST",
+      "wikidataId": "Q7767535"
+    },
+    {
+      "award": "PULITZER",
       "year": 2010,
       "title": "Tinkers",
       "author": "Paul Harding",
@@ -5282,11 +8722,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 2010,
+      "title": "In Other Rooms, Other Wonders",
+      "author": "Daniyal Mueenuddin",
+      "status": "FINALIST",
+      "wikidataId": "Q6010305"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2010,
+      "title": "Love in Infant Monkeys",
+      "author": "Lydia Millet",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
       "year": 2009,
       "title": "Olive Kitteridge",
       "author": "Elizabeth Strout",
       "status": "WINNER",
       "wikidataId": "Q7087170"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2009,
+      "title": "All Souls",
+      "author": "Christine Schutt",
+      "status": "FINALIST",
+      "wikidataId": "Q104822943"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2009,
+      "title": "The Plague of Doves",
+      "author": "Louise Erdrich",
+      "status": "FINALIST",
+      "wikidataId": "Q3210486"
     },
     {
       "award": "PULITZER",
@@ -5299,9 +8771,17 @@
     {
       "award": "PULITZER",
       "year": 2008,
+      "title": "Shakespeare's Kitchen",
+      "author": "Lore Segal",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2008,
       "title": "Tree of Smoke",
       "author": "Denis Johnson",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q14639595"
     },
     {
@@ -5315,9 +8795,17 @@
     {
       "award": "PULITZER",
       "year": 2007,
+      "title": "After This",
+      "author": "Alice McDermott",
+      "status": "FINALIST",
+      "wikidataId": "Q4690577"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2007,
       "title": "The Echo Maker",
       "author": "Richard Powers",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1167621"
     },
     {
@@ -5331,9 +8819,17 @@
     {
       "award": "PULITZER",
       "year": 2006,
+      "title": "The Bright Forever",
+      "author": "Lee Martin",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2006,
       "title": "The March",
       "author": "E. L. Doctorow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q183363"
     },
     {
@@ -5346,11 +8842,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 2005,
+      "title": "An Unfinished Season",
+      "author": "Ward Just",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2005,
+      "title": "War Trash",
+      "author": "Ha Jin",
+      "status": "FINALIST",
+      "wikidataId": "Q7968548"
+    },
+    {
+      "award": "PULITZER",
       "year": 2004,
       "title": "The Known World",
       "author": "Edward P. Jones",
       "status": "WINNER",
       "wikidataId": "Q7744892"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2004,
+      "title": "American Woman",
+      "author": "Susan Choi",
+      "status": "FINALIST",
+      "wikidataId": "Q4745384"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2004,
+      "title": "Evidence of Things Unseen",
+      "author": "Marianne Wiggins",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "PULITZER",
@@ -5362,11 +8890,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 2003,
+      "title": "Servants of the Map: Stories",
+      "author": "Andrea Barrett",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 2003,
+      "title": "You Are Not a Stranger Here",
+      "author": "Adam Haslett",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
       "year": 2002,
       "title": "Empire Falls",
       "author": "Richard Russo",
       "status": "WINNER",
       "wikidataId": "Q1621457"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2002,
+      "title": "John Henry Days",
+      "author": "Colson Whitehead",
+      "status": "FINALIST",
+      "wikidataId": "Q6238785"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2002,
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "status": "FINALIST",
+      "wikidataId": "Q335645"
     },
     {
       "award": "PULITZER",
@@ -5381,8 +8941,16 @@
       "year": 2001,
       "title": "Blonde",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q1580112"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2001,
+      "title": "The Quick and the Dead",
+      "author": "Joy Williams",
+      "status": "FINALIST",
+      "wikidataId": "Q137777795"
     },
     {
       "award": "PULITZER",
@@ -5394,6 +8962,22 @@
     },
     {
       "award": "PULITZER",
+      "year": 2000,
+      "title": "Close Range: Wyoming Stories",
+      "author": "Annie Proulx",
+      "status": "FINALIST",
+      "wikidataId": "Q5135222"
+    },
+    {
+      "award": "PULITZER",
+      "year": 2000,
+      "title": "Waiting",
+      "author": "Ha Jin",
+      "status": "FINALIST",
+      "wikidataId": "Q7960537"
+    },
+    {
+      "award": "PULITZER",
       "year": 1999,
       "title": "The Hours",
       "author": "Michael Cunningham",
@@ -5402,11 +8986,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 1999,
+      "title": "Cloudsplitter",
+      "author": "Russell Banks",
+      "status": "FINALIST",
+      "wikidataId": "Q3400570"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1999,
+      "title": "The Poisonwood Bible",
+      "author": "Barbara Kingsolver",
+      "status": "FINALIST",
+      "wikidataId": "Q7757621"
+    },
+    {
+      "award": "PULITZER",
       "year": 1998,
       "title": "American Pastoral",
       "author": "Philip Roth",
       "status": "WINNER",
       "wikidataId": "Q470057"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1998,
+      "title": "Bear and His Daughter: Stories",
+      "author": "Robert Stone",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 1998,
+      "title": "Underworld",
+      "author": "Don DeLillo",
+      "status": "FINALIST",
+      "wikidataId": "Q2249650"
     },
     {
       "award": "PULITZER",
@@ -5419,9 +9035,17 @@
     {
       "award": "PULITZER",
       "year": 1997,
+      "title": "The Manikin",
+      "author": "Joanna Scott",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 1997,
       "title": "Unlocking the Air and Other Stories",
       "author": "Ursula K. Le Guin",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q7897073"
     },
     {
@@ -5435,9 +9059,17 @@
     {
       "award": "PULITZER",
       "year": 1996,
+      "title": "Mr. Ives' Christmas",
+      "author": "Oscar Hijuelos",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 1996,
       "title": "Sabbath's Theater",
       "author": "Philip Roth",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3795983"
     },
     {
@@ -5447,6 +9079,22 @@
       "author": "Carol Shields",
       "status": "WINNER",
       "wikidataId": "Q3797249"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1995,
+      "title": "The Collected Stories",
+      "author": "Grace Paley",
+      "status": "FINALIST",
+      "wikidataId": "Q17047768"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1995,
+      "title": "What I Lived For",
+      "author": "Joyce Carol Oates",
+      "status": "FINALIST",
+      "wikidataId": "Q134007193"
     },
     {
       "award": "PULITZER",
@@ -5461,8 +9109,16 @@
       "year": 1994,
       "title": "Operation Shylock",
       "author": "Philip Roth",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q2892749"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1994,
+      "title": "The Collected Stories",
+      "author": "Reynolds Price",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "PULITZER",
@@ -5475,9 +9131,17 @@
     {
       "award": "PULITZER",
       "year": 1993,
+      "title": "At Weddings and Wakes",
+      "author": "Alice McDermott",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 1993,
       "title": "Black Water",
       "author": "Joyce Carol Oates",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3423065"
     },
     {
@@ -5490,11 +9154,51 @@
     },
     {
       "award": "PULITZER",
+      "year": 1992,
+      "title": "Jernigan",
+      "author": "David Gates",
+      "status": "FINALIST",
+      "wikidataId": "Q28451912"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1992,
+      "title": "Lila: An Inquiry into Morals",
+      "author": "Robert M. Pirsig",
+      "status": "FINALIST",
+      "wikidataId": "Q694346"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1992,
+      "title": "Mao II",
+      "author": "Don DeLillo",
+      "status": "FINALIST",
+      "wikidataId": "Q6753587"
+    },
+    {
+      "award": "PULITZER",
       "year": 1991,
       "title": "Rabbit at Rest",
       "author": "John Updike",
       "status": "WINNER",
       "wikidataId": "Q1649823"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1991,
+      "title": "Mean Spirit",
+      "author": "Linda Hogan",
+      "status": "FINALIST",
+      "wikidataId": "Q18358536"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1991,
+      "title": "The Things They Carried",
+      "author": "Tim O'Brien",
+      "status": "FINALIST",
+      "wikidataId": "Q1633953"
     },
     {
       "award": "PULITZER",
@@ -5509,7 +9213,7 @@
       "year": 1990,
       "title": "Billy Bathgate",
       "author": "E. L. Doctorow",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3734045"
     },
     {
@@ -5522,11 +9226,35 @@
     },
     {
       "award": "PULITZER",
+      "year": 1989,
+      "title": "Where I'm Calling From",
+      "author": "Raymond Carver",
+      "status": "FINALIST",
+      "wikidataId": "Q100697884"
+    },
+    {
+      "award": "PULITZER",
       "year": 1988,
       "title": "Beloved",
       "author": "Toni Morrison",
       "status": "WINNER",
       "wikidataId": "Q971767"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1988,
+      "title": "Persian Nights",
+      "author": "Diane Johnson",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 1988,
+      "title": "That Night",
+      "author": "Alice McDermott",
+      "status": "FINALIST",
+      "wikidataId": "Q3927603"
     },
     {
       "award": "PULITZER",
@@ -5538,11 +9266,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 1987,
+      "title": "Paradise",
+      "author": "Donald Barthelme",
+      "status": "FINALIST",
+      "wikidataId": "Q96398381"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1987,
+      "title": "Whites",
+      "author": "Norman Rush",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
       "year": 1986,
       "title": "Lonesome Dove",
       "author": "Larry McMurtry",
       "status": "WINNER",
       "wikidataId": "Q973883"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1986,
+      "title": "Continental Drift",
+      "author": "Russell Banks",
+      "status": "FINALIST",
+      "wikidataId": "Q2995670"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1986,
+      "title": "The Accidental Tourist",
+      "author": "Anne Tyler",
+      "status": "FINALIST",
+      "wikidataId": "Q7712216"
     },
     {
       "award": "PULITZER",
@@ -5554,11 +9314,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 1985,
+      "title": "I Wish This War Were Over",
+      "author": "Diana O'Hehir",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
+      "year": 1985,
+      "title": "Leaving the Land",
+      "author": "Douglas Unger",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
       "year": 1984,
       "title": "Ironweed",
       "author": "William Kennedy",
       "status": "WINNER",
       "wikidataId": "Q6073321"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1984,
+      "title": "Cathedral",
+      "author": "Raymond Carver",
+      "status": "FINALIST",
+      "wikidataId": "Q5052186"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1984,
+      "title": "The Feud",
+      "author": "Thomas Berger",
+      "status": "FINALIST",
+      "wikidataId": null
     },
     {
       "award": "PULITZER",
@@ -5570,6 +9362,22 @@
     },
     {
       "award": "PULITZER",
+      "year": 1983,
+      "title": "Dinner at the Homesick Restaurant",
+      "author": "Anne Tyler",
+      "status": "FINALIST",
+      "wikidataId": "Q5278418"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1983,
+      "title": "Rabbis and Wives",
+      "author": "Chaim Grade",
+      "status": "FINALIST",
+      "wikidataId": null
+    },
+    {
+      "award": "PULITZER",
       "year": 1982,
       "title": "Rabbit Is Rich",
       "author": "John Updike",
@@ -5578,11 +9386,43 @@
     },
     {
       "award": "PULITZER",
+      "year": 1982,
+      "title": "A Flag for Sunrise",
+      "author": "Robert Stone",
+      "status": "FINALIST",
+      "wikidataId": "Q42184751"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1982,
+      "title": "Housekeeping",
+      "author": "Marilynne Robinson",
+      "status": "FINALIST",
+      "wikidataId": "Q5915883"
+    },
+    {
+      "award": "PULITZER",
       "year": 1981,
       "title": "A Confederacy of Dunces",
       "author": "John Kennedy Toole",
       "status": "WINNER",
       "wikidataId": "Q627749"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1981,
+      "title": "Godric",
+      "author": "Frederick Buechner",
+      "status": "FINALIST",
+      "wikidataId": "Q5576820"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1981,
+      "title": "So Long, See You Tomorrow",
+      "author": "William Maxwell",
+      "status": "FINALIST",
+      "wikidataId": "Q7549352"
     },
     {
       "award": "PULITZER",
@@ -5595,9 +9435,17 @@
     {
       "award": "PULITZER",
       "year": 1980,
+      "title": "Birdy",
+      "author": "William Wharton",
+      "status": "FINALIST",
+      "wikidataId": "Q3289702"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1980,
       "title": "The Ghost Writer",
       "author": "Philip Roth",
-      "status": "NOMINEE",
+      "status": "FINALIST",
       "wikidataId": "Q3205253"
     },
     {
@@ -5818,11 +9666,219 @@
     },
     {
       "award": "PULITZER",
+      "year": 1947,
+      "title": "All the King's Men",
+      "author": "Robert Penn Warren",
+      "status": "WINNER",
+      "wikidataId": "Q1978467"
+    },
+    {
+      "award": "PULITZER",
       "year": 1945,
       "title": "A Bell for Adano",
       "author": "John Hersey",
       "status": "WINNER",
       "wikidataId": "Q4655421"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1944,
+      "title": "Journey in the Dark",
+      "author": "Martin Flavin",
+      "status": "WINNER",
+      "wikidataId": "Q16889388"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1943,
+      "title": "Dragon's Teeth",
+      "author": "Upton Sinclair",
+      "status": "WINNER",
+      "wikidataId": "Q5305069"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1942,
+      "title": "In This Our Life",
+      "author": "Ellen Glasgow",
+      "status": "WINNER",
+      "wikidataId": "Q6010966"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1940,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "status": "WINNER",
+      "wikidataId": "Q215983"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1939,
+      "title": "The Yearling",
+      "author": "Marjorie Kinnan Rawlings",
+      "status": "WINNER",
+      "wikidataId": "Q429806"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1938,
+      "title": "The Late George Apley",
+      "author": "John Phillips Marquand",
+      "status": "WINNER",
+      "wikidataId": "Q7746279"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1937,
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "status": "WINNER",
+      "wikidataId": "Q2870"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1936,
+      "title": "Honey in the Horn",
+      "author": "Harold L. Davis",
+      "status": "WINNER",
+      "wikidataId": "Q16995798"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1935,
+      "title": "Now in November",
+      "author": "Josephine Winslow Johnson",
+      "status": "WINNER",
+      "wikidataId": "Q7065920"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1934,
+      "title": "Lamb in His Bosom",
+      "author": "Caroline Miller",
+      "status": "WINNER",
+      "wikidataId": "Q6449891"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1933,
+      "title": "The Store",
+      "author": "T. S. Stribling",
+      "status": "WINNER",
+      "wikidataId": "Q7766667"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1932,
+      "title": "The Good Earth",
+      "author": "Pearl S. Buck",
+      "status": "WINNER",
+      "wikidataId": "Q1218608"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1931,
+      "title": "Years of Grace",
+      "author": "Margaret Ayer Barnes",
+      "status": "WINNER",
+      "wikidataId": "Q8050991"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1930,
+      "title": "Laughing Boy",
+      "author": "Oliver La Farge",
+      "status": "WINNER",
+      "wikidataId": "Q6498095"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1929,
+      "title": "Scarlet Sister Mary",
+      "author": "Julia Peterkin",
+      "status": "WINNER",
+      "wikidataId": "Q7430452"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1928,
+      "title": "The Bridge of San Luis Rey",
+      "author": "Thornton Wilder",
+      "status": "WINNER",
+      "wikidataId": "Q941462"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1927,
+      "title": "Early Autumn",
+      "author": "Louis Bromfield",
+      "status": "WINNER",
+      "wikidataId": "Q5326592"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1926,
+      "title": "Arrowsmith",
+      "author": "Sinclair Lewis",
+      "status": "WINNER",
+      "wikidataId": "Q743777"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1925,
+      "title": "So Big",
+      "author": "Edna Ferber",
+      "status": "WINNER",
+      "wikidataId": "Q7549047"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1924,
+      "title": "The Able McLaughlins",
+      "author": "Margaret Wilson",
+      "status": "WINNER",
+      "wikidataId": "Q7712123"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1923,
+      "title": "One of Ours",
+      "author": "Willa Cather",
+      "status": "WINNER",
+      "wikidataId": "Q7093535"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1922,
+      "title": "Alice Adams",
+      "author": "Booth Tarkington",
+      "status": "WINNER",
+      "wikidataId": "Q4725707"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1921,
+      "title": "The Age of Innocence",
+      "author": "Edith Wharton",
+      "status": "WINNER",
+      "wikidataId": "Q1045464"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1919,
+      "title": "The Magnificent Ambersons",
+      "author": "Booth Tarkington",
+      "status": "WINNER",
+      "wikidataId": "Q5239187"
+    },
+    {
+      "award": "PULITZER",
+      "year": 1918,
+      "title": "His Family",
+      "author": "Ernest Poole",
+      "status": "WINNER",
+      "wikidataId": "Q5771986"
     }
   ]
 }
