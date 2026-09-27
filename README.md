@@ -1,16 +1,18 @@
 # Book Awards
 
 A Kotlin Multiplatform (Compose Multiplatform) app for browsing books nominated for
-literary awards, year by year, with a filter to pick which awards to show. Tap a book for its
-cover, description and every nomination it received; mark it Want to read / Reading / Read; and
-turn on the bell to get a notification on award announcement days.
+literary awards, with a filter to pick which awards to show. **Home** lists the current year and the
+two before it; the **Library** tab shelves every earlier year as a sideways-scrolling row of covers
+(`HOME_YEARS` in `data/YearWindow.kt`). Tap a book for its cover, description and every nomination it
+received; mark it Want to read / Reading / Read; and turn on the bell to get a notification on award
+announcement days.
 
 ## Status
 
 - `composeApp` (commonMain / androidMain / iosMain) builds successfully — verified with
   `./gradlew :composeApp:assembleDebug` and `./gradlew :composeApp:compileKotlinIosSimulatorArm64`
   on this machine.
-- Data comes from `data/awards.json`, built from Wikidata by `data/fetch-awards.mjs` — see "Data".
+- Data comes from `data/awards.json`, built from Wikidata and Wikipedia by `data/fetch-awards.mjs` — see "Data".
 - The iOS host app (`iosApp/`) has the Swift source (`iOSApp.swift`, `ContentView.swift`)
   but **no `.xcodeproj` yet** — Xcode isn't installed on this machine, so there was no way
   to generate/verify one. See "iOS project" below.
@@ -51,6 +53,14 @@ error expected to be fixed by then, like Wikipedia calling the 2026 National Boo
 "finalists" before October 6. The script refuses to write if it finds a duplicate or if any award loses more
 than 10% of its entries (`--allow-shrink` to override); `--out <path>` writes somewhere else.
 
+Last, it records each book's Open Library cover ID (`coverId`; `null` means Open Library has none) so the
+Library can show thumbnails without a lookup per book (`data/covers.mjs`). IDs from the previous file are
+reused, so only books never looked up cost a request, at about one a second; the first full run took
+about 30 minutes. A failed lookup leaves the field out and is retried next run. `--skip-covers` only
+reuses known IDs; `--retry-missing-covers` looks up books recorded as having no cover again (Open Library's
+search results vary between runs). Lookups try a title-and-author search, then a general search whose
+result must match the title.
+
 The app doesn't keep a copy: the `syncCommonResources` Gradle task merges
 `data/awards.json` into the compose resources at build time.
 
@@ -66,8 +76,8 @@ Re-run the script and push `data/awards.json`, and installed apps pick it up. Ru
 - The last good download is cached on the device and used offline, while it's newer than the bundled data.
 - The list stays at the top when new nominations arrive, and a snackbar says how many are new.
 
-Book details (cover, first-published year, description) are looked up from Open Library's search
-and works APIs when a book is opened. They aren't bundled.
+A book's description and first-published year are looked up from Open Library's search and works APIs
+when it's opened, as is the cover for a book the pipeline found none for.
 
 Reading status is stored on the device, keyed by Wikidata ID (or title and author for hand-added
 entries), so it follows a book across awards and years.
@@ -136,6 +146,7 @@ e2e/core-flow.sh           # open a book, details load, mark "Want to read", chi
 e2e/sticky-header-tap.sh   # tapping a pinned year header doesn't open the book under it
 e2e/data-refresh.sh        # published data arrives, ETag/304, offline cache, bad publishes rejected
 e2e/pipeline.sh            # rebuilds the dataset from live sources and checks announced lists are present
+e2e/library.sh             # Home shows only recent years; Library shelves scroll, show covers, open books
 ```
 
 Pass a device serial (e.g. `emulator-5554`) if more than one is connected. Each run leaves its
