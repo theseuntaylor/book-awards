@@ -49,14 +49,25 @@ wait_for() {
     done
     return 1
 }
+# The next step's message may be identical to the last one, so wait until no snackbar is showing.
+wait_for_snackbar_to_clear() {
+    for _ in $(seq 1 15); do
+        dump_ui | grep -qE 'new nomination|check for new nominations|up to date' || return 0
+        sleep 1
+    done
+    fail "a snackbar never cleared"
+}
 launch() { adb shell am start -S -W -n "$APP/.MainActivity" >/dev/null; }
 pull_to_refresh() { adb shell input swipe 540 700 540 1700 600; }
 
 # Test data: the real file plus extra entries. Year 2099 puts them at the top of the list.
+# Dated now, so it's newer than the bundled data; GENERATED_AT overrides that (e.g. to simulate a stale CDN copy).
 with_entries() {
-    python3 - "$@" >"$SERVED" <<'EOF'
-import json, sys
+    GENERATED_AT="${GENERATED_AT:-}" python3 - "$@" >"$SERVED" <<'EOF'
+import datetime, json, os, sys
 data = json.load(open("data/awards.json"))
+now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+data["generatedAt"] = os.environ["GENERATED_AT"] or now
 for spec in sys.argv[1:]:
     award, title = spec.split(":", 1)
     data["nominations"].append({"award": award, "year": 2099, "title": title, "author": "E2E Author",
@@ -100,8 +111,10 @@ dump_ui | grep -q 'text="E2E Test Novel"' || fail "4: malformed data replaced th
 capture 4-malformed-rejected
 
 # 5. A suspiciously small publish is rejected too.
-python3 -c 'import json; d = json.load(open("data/awards.json")); d["nominations"] = d["nominations"][:5]; print(json.dumps(d))' >"$SERVED"
-sleep 5 # let the previous snackbar clear
+with_entries
+python3 -c 'import json, sys; d = json.load(open(sys.argv[1])); d["nominations"] = d["nominations"][:5]; print(json.dumps(d))' "$SERVED" >"$SERVED.tmp"
+mv "$SERVED.tmp" "$SERVED"
+wait_for_snackbar_to_clear
 pull_to_refresh
 wait_for 'text="Couldn(&apos;|.)t check for new nominations"' 15 || fail "5: no failure snackbar for a truncated publish"
 dump_ui | grep -q 'text="E2E Test Novel"' || fail "5: a truncated publish replaced the good data"
@@ -109,10 +122,19 @@ capture 5-truncated-rejected
 
 # 6. An award this app doesn't know is skipped; the rest of the update still lands.
 with_entries "BOOKER:E2E Test Novel" "WOMENS_PRIZE:E2E Unknown Award Novel" "BOOKER:E2E Second Novel"
-sleep 5
+wait_for_snackbar_to_clear
 pull_to_refresh
 wait_for 'text="E2E Second Novel"' 15 || fail "6: the update with an unknown award was rejected entirely"
 dump_ui | grep -q 'E2E Unknown Award Novel' && fail "6: the unknown-award entry was shown"
 capture 6-unknown-award-skipped
 
-echo "PASS: new data arrives with ETag/304 caching, survives offline, and malformed, truncated and unknown-award publishes are handled" | tee "$OUT/result.txt"
+# 7. An older file (a stale CDN copy, or data older than a new app's bundle) never replaces newer data.
+GENERATED_AT="2000-01-01T00:00:00.000Z" with_entries "BOOKER:E2E Stale Novel"
+wait_for_snackbar_to_clear
+pull_to_refresh
+wait_for "text=\"You(&apos;|.)re up to date\"" 15 || fail "7: no 'up to date' snackbar for an older file"
+dump_ui | grep -q 'E2E Stale Novel' && fail "7: an older file replaced newer data"
+dump_ui | grep -q 'text="E2E Second Novel"' || fail "7: the newer data disappeared"
+capture 7-older-file-ignored
+
+echo "PASS: new data arrives with ETag/304 caching, survives offline, and malformed, truncated, unknown-award and older publishes are handled" | tee "$OUT/result.txt"

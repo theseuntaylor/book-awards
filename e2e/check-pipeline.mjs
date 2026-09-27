@@ -2,7 +2,8 @@
 import { readFileSync } from 'node:fs';
 
 const [, , generatedPath, publishedPath] = process.argv;
-const generated = JSON.parse(readFileSync(generatedPath, 'utf8')).nominations;
+const generatedFile = JSON.parse(readFileSync(generatedPath, 'utf8'));
+const generated = generatedFile.nominations;
 const published = JSON.parse(readFileSync(publishedPath, 'utf8')).nominations;
 const failures = [];
 const check = (ok, message) => { if (!ok) failures.push(message); };
@@ -34,6 +35,9 @@ if (new Date().toISOString().slice(0, 10) < '2026-10-06') {
   const nba2026 = entries('NATIONAL_BOOK_AWARD', 2026);
   check(nba2026.length > 0 && nba2026.every((n) => n.status === 'LONGLIST'), `NBA 2026 should be longlist only, is ${JSON.stringify(nba2026.map((n) => n.status))}`);
 }
+
+// The app only accepts strictly newer files, so every run must be dated.
+check(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(generatedFile.generatedAt ?? ''), `generatedAt missing or malformed: ${generatedFile.generatedAt}`);
 
 // Nothing the app would choke on, and nothing lost relative to the published file.
 const ids = generated.map((n) => `${n.award}|${n.year}|${n.wikidataId ?? `${n.title}|${n.author}`}`);
