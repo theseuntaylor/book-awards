@@ -1,15 +1,16 @@
 # Book Awards
 
 A Kotlin Multiplatform (Compose Multiplatform) app for browsing books nominated for
-literary awards, year by year, with a filter to pick which awards to show.
+literary awards, year by year, with a filter to pick which awards to show. Tap a book for its
+cover, description and every nomination it received; mark it Want to read / Reading / Read; and
+turn on the bell to get a notification on award announcement days.
 
 ## Status
 
 - `composeApp` (commonMain / androidMain / iosMain) builds successfully — verified with
   `./gradlew :composeApp:assembleDebug` and `./gradlew :composeApp:compileKotlinIosSimulatorArm64`
   on this machine.
-- Data is a hand-written Kotlin list (`data/SampleNominations.kt`), not JSON/CSV — see
-  "Data" below for why, and how to swap it out.
+- Data comes from `data/awards.json`, built from Wikidata by `data/fetch-awards.mjs` — see "Data".
 - The iOS host app (`iosApp/`) has the Swift source (`iOSApp.swift`, `ContentView.swift`)
   but **no `.xcodeproj` yet** — Xcode isn't installed on this machine, so there was no way
   to generate/verify one. See "iOS project" below.
@@ -19,9 +20,9 @@ literary awards, year by year, with a filter to pick which awards to show.
 ```
 book-awards/
   composeApp/                 KMP module: shared logic + Compose UI
-    src/commonMain/           Data models, sample data, UI (App.kt) — shared by Android & iOS
-    src/androidMain/          MainActivity, AndroidManifest
-    src/iosMain/               MainViewController (entry point Swift calls into)
+    src/commonMain/           Data layer (data/), screens (ui/), navigation (App.kt), theme
+    src/androidMain/          MainActivity, WorkManager-based announcement reminders
+    src/iosMain/               MainViewController, UserNotifications-based announcement reminders
   iosApp/iosApp/               Swift host app source (needs an Xcode project — see below)
 ```
 
@@ -35,17 +36,33 @@ or open the `book-awards` folder in Android Studio and run the `composeApp` conf
 
 ## Data
 
-The award/year/book list lives in `composeApp/src/commonMain/kotlin/.../data/SampleNominations.kt`
-as a plain `List<Nomination>` — no JSON parsing, no serialization library, just a Kotlin file.
-That was a deliberate simplification for this scaffold: it's editable with IDE autocomplete,
-type-checked at compile time, and needs zero extra dependencies. It currently has a small
-seed set (a few recent Booker/Pulitzer/National Book Award winners) — replace/expand it with
-a full per-year dataset for each award you care about.
+`data/fetch-awards.mjs` queries Wikidata, applies the fixes in `data/corrections.json`, and writes
+`data/awards.json`. The app doesn't keep a copy: the `syncCommonResources` Gradle task merges
+`data/awards.json` into the compose resources at build time.
 
-If the list grows large enough that editing Kotlin gets unwieldy, the natural next step is
-moving it to a bundled JSON/CSV resource file parsed with `kotlinx-serialization` — the
-`Award`, `NominationStatus`, and `Nomination` types in `Models.kt` are already shaped for
-that.
+**Publishing without an app update:** on launch (and on pull to refresh) the app fetches
+`data/awards.json` from `main` on GitHub (`PUBLISHED_AWARDS_DATA_URL` in `data/AwardsDataUrl.kt`).
+Re-run the script and push `data/awards.json`, and installed apps pick it up. Rules:
+
+- The check uses the ETag, so an unchanged file costs a 304 and no download.
+- A download replaces the data only if it parses and has at least half as many entries as the current
+  data; entries this app version can't read (e.g. a newly added award) are skipped individually.
+- The last good download is cached on the device and used offline. It's discarded when an app update
+  ships different bundled data.
+- The list stays at the top when new nominations arrive, and a snackbar says how many are new.
+
+Book details (cover, first-published year, description) are looked up from Open Library's search
+and works APIs when a book is opened. They aren't bundled.
+
+Reading status is stored on the device, keyed by Wikidata ID (or title and author for hand-added
+entries), so it follows a book across awards and years.
+
+## Announcement reminders
+
+The bell in the top bar schedules a 9am local notification for each date in
+`data/Announcements.kt` (Android: WorkManager; iOS: `UNCalendarNotificationTrigger`). Only dates the
+prizes have published belong there — update the list when each season's dates are announced. The
+app reschedules on launch, so new dates reach people who already turned reminders on.
 
 ## Design seed
 
@@ -66,8 +83,8 @@ This rewrites `theme/Color.kt` and the font files in `composeResources/font/`. D
 ## Award scope
 
 Currently modeled: Booker Prize, Pulitzer Prize for Fiction, National Book Award for Fiction
-(`data/Models.kt` — `enum class Award`). Add more by adding entries to that enum and to the
-sample data.
+(`data/Models.kt` — `enum class Award`). To add one, add its Wikidata ID to `awards` in
+`data/fetch-awards.mjs` and a matching entry to the enum.
 
 ## iOS project
 
@@ -93,3 +110,21 @@ To finish the iOS side once you have Xcode available, either:
 The build succeeds but Gradle 9.4.0 prints deprecation warnings about the `compose.runtime` /
 `compose.material3` / etc. dependency accessors in `composeApp/build.gradle.kts` — non-fatal,
 still the documented Compose Multiplatform API for this version, left as-is.
+
+## E2E checks
+
+With an Android emulator or device connected, each script builds and installs the app, drives it
+with `adb`, and exits non-zero on failure:
+
+```
+e2e/core-flow.sh           # open a book, details load, mark "Want to read", chip shows in the list
+e2e/sticky-header-tap.sh   # tapping a pinned year header doesn't open the book under it
+e2e/data-refresh.sh        # published data arrives, ETag/304, offline cache, bad publishes rejected
+```
+
+Pass a device serial (e.g. `emulator-5554`) if more than one is connected. Each run leaves its
+screenshots, UI dumps and `result.txt` in `e2e/artifacts/<check>/<timestamp>/` (git-ignored).
+`core-flow.sh` and `data-refresh.sh` clear the app's data, which also removes any saved reading
+statuses and reminders. `data-refresh.sh` serves test data from a local server (`e2e/serve_awards.py`)
+via `adb reverse`, using a debug build pointed at it with `-PawardsDataUrl`; debug builds allow
+plain HTTP to `localhost` only.
