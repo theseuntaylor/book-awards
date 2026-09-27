@@ -116,5 +116,7 @@ checkNominations(nominations, Object.keys(awards));
 const previousPath = existsSync(outPath) ? outPath : join(here, 'awards.json');
 if (existsSync(previousPath)) checkShrinkage(JSON.parse(readFileSync(previousPath, 'utf8')).nominations, nominations, allowShrink);
 
-writeFileSync(outPath, `${JSON.stringify({ nominations }, null, 2)}\n`);
+// The app only replaces its data with a strictly newer file, so every run is dated.
+const generatedAt = new Date().toISOString();
+writeFileSync(outPath, `${JSON.stringify({ generatedAt, nominations }, null, 2)}\n`);
 console.log(`Wrote ${nominations.length} nominations to ${outPath}`);
