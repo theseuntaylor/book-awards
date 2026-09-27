@@ -36,6 +36,13 @@ if (new Date().toISOString().slice(0, 10) < '2026-10-06') {
   check(nba2026.length > 0 && nba2026.every((n) => n.status === 'LONGLIST'), `NBA 2026 should be longlist only, is ${JSON.stringify(nba2026.map((n) => n.status))}`);
 }
 
+// Covers: nearly every book has been looked up (failed lookups retry next run), and most recent Booker books have one.
+const lookedUp = generated.filter((n) => 'coverId' in n).length;
+check(lookedUp >= generated.length * 0.95, `only ${lookedUp} of ${generated.length} nominations have had a cover lookup`);
+const recentBooker = generated.filter((n) => n.award === 'BOOKER' && n.year >= 2015);
+const withCovers = recentBooker.filter((n) => Number.isInteger(n.coverId)).length;
+check(withCovers >= recentBooker.length * 0.8, `only ${withCovers} of ${recentBooker.length} Booker books since 2015 have covers`);
+
 // The app only accepts strictly newer files, so every run must be dated.
 check(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(generatedFile.generatedAt ?? ''), `generatedAt missing or malformed: ${generatedFile.generatedAt}`);
 
