@@ -46,7 +46,15 @@
       "set": { "status": "SHORTLIST" },
       "reason": "This Other Eden was shortlisted; Wikidata has no nomination level.",
       "source": "https://en.wikipedia.org/wiki/2023_Booker_Prize"
-    }
+    },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "Paradiso 17", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "Red Ants", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "Pretend You’re Dead and I Carry You", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "Python’s Kiss", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "The Disappearers", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "Passengers", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "The Renovation", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" },
+    { "award": "NATIONAL_BOOK_AWARD", "year": 2026, "title": "Mad Eden", "set": { "status": "LONGLIST" }, "until": "2026-10-06", "reason": "Wikipedia labels the 2026 longlist as finalists; finalists are announced on October 6.", "source": "https://locusmag.com/2026/09/2026-national-book-awards-longlists/" }
   ],
   "add": [
     {
