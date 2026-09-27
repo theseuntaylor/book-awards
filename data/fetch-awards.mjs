@@ -1,9 +1,15 @@
-import { readFileSync, writeFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { applyCorrections, checkNominations, checkShrinkage, mergeWikipedia, statusRank } from './combine.mjs';
+import { fetchWikipediaNominations } from './wikipedia-sources.mjs';
+import { userAgent } from './wikitext.mjs';
 
+// Usage: node data/fetch-awards.mjs [--out <path>] [--allow-shrink]
 const here = dirname(fileURLToPath(import.meta.url));
-const userAgent = 'book-awards/0.1 (https://github.com/theseuntaylor/book-awards)';
+const args = process.argv.slice(2);
+const outPath = args.includes('--out') ? resolve(args[args.indexOf('--out') + 1]) : join(here, 'awards.json');
+const allowShrink = args.includes('--allow-shrink');
 
 // Keys match the Award enum in the app.
 const awards = {
@@ -11,8 +17,6 @@ const awards = {
   PULITZER: 'Q833633',
   NATIONAL_BOOK_AWARD: 'Q3873144',
 };
-
-const statusRank = { WINNER: 0, SHORTLIST: 1, FINALIST: 2, LONGLIST: 3, NOMINEE: 4 };
 
 // Nominations sit either on the book, or on the author with a "for work" (P1686) qualifier.
 // "has characteristic" (P1552) holds the nomination level, e.g. "Booker Prize shortlist".
@@ -91,43 +95,15 @@ for (const [award, awardId] of Object.entries(awards)) {
   console.log(`${award}: ${byWorkAndYear.size} nominations from ${rows.length} rows`);
 }
 
-// Hand-curated fixes for gaps and errors in Wikidata. A warning means a fix no longer
-// matches anything, usually because Wikidata was corrected, so it can be deleted.
-const corrections = JSON.parse(readFileSync(join(here, 'corrections.json'), 'utf8'));
-const matches = (target) => (n) =>
-  n.award === target.award && n.year === target.year && n.wikidataId === target.wikidataId;
-
-for (const target of corrections.remove) {
-  const index = nominations.findIndex(matches(target));
-  if (index === -1) console.warn(`Stale removal: ${target.award} ${target.year} ${target.wikidataId}`);
-  else nominations.splice(index, 1);
+// Wikipedia lists new longlists and shortlists within days; Wikidata can lag by months.
+const wikipediaReport = mergeWikipedia(nominations, await fetchWikipediaNominations());
+for (const [award, { rows, added, upgraded }] of Object.entries(wikipediaReport)) {
+  console.log(`${award}: Wikipedia had ${rows} rows, added ${added}, upgraded ${upgraded}`);
 }
 
-for (const target of corrections.update) {
-  const nomination = nominations.find(matches(target));
-  if (!nomination) console.warn(`Stale update: ${target.award} ${target.year} ${target.wikidataId}`);
-  else Object.assign(nomination, target.set);
-}
-
-const normalizeTitle = (title) => title.toLowerCase().replaceAll('’', "'").trim();
-
-for (const { award, year, nominations: additions } of corrections.add) {
-  for (const { title, author, status, wikidataId = null } of additions) {
-    if (!(award in awards) || !(status in statusRank)) {
-      throw new Error(`Invalid addition: ${award} ${year} ${title}`);
-    }
-    // Match on ID when known, otherwise on title, so an addition Wikidata later gains isn't duplicated.
-    const existing = nominations.find((n) =>
-      n.award === award && n.year === year &&
-      (wikidataId ? n.wikidataId === wikidataId : normalizeTitle(n.title) === normalizeTitle(title)));
-    if (existing) {
-      console.warn(`Addition now in Wikidata: ${award} ${year} ${title}`);
-      existing.status = status;
-    } else {
-      nominations.push({ award, year, title, author, status, wikidataId });
-    }
-  }
-}
+// Hand-curated fixes for gaps and errors in either source. A warning means a fix no longer
+// matches anything, or has expired, so it can be deleted.
+applyCorrections(nominations, JSON.parse(readFileSync(join(here, 'corrections.json'), 'utf8')));
 
 nominations.sort((a, b) =>
   a.award.localeCompare(b.award) ||
@@ -136,5 +112,9 @@ nominations.sort((a, b) =>
   a.title.localeCompare(b.title),
 );
 
-writeFileSync(join(here, 'awards.json'), `${JSON.stringify({ nominations }, null, 2)}\n`);
-console.log(`Wrote ${nominations.length} nominations to data/awards.json`);
+checkNominations(nominations, Object.keys(awards));
+const previousPath = existsSync(outPath) ? outPath : join(here, 'awards.json');
+if (existsSync(previousPath)) checkShrinkage(JSON.parse(readFileSync(previousPath, 'utf8')).nominations, nominations, allowShrink);
+
+writeFileSync(outPath, `${JSON.stringify({ nominations }, null, 2)}\n`);
+console.log(`Wrote ${nominations.length} nominations to ${outPath}`);
