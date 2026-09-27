@@ -59,10 +59,11 @@ The app doesn't keep a copy: the `syncCommonResources` Gradle task merges
 Re-run the script and push `data/awards.json`, and installed apps pick it up. Rules:
 
 - The check uses the ETag, so an unchanged file costs a 304 and no download.
-- A download replaces the data only if it parses and has at least half as many entries as the current
-  data; entries this app version can't read (e.g. a newly added award) are skipped individually.
-- The last good download is cached on the device and used offline. It's discarded when an app update
-  ships different bundled data.
+- A download replaces the data only if its `generatedAt` is newer than the data shown (GitHub's CDN can
+  serve a stale copy for a few minutes, and an app update can bundle newer data than what's published),
+  it parses, and it has at least half as many entries; entries this app version can't read (e.g. a newly
+  added award) are skipped individually.
+- The last good download is cached on the device and used offline, while it's newer than the bundled data.
 - The list stays at the top when new nominations arrive, and a snackbar says how many are new.
 
 Book details (cover, first-published year, description) are looked up from Open Library's search
