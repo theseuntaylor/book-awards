@@ -18,7 +18,7 @@ import platform.UserNotifications.UNUserNotificationCenter
 @Composable
 actual fun rememberAnnouncementNotifier(): AnnouncementNotifier = remember { IosAnnouncementNotifier() }
 
-private class IosAnnouncementNotifier : AnnouncementNotifier {
+internal class IosAnnouncementNotifier : AnnouncementNotifier {
     private val center = UNUserNotificationCenter.currentNotificationCenter()
 
     override suspend fun requestPermission(): Boolean = suspendCoroutine { continuation ->
