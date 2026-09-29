@@ -15,13 +15,13 @@ targets:
         CFBundleShortVersionString: "0.1.0"
         CFBundleVersion: "1"
         UILaunchScreen: {}
-        # Lets Compose render at 120Hz on ProMotion iPhones.
         CADisableMinimumFrameDurationOnPhone: true
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.theseuntaylor.bookawards
         PRODUCT_NAME: BookAwards
         CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: HLHL62RYUW
         TARGETED_DEVICE_FAMILY: "1,2"
         FRAMEWORK_SEARCH_PATHS: "$(SRCROOT)/../composeApp/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)"
         OTHER_LDFLAGS: ["$(inherited)", "-framework", "ComposeApp"]
@@ -33,3 +33,28 @@ targets:
         script: |
           cd "$SRCROOT/.."
           ./gradlew :composeApp:embedAndSignAppleFrameworkForXcode
+  iosAppUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [iosAppUITests]
+    dependencies:
+      - target: iosApp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.theseuntaylor.bookawards.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: HLHL62RYUW
+        TEST_TARGET_NAME: iosApp
+schemes:
+  # Its own name, so a personal "iosApp" scheme Xcode auto-creates can't shadow the test action.
+  iosAppE2E:
+    build:
+      targets:
+        iosApp: all
+        iosAppUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [iosAppUITests]
