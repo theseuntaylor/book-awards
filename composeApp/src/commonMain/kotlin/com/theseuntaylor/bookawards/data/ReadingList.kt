@@ -5,8 +5,11 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
+// @Serializable matters on iOS: without it only the JVM finds a serializer (by reflection) when saving.
+@Serializable
 enum class ReadingStatus(val label: String) {
     WANT_TO_READ("Want to read"),
     READING("Reading"),
