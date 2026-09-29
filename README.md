@@ -13,9 +13,7 @@ announcement days.
   `./gradlew :composeApp:assembleDebug` and `./gradlew :composeApp:compileKotlinIosSimulatorArm64`
   on this machine.
 - Data comes from `data/awards.json`, built from Wikidata and Wikipedia by `data/fetch-awards.mjs` — see "Data".
-- The iOS host app (`iosApp/`) has the Swift source (`iOSApp.swift`, `ContentView.swift`)
-  but **no `.xcodeproj` yet** — Xcode isn't installed on this machine, so there was no way
-  to generate/verify one. See "iOS project" below.
+- Android's UI is Compose (Material 3); iOS's is native SwiftUI over the same Kotlin data layer — see "iOS app".
 
 ## Structure
 
@@ -24,8 +22,9 @@ book-awards/
   composeApp/                 KMP module: shared logic + Compose UI
     src/commonMain/           Data layer (data/), screens (ui/), navigation (App.kt), theme
     src/androidMain/          MainActivity, WorkManager-based announcement reminders
-    src/iosMain/               MainViewController, UserNotifications-based announcement reminders
-  iosApp/iosApp/               Swift host app source (needs an Xcode project — see below)
+    src/iosMain/               BookAwardsModel (the data layer shaped for Swift), UserNotifications reminders
+  iosApp/iosApp/               SwiftUI app: one view per file
+  iosApp/iosAppUITests/        XCUITest E2E check (run by e2e/ios.sh)
 ```
 
 ## Running on Android
@@ -111,24 +110,19 @@ Currently modeled: Booker Prize, Pulitzer Prize for Fiction, National Book Award
 (`data/Models.kt` — `enum class Award`). To add one, add its Wikidata ID to `awards` in
 `data/fetch-awards.mjs` and a matching entry to the enum.
 
-## iOS project
+## iOS app
 
-Xcode isn't installed in this environment, so the `.xcodeproj` for `iosApp/` wasn't generated —
-hand-writing a `project.pbxproj` without being able to open/validate it in Xcode is more likely
-to produce a broken project than a working one. What's already in place and verified:
+The iOS UI is SwiftUI, so it looks and behaves like an iOS app: tab bar, large-title navigation, swipe
+back, pull to refresh, toolbar menus. It shares everything below the UI with Android through the
+`ComposeApp` framework: data, the refresh from GitHub, the reading list and reminders.
+`composeApp/src/iosMain/.../ios/BookAwardsModel.kt` is the only Kotlin written for Swift. It turns flows
+into main-thread callbacks and catches its own errors, so Swift only sees plain `async` calls.
+`iosApp/iosApp/AppModel.swift` holds that as SwiftUI state.
 
-- `composeApp`'s `iosMain` source set and iOS targets (`iosX64`, `iosArm64`, `iosSimulatorArm64`)
-  compile cleanly and produce a `ComposeApp` framework.
-- `iosApp/iosApp/iOSApp.swift` and `ContentView.swift` are written against that framework's
-  expected API (`MainViewControllerKt.MainViewController()`).
-
-To finish the iOS side once you have Xcode available, either:
-1. Open Android Studio with the Kotlin Multiplatform plugin and use its wizard to generate
-   just the `iosApp` Xcode project pointed at this `composeApp` module, or
-2. Create a new Xcode iOS App project named `iosApp` inside `iosApp/`, delete its generated
-   Swift files, and drop in the two Swift files already here, then add a "Run Script" build
-   phase (or use the KMP Gradle plugin's Xcode integration) to embed the `ComposeApp` framework
-   from `composeApp/build/bin/iosSimulatorArm64/debugFramework`.
+The Xcode project is generated from `iosApp/project.yml` by XcodeGen (`cd iosApp && xcodegen generate`).
+Change settings there, not in Xcode, or they'll be lost the next time it's generated. The app builds the
+Kotlin framework itself in a pre-build step. The UI test runs under the `iosAppE2E` scheme; it has its own
+name so a personal `iosApp` scheme that Xcode creates can't hide it.
 
 ## Known warnings
 
@@ -147,6 +141,7 @@ e2e/sticky-header-tap.sh   # tapping a pinned year header doesn't open the book 
 e2e/data-refresh.sh        # published data arrives, ETag/304, offline cache, bad publishes rejected
 e2e/pipeline.sh            # rebuilds the dataset from live sources and checks announced lists are present
 e2e/library.sh             # Home shows only recent years; Library shelves scroll, show covers, open books
+e2e/ios.sh [udid]          # iOS: the same journey on a simulator via XCUITest; screenshots exported
 ```
 
 Pass a device serial (e.g. `emulator-5554`) if more than one is connected. Each run leaves its
