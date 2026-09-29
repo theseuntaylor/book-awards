@@ -13,6 +13,7 @@ import androidx.compose.ui.unit.dp
 import com.theseuntaylor.bookawards.data.Nomination
 import com.theseuntaylor.bookawards.data.NominationStatus
 import com.theseuntaylor.bookawards.data.ReadingStatus
+import com.theseuntaylor.bookawards.ui.common.WinnerChip
 
 @Composable
 internal fun NominationListItem(
@@ -36,11 +37,15 @@ internal fun NominationListItem(
             }
         },
         trailingContent = {
-            Text(
-                text = nomination.status.label,
-                style = MaterialTheme.typography.labelMedium,
-                color = if (isWinner) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
-            )
+            if (isWinner) {
+                WinnerChip()
+            } else {
+                Text(
+                    text = nomination.status.label,
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
         }
     )
 }

@@ -26,6 +26,7 @@ import coil3.compose.AsyncImage
 import com.theseuntaylor.bookawards.data.Nomination
 import com.theseuntaylor.bookawards.data.NominationStatus
 import com.theseuntaylor.bookawards.data.ReadingStatus
+import com.theseuntaylor.bookawards.ui.common.WinnerChip
 import com.theseuntaylor.bookawards.ui.list.ReadingStatusChip
 
 private val coverWidth = 104.dp
@@ -78,15 +79,15 @@ internal fun BookCoverCard(
             maxLines = 2,
             overflow = TextOverflow.Ellipsis
         )
-        Text(
-            text = nomination.status.label,
-            style = MaterialTheme.typography.labelSmall,
-            color = if (nomination.status == NominationStatus.WINNER) {
-                MaterialTheme.colorScheme.primary
-            } else {
-                MaterialTheme.colorScheme.onSurfaceVariant
-            }
-        )
+        if (nomination.status == NominationStatus.WINNER) {
+            WinnerChip()
+        } else {
+            Text(
+                text = nomination.status.label,
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
         Text(
             text = nomination.award.shortName,
             style = MaterialTheme.typography.labelSmall,
