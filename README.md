@@ -104,6 +104,20 @@ cd design && npm install && npm run generate
 
 This rewrites `theme/Color.kt` and the font files in `composeResources/font/`. Don't edit those by hand.
 
+### App icon
+
+The "Laurel & Book" icon (gold laurel, star and open book on the theme's deep green) is drawn in code by
+`design/generate-icons.mjs`, so both platforms come from one geometry:
+
+```
+cd design && npm run icons
+```
+
+It writes the Android adaptive icon (vector foreground, background colour, monochrome layer for themed icons)
+under `composeApp/src/androidMain/res/`, the iOS `AppIcon` (light, dark and tinted 1024px PNGs, rendered by
+`design/render-png.swift`, so it needs macOS) under `iosApp/iosApp/Assets.xcassets/`, and the light master
+as `design/icon/app-icon.svg`. The green follows the seed; the gold is fixed in the script.
+
 ## Award scope
 
 Currently modeled: Booker Prize, Pulitzer Prize for Fiction, National Book Award for Fiction
