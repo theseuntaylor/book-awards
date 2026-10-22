@@ -1,7 +1,8 @@
 import XCTest
 
 /// E2E: Home shows only recent years and links to the Library; Library shelves show covers, scroll sideways
-/// and open books; a reading status set on a book shows back on its shelf; the tabs switch.
+/// and open books; a reading status set on a book shows back on its shelf; the tabs switch. Theatre lists the
+/// bundled shows in sections, opens one, and shows a status set on it back in the list.
 /// Screenshots are attached to the test result (e2e/ios.sh exports them).
 final class BookAwardsUITests: XCTestCase {
     private let app = XCUIApplication()
@@ -64,6 +65,43 @@ final class BookAwardsUITests: XCTestCase {
         // 7. The Home tab goes back to Home.
         app.tabBars.buttons["Home"].tap()
         XCTAssertTrue(app.navigationBars["Book Awards"].waitForExistence(timeout: 5))
+    }
+
+    func testTheatre() {
+        XCTAssertTrue(app.tabBars.buttons["Theatre"].waitForExistence(timeout: 20))
+        app.tabBars.buttons["Theatre"].tap()
+        XCTAssertTrue(app.navigationBars["Theatre"].waitForExistence(timeout: 5))
+
+        // The bundled listings age: once every run in them has ended, the tab must say so instead.
+        let headers = ["On now", "Opening soon", "Later"].map { app.staticTexts[$0] }
+        let empty = app.staticTexts["No shows listed right now"]
+        let deadline = Date().addingTimeInterval(10)
+        while Date() < deadline && !headers.contains(where: \.exists) && !empty.exists { usleep(200_000) }
+        screenshot("8-theatre")
+        if empty.exists {
+            XCTAssertFalse(headers.contains(where: \.exists), "empty state shown alongside sections")
+            return
+        }
+        XCTAssertTrue(headers.contains(where: \.exists), "the Theatre tab shows no sections")
+
+        // Open the first show; it has a status menu and a Book tickets link.
+        // By identifier: in a sectioned List the first cell can be a section header.
+        let firstShow = app.descendants(matching: .any).matching(identifier: "show-row").firstMatch
+        XCTAssertTrue(firstShow.waitForExistence(timeout: 5), "no show rows")
+        firstShow.tap()
+        XCTAssertTrue(app.buttons["show-status"].waitForExistence(timeout: 5), "tapping a show didn't open it")
+        XCTAssertTrue(app.buttons["book-tickets"].exists || app.links["book-tickets"].exists, "no Book tickets link")
+        screenshot("9-show")
+
+        app.buttons["show-status"].tap()
+        app.buttons["Want to see"].tap()
+        XCTAssertTrue(app.buttons["show-status"].label.contains("Want to see"))
+        screenshot("10-want-to-see")
+
+        app.navigationBars.buttons.firstMatch.tap()
+        XCTAssertTrue(app.navigationBars["Theatre"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Want to see"].waitForExistence(timeout: 5), "no Want to see badge in the list")
+        screenshot("11-theatre-with-status")
     }
 
     private func screenshot(_ name: String) {

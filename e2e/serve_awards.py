@@ -1,6 +1,6 @@
-"""Serves one file as /awards.json with ETag support, logging each request, for e2e/data-refresh.sh.
+"""Serves one file as /awards.json (or another path) with ETag support, logging each request, for the E2E scripts.
 
-Usage: python3 serve_awards.py <port> <file-to-serve> <request-log>
+Usage: python3 serve_awards.py <port> <file-to-serve> <request-log> [path, default /awards.json]
 The file is re-read on every request, so the E2E script can swap its contents between steps.
 """
 import hashlib
@@ -8,6 +8,7 @@ import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 port, served_file, request_log = int(sys.argv[1]), sys.argv[2], sys.argv[3]
+served_path = sys.argv[4] if len(sys.argv) > 4 else "/awards.json"
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -20,7 +21,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(404, if_none_match)
 
         etag = '"%s"' % hashlib.sha1(body).hexdigest()
-        if self.path != "/awards.json":
+        if self.path != served_path:
             return self.respond(404, if_none_match)
         if if_none_match == etag:
             return self.respond(304, if_none_match, etag=etag)

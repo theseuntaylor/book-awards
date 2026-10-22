@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # E2E (iOS): runs the SwiftUI app's UI test (iosApp/iosAppUITests) on a simulator: Home's recent years and
-# Library link, the Library's cover shelves, opening a book, setting a reading status, and the tabs.
+# Library link, the Library's cover shelves, opening a book, setting a reading status, the tabs, and the
+# Theatre tab (sections, opening a show, setting its status).
 # Usage: e2e/ios.sh [simulator-udid]   (defaults to the newest available iPhone simulator)
 # Leaves the test result bundle, the exported screenshots, the build log and result.txt in e2e/artifacts/ios/<timestamp>/.
 set -euo pipefail
@@ -40,4 +41,4 @@ if [[ $status -ne 0 ]]; then
     echo "FAIL: ${failure:-the UI test run failed; see $OUT/xcodebuild.log}" | tee "$OUT/result.txt"
     exit 1
 fi
-echo "PASS: Home shows recent years and links to the Library; covers load on sideways-scrolling shelves; a book opens, takes a reading status that shows on its shelf; tabs switch" | tee "$OUT/result.txt"
+echo "PASS: Home shows recent years and links to the Library; covers load on sideways-scrolling shelves; a book opens, takes a reading status that shows on its shelf; tabs switch; Theatre lists shows in sections, opens one, and shows its status in the list" | tee "$OUT/result.txt"
