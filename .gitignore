@@ -30,3 +30,9 @@ DerivedData/
 
 ### E2E ###
 e2e/artifacts/
+
+### Decision log (kept local) ###
+docs/DECISIONS.md
+
+### Theatre pipeline ###
+data/show-candidates.md

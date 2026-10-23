@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-20T23:17:14.863Z",
+  "shows": [
+    {
+      "id": "national-theatre:the-story",
+      "title": "The Story",
+      "credits": "By Tracey Scott Wilson. Directed by Clint Dyer",
+      "venue": "National Theatre (Olivier Theatre)",
+      "endDate": "2026-10-24",
+      "url": "https://www.nationaltheatre.org.uk/productions/the-story/",
+      "imageUrl": "https://images.nationaltheatre.org.uk/uploads/2026/01/The-Story-National-Theatre-1500x1500-1.jpg?resize=600%2C600",
+      "note": "Written by Tracey Scott Wilson, directed by Clint Dyer",
+      "startDate": null
+    },
+    {
+      "id": "royal-court:blood-of-my-blood",
+      "title": "Blood of my Blood",
+      "credits": "Written by Joy Nesbitt. Directed by Tatenda Shamiso",
+      "venue": "Royal Court Theatre",
+      "startDate": "2026-10-21",
+      "endDate": "2026-11-07",
+      "url": "https://royalcourttheatre.com/events/blood-of-my-blood",
+      "imageUrl": "https://royalcourt-theatre.transforms.svdcdn.com/production/2026-Season/Blood-of-my-Blood-REH-02681.jpg?w=400&h=247&q=100&auto=format&fit=crop&crop=focalpoint&fp-x=0.5029&fp-y=0.3484&dm=1791548932&s=9742c32c66006c07f58d724364fc6884",
+      "note": "Written by Joy Nesbitt, directed by Tatenda Shamiso"
+    },
+    {
+      "id": "stratford-east:boy-blue-25-stories",
+      "title": "Boy Blue: 25 Stories",
+      "venue": "Stratford East",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-07",
+      "url": "https://www.stratfordeast.com/whats-on/boy-blue-25-stories/",
+      "imageUrl": "https://images.stratfordeast.com/production/files/2026/One-Nighters/Event-Header-1920-x-1440-4.png?w=400&h=300&q=100&auto=format&fit=crop&dm=1791973426&s=2cce71cad210c6f65fa22f8aacff3db2",
+      "description": "Dance",
+      "note": "Boy Blue, the hip-hop dance company of Kenrick Sandy and Michael Asante"
+    },
+    {
+      "id": "royal-court:afronauts",
+      "title": "The Afronauts",
+      "credits": "Written by Ryan Calais Cameron. Co-directed by Ryan Calais Cameron and Monique Touko.",
+      "venue": "Royal Court Theatre",
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-19",
+      "url": "https://royalcourttheatre.com/events/afronauts",
+      "imageUrl": "https://royalcourt-theatre.transforms.svdcdn.com/production/2026-Season/Afronuts2500x1000.jpg?w=400&h=247&q=100&auto=format&fit=crop&dm=1761566971&s=8e44839cfaf960c3081e98d2d04b4f24",
+      "note": "Written by Ryan Calais Cameron"
+    },
+    {
+      "id": "national-theatre:mr-loverman",
+      "title": "Mr Loverman",
+      "credits": "Based on the novel by Bernardine Evaristo. Adapted by Natasha Gordon. Directed by Paulette Randall",
+      "venue": "National Theatre (Lyttelton Theatre)",
+      "startDate": "2027-02-25",
+      "endDate": "2027-04-24",
+      "url": "https://www.nationaltheatre.org.uk/productions/mr-loverman/",
+      "imageUrl": "https://images.nationaltheatre.org.uk/uploads/2026/09/Mr-Loverman-National-Theatre-1500x1500-1.jpg?resize=600%2C600",
+      "note": "Natasha Gordon's adaptation of Bernardine Evaristo's novel, directed by Paulette Randall"
+    }
+  ]
+}

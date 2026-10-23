@@ -1,0 +1,33 @@
+{
+  "include": [
+    { "id": "royal-court:afronauts", "note": "Written by Ryan Calais Cameron" },
+    { "id": "royal-court:blood-of-my-blood", "note": "Written by Joy Nesbitt, directed by Tatenda Shamiso" },
+    { "id": "stratford-east:boy-blue-25-stories", "note": "Boy Blue, the hip-hop dance company of Kenrick Sandy and Michael Asante" }
+  ],
+  "exclude": [],
+  "companies": ["Talawa", "Tiata Fahodzi", "Eclipse Theatre", "Black Theatre Live", "Boy Blue"],
+  "manual": [
+    {
+      "id": "national-theatre:the-story",
+      "title": "The Story",
+      "credits": "By Tracey Scott Wilson. Directed by Clint Dyer",
+      "venue": "National Theatre (Olivier Theatre)",
+      "startDate": null,
+      "endDate": "2026-10-24",
+      "url": "https://www.nationaltheatre.org.uk/productions/the-story/",
+      "imageUrl": "https://images.nationaltheatre.org.uk/uploads/2026/01/The-Story-National-Theatre-1500x1500-1.jpg?resize=600%2C600",
+      "note": "Written by Tracey Scott Wilson, directed by Clint Dyer"
+    },
+    {
+      "id": "national-theatre:mr-loverman",
+      "title": "Mr Loverman",
+      "credits": "Based on the novel by Bernardine Evaristo. Adapted by Natasha Gordon. Directed by Paulette Randall",
+      "venue": "National Theatre (Lyttelton Theatre)",
+      "startDate": "2027-02-25",
+      "endDate": "2027-04-24",
+      "url": "https://www.nationaltheatre.org.uk/productions/mr-loverman/",
+      "imageUrl": "https://images.nationaltheatre.org.uk/uploads/2026/09/Mr-Loverman-National-Theatre-1500x1500-1.jpg?resize=600%2C600",
+      "note": "Natasha Gordon's adaptation of Bernardine Evaristo's novel, directed by Paulette Randall"
+    }
+  ]
+}
